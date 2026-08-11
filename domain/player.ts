@@ -1,0 +1,37 @@
+export const positions = ["POR", "DEF", "MED", "DEL"] as const;
+export const playerStatuses = ["AVAILABLE", "DOUBTFUL", "INJURED", "SUSPENDED", "UNKNOWN"] as const;
+
+export type Position = (typeof positions)[number];
+export type PlayerStatus = (typeof playerStatuses)[number];
+
+export interface TeamSummary {
+  id: string; name: string; shortName: string; slug: string; primaryColor: string; crestUrl?: string | null;
+}
+
+export interface PlayerListItem {
+  id: string; slug: string; name: string; shirtNumber: number | null; nationality: string; age: number | null;
+  heightCm?: number | null; weightKg?: number | null;
+  position: Position; status: PlayerStatus; team: TeamSummary;
+  appearances: number | null; starts: number | null; minutes: number | null; goals: number | null; assists: number | null;
+  xg: number | null; xa: number | null; xgi: number | null; shots: number | null; keyPasses: number | null; cleanSheets: number | null;
+  yellowCards?: number | null; redCards?: number | null;
+  fantasyPoints: number | null; pointsPerGame: number | null; form: number | null; fis: number | null;
+  nextOpponent: string | null; fixtureDifficulty: number | null;
+  recentMinutes: readonly number[]; recentPoints: readonly number[];
+  strengths: readonly string[]; risks: readonly string[];
+}
+
+export interface DataProvenance {
+  mode: "REAL" | "DEMO";
+  provider: string;
+  importedAt: string | null;
+  season: string;
+  note: string;
+}
+
+export type PlayerSort = "name" | "fis" | "form" | "minutes" | "xgi" | "points";
+export type SortDirection = "asc" | "desc";
+export interface PlayerQuery {
+  search?: string; team?: string; position?: Position; status?: PlayerStatus;
+  sort?: PlayerSort; direction?: SortDirection;
+}

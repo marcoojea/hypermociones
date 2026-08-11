@@ -1,0 +1,4 @@
+ALTER TABLE "fixtures" ADD CONSTRAINT "fixtures_distinct_teams_chk" CHECK ("fixtures"."home_team_id" <> "fixtures"."away_team_id");--> statement-breakpoint
+ALTER TABLE "fixtures" ADD CONSTRAINT "fixtures_scores_non_negative_chk" CHECK (("fixtures"."home_score" is null or "fixtures"."home_score" >= 0) and ("fixtures"."away_score" is null or "fixtures"."away_score" >= 0));--> statement-breakpoint
+ALTER TABLE "player_match_stats" ADD CONSTRAINT "player_match_stats_non_negative_chk" CHECK ("player_match_stats"."minutes" >= 0 and "player_match_stats"."goals" >= 0 and "player_match_stats"."assists" >= 0 and "player_match_stats"."yellow_cards" >= 0 and "player_match_stats"."red_cards" >= 0);--> statement-breakpoint
+ALTER TABLE "player_match_stats" ADD CONSTRAINT "player_match_stats_expected_metrics_chk" CHECK (("player_match_stats"."xg" is null or "player_match_stats"."xg" >= 0) and ("player_match_stats"."xa" is null or "player_match_stats"."xa" >= 0));
