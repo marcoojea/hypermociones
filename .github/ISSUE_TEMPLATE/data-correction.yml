@@ -1,0 +1,26 @@
+name: Corrección de datos
+description: Solicita la revisión de un jugador, equipo o partido
+title: "[Datos]: "
+labels: [data]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Página o entidad afectada
+      placeholder: Nombre del jugador, equipo, partido o URL
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Corrección propuesta
+      description: Indica el valor mostrado y el valor que debería aparecer.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Fuente verificable
+      placeholder: https://...
+    validations:
+      required: true

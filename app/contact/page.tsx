@@ -22,7 +22,8 @@ export default function ContactPage() {
         </section>
         <section>
           <h2>Seguridad y privacidad</h2>
-          <p>No publiques claves, datos personales ni información privada. En esta versión previa no existe soporte por correo ni recogida de datos mediante formularios.</p>
+          <p>No publiques claves, datos personales ni información privada. Los avisos de seguridad deben enviarse mediante el canal privado del repositorio.</p>
+          <p><a href="https://github.com/marcoojea/hypermociones/security/advisories/new" rel="noreferrer" target="_blank">Informar de una vulnerabilidad en privado</a></p>
         </section>
         <section>
           <h2>Alcance</h2>

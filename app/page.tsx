@@ -10,6 +10,7 @@ export default async function Home() {
   const provenance = await playerRepository.getProvenance();
   const ranked = players.filter((player) => player.fis !== null);
   const featured = (ranked.length ? ranked : players).slice(0, 3);
+  const importedLabel = provenance.importedAt ? new Date(provenance.importedAt).toLocaleDateString("es-ES", { day: "2-digit", month: "short" }) : "pendiente";
 
   return (
     <AppShell active="dashboard">
@@ -22,11 +23,11 @@ export default async function Home() {
             <Link className="button button-primary" href="/players">Explorar jugadores →</Link>
             <Link className="button" href="/my-team">Crear Mi equipo</Link>
             <Link className="button" href="/availability">Revisar disponibilidad</Link>
-            <span className="data-note"><i /> Seed verificable · actualizado 11 ago</span>
+            <Link className="data-note" href="/data-status"><i /> Fuente verificable · actualizado {importedLabel}</Link>
           </div>
         </div>
         <div className="hero-panel" aria-label="Resumen de la jornada">
-          <div className="metric"><span>Jugadores analizados</span><strong>{players.length}</strong><small>vertical slice inicial</small></div>
+          <div className="metric"><span>Jugadores analizados</span><strong>{players.length}</strong><small>catálogo {provenance.season}</small></div>
           <div className="metric"><span>Equipos representados</span><strong>{new Set(players.map((player) => player.team.id)).size}</strong><small>{provenance.provider}</small></div>
           <div className="metric metric-accent"><span>Mejor FIS</span><strong>{featured[0]?.fis?.toFixed(1) ?? "—"}</strong><small>{ranked.length ? featured[0]?.name : "Pendiente de modelo"}</small></div>
         </div>

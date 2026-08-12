@@ -20,13 +20,16 @@ export const metadata: Metadata = {
     title: "Hypermociones — Fantasy Intelligence",
     description: "Decisiones Fantasy respaldadas por datos.",
     type: "website",
-    images: [{ url: "/og-launch.png", width: 1680, height: 945, alt: "Hypermociones — Fantasy Intelligence para LaLiga Hypermotion" }],
+    url: siteUrl,
+    siteName: "Hypermociones",
+    locale: "es_ES",
+    images: [{ url: new URL("/og-launch.png", siteUrl).toString(), width: 1680, height: 945, alt: "Hypermociones — Fantasy Intelligence para LaLiga Hypermotion" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Hypermociones — Fantasy Intelligence",
     description: "Decisiones Fantasy respaldadas por datos.",
-    images: ["/og-launch.png"],
+    images: [new URL("/og-launch.png", siteUrl).toString()],
   },
 };
 

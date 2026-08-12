@@ -21,7 +21,7 @@ export function AppShell({ active, children }: { active: string; children: React
       <nav className="mobile-nav" aria-label="Navegación móvil">
         {nav.filter(([key]) => ["dashboard", "players", "my-team", "availability", "lineups"].includes(key)).map(([key, href, label]) => <Link aria-current={active === key ? "page" : undefined} className={active === key ? "active" : ""} href={href} key={key}>{label === "Disponibilidad" ? "Estado" : label}</Link>)}
       </nav>
-      <footer><span>HYPERMOCIONES · ANALYTICS LAB</span><span><Link href="/methodology">Metodología</Link> · <Link href="/privacy">Privacidad</Link> · <Link href="/terms">Condiciones</Link> · <Link href="/contact">Contacto</Link> · <Link href="/settings/data">Datos locales</Link></span></footer>
+      <footer><span>HYPERMOCIONES · ANALYTICS LAB</span><span><Link href="/data-status">Estado de datos</Link> · <Link href="/methodology">Metodología</Link> · <Link href="/privacy">Privacidad</Link> · <Link href="/terms">Condiciones</Link> · <Link href="/contact">Contacto</Link> · <Link href="/settings/data">Datos locales</Link></span></footer>
     </div>
   );
 }

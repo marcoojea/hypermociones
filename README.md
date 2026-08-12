@@ -14,6 +14,8 @@ Plataforma de analytics Fantasy para LaLiga Hypermotion. Incluye jugadores y equ
 - `/my-team`: plantilla Fantasy manual, reglas configurables y optimizador de once explicable por jornada.
 - `/settings/data`: copia, restauración y borrado controlado de todo el estado guardado localmente.
 - `/fixtures`: calendario y resultados reales cuando existe una importación.
+- `/data-status`: frescura, procedencia y cobertura exacta de cada grupo de métricas.
+- `/api/health`: comprobación mínima del servicio y del catálogo, sin exponer estado personal.
 - Dominio, repositorios e interfaces de proveedores separados de React.
 - Esquema relacional PostgreSQL preparado para histórico, ingesta, features, predicciones y backtesting.
 - Validación Zod de estadísticas entrantes y pruebas del dominio.
@@ -54,6 +56,10 @@ npm run data:fetch
 
 El comando obtiene los 22 equipos, las plantillas actuales y las métricas que la ficha RFEF publica (edad, nacionalidad, dorsal, goles y tarjetas), valida las respuestas y actualiza `data/generated/real-data.json`. Minutos, titularidades, asistencias y xG permanecen vacíos mientras la fuente no los publique. Si existe `DATABASE_URL`, también hace upsert en PostgreSQL.
 
+Antes de una release, `npm run data:check` comprueba que existen los 22 equipos, un catálogo suficiente de jugadores, partidos y una importación con menos de ocho días. Si falla, la publicación debe detenerse y actualizar el snapshot.
+
+También existe la acción manual **Refresh official data** en GitHub. Permite ejecutar la misma actualización sin configurar el ordenador y solo guarda un commit cuando el snapshot cambia.
+
 Los proveedores opcionales pueden ampliar minutos, apariciones, titularidades, goles, asistencias, tiros y pases clave. xG/xA y los datos propios de LALIGA Fantasy permanecen ausentes hasta incorporar una fuente autorizada que los cubra.
 
 ## Comprobaciones
@@ -63,7 +69,10 @@ npm run typecheck
 npm run lint
 npm test
 npm run build
+npm run check:release
 ```
+
+`check:release` ejecuta toda la validación en el mismo orden que GitHub. Consulta también [docs/release-checklist.md](docs/release-checklist.md).
 
 ## Base de datos
 
