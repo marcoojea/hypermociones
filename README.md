@@ -13,7 +13,7 @@ Plataforma de analytics Fantasy para LaLiga Hypermotion. Incluye jugadores y equ
 - `/availability`: centro editorial de lesiones, dudas, sanciones y disponibilidad con fuente, grado de confirmación y regreso estimado.
 - `/my-team`: plantilla Fantasy manual, reglas configurables y optimizador de once explicable por jornada.
 - `/gameweek`: centro de jornada con cuenta atrás, partidos, cambios y alertas de Mi equipo.
-- `/tiers`: Tier S+–C por posición y probabilidad de jugar, con fuente, cobertura y explicación.
+- `/tiers`: Tier S+–C por posición basado en 2025/26, con probabilidad, impacto, relevancia, valor, filtro por equipo y seis órdenes distintos.
 - `/rankings`: capitanes y mejores opciones evaluables por posición.
 - `/compare`: comparación de hasta cuatro jugadores con calendario y recomendación.
 - `/planner`: plantilla a cinco jornadas y hasta cinco simulaciones de fichaje.
@@ -52,6 +52,7 @@ La aplicación queda disponible en la URL local indicada por el servidor.
 6. Entra en `/settings/data`, descarga una copia integral y comprueba que puede restaurarse.
 7. Visita `/privacy`, `/terms`, `/contact`, `/methodology` y `/robots.txt`; antes de publicar, robots debe bloquear el rastreo.
 8. Repite los flujos principales con la ventana estrecha y usa la navegación inferior móvil.
+9. En `/tiers`, cambia de posición y equipo; ordena por recomendación, probabilidad, impacto, relevancia y valor. Abre “Por qué” y comprueba las fechas y fuentes.
 
 ## Cargar LaLiga Hypermotion 2026/27 gratis
 
@@ -59,9 +60,11 @@ El proveedor predeterminado lee el calendario y las plantillas mostradas actualm
 
 ```bash
 npm run data:fetch
+npm run data:history
+npm run data:intelligence
 ```
 
-El comando obtiene los 22 equipos, las plantillas actuales y las métricas que la ficha RFEF publica (edad, nacionalidad, dorsal, goles y tarjetas), valida las respuestas y actualiza `data/generated/real-data.json`. Minutos, titularidades, asistencias y xG permanecen vacíos mientras la fuente no los publique. Si existe `DATABASE_URL`, también hace upsert en PostgreSQL.
+Los tres comandos actualizan el catálogo 2026/27, el histórico público 2025/26 y el contexto de valor de mercado. `npm run data:refresh` los ejecuta en orden. El histórico incluido cubre 529 de 567 jugadores actuales; los restantes permanecen NR si no existe otra señal suficiente. El valor de mercado siempre conserva su fecha y no se confunde con el precio de una liga Fantasy. Si existe `DATABASE_URL`, la primera ingesta también hace upsert en PostgreSQL.
 
 Antes de una release, `npm run data:check` comprueba que existen los 22 equipos, un catálogo suficiente de jugadores, partidos y una importación con menos de ocho días. Si falla, la publicación debe detenerse y actualizar el snapshot.
 

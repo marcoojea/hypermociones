@@ -1,0 +1,3049 @@
+{
+  "metadata": {
+    "provider": "Transfermarkt open dataset (dcaribou)",
+    "sourceUrl": "https://github.com/dcaribou/transfermarkt-datasets",
+    "license": "CC0-1.0",
+    "datasetUpdatedAt": "2026-08-05",
+    "generatedAt": "2026-08-12T16:45:16.337Z",
+    "performanceSeason": "2025/26",
+    "methodVersion": "strict-market-link-v2",
+    "matchedPlayers": 247,
+    "playersWithPerformance": 0,
+    "playersWithMarketValue": 211,
+    "catalogPlayers": 567,
+    "note": "El valor es una estimación publicada por la fuente, no un precio de Fantasy. Se conserva la fecha real de la última valoración y se aceptan solo nombres exactos o coincidencias asistidas por club, posición y edad."
+  },
+  "players": [
+    {
+      "playerId": "fd-player-1005268",
+      "sourcePlayerId": "845638",
+      "sourcePlayerName": "Damián Cáceres",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-1005357",
+      "sourcePlayerId": "221658",
+      "sourcePlayerName": "Álex Rubio",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2018-06-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alex-rubio/profil/spieler/221658"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-1005659",
+      "sourcePlayerId": "935457",
+      "sourcePlayerName": "Salim El Jebari",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2024-06-24",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/salim-el-jebari/profil/spieler/935457"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-101033",
+      "sourcePlayerId": "247250",
+      "sourcePlayerName": "Rubén Alcaraz",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1500000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/ruben-alcaraz/profil/spieler/247250"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-1024046",
+      "sourcePlayerId": "891923",
+      "sourcePlayerName": "Dawda Camara",
+      "matchMethod": "CLUB_ASSISTED",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/dawda-camara/profil/spieler/891923"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-1024269",
+      "sourcePlayerId": "979325",
+      "sourcePlayerName": "Alex Lebarbier",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-1024454",
+      "sourcePlayerId": "938730",
+      "sourcePlayerName": "Ibon Sánchez",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-1026046",
+      "sourcePlayerId": "1064391",
+      "sourcePlayerName": "Egoitz Muñoz",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/egoitz-munoz/profil/spieler/1064391"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-1026534",
+      "sourcePlayerId": "857482",
+      "sourcePlayerName": "Baïla Diallo",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2023-06-27",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/baila-diallo/profil/spieler/857482"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-104150",
+      "sourcePlayerId": "99353",
+      "sourcePlayerName": "Portu",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/portu/profil/spieler/99353"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-104151",
+      "sourcePlayerId": "126719",
+      "sourcePlayerName": "Juan Bernat",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1500000,
+        "valuedAt": "2025-10-21",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/juan-bernat/profil/spieler/126719"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-107422",
+      "sourcePlayerId": "167228",
+      "sourcePlayerName": "Raúl Lizoain",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 400000,
+        "valuedAt": "2023-06-14",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/raul-lizoain/profil/spieler/167228"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-113623",
+      "sourcePlayerId": "238868",
+      "sourcePlayerName": "Rubén Peña",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 600000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/ruben-pena/profil/spieler/238868"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-115129",
+      "sourcePlayerId": "246335",
+      "sourcePlayerName": "Rubén Yáñez",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/ruben-yanez/profil/spieler/246335"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-117453",
+      "sourcePlayerId": "253905",
+      "sourcePlayerName": "Grego Sierra",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-124268",
+      "sourcePlayerId": "193098",
+      "sourcePlayerName": "Álex Moreno",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 3000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alex-moreno/profil/spieler/193098"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-124648",
+      "sourcePlayerId": "1005012",
+      "sourcePlayerName": "Alberto Riccardi",
+      "matchMethod": "CLUB_ASSISTED",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-133754",
+      "sourcePlayerId": "262939",
+      "sourcePlayerName": "Johan Mojica",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1500000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/johan-mojica/profil/spieler/262939"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-134656",
+      "sourcePlayerId": "262365",
+      "sourcePlayerName": "Antonio Puertas",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2000000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/antonio-puertas/profil/spieler/262365"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-136584",
+      "sourcePlayerId": "290273",
+      "sourcePlayerName": "Álvaro Tejero",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1800000,
+        "valuedAt": "2026-06-04",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alvaro-tejero/profil/spieler/290273"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-136596",
+      "sourcePlayerId": "75964",
+      "sourcePlayerName": "Sergio Molina",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 50000,
+        "valuedAt": "2018-06-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/sergio-molina/profil/spieler/75964"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-139044",
+      "sourcePlayerId": "199325",
+      "sourcePlayerName": "Ander Cantero",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 600000,
+        "valuedAt": "2023-06-14",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/ander-cantero/profil/spieler/199325"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-139714",
+      "sourcePlayerId": "142021",
+      "sourcePlayerName": "Sergi Darder",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 3000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/sergi-darder/profil/spieler/142021"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-140938",
+      "sourcePlayerId": "139435",
+      "sourcePlayerName": "Dani Rodríguez",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 100000,
+        "valuedAt": "2025-12-12",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/dani-rodriguez/profil/spieler/139435"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-147137",
+      "sourcePlayerId": "242497",
+      "sourcePlayerName": "Pere Pons",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2023-05-31",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/pere-pons/profil/spieler/242497"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-147268",
+      "sourcePlayerId": "281773",
+      "sourcePlayerName": "José León",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 700000,
+        "valuedAt": "2023-06-14",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jose-leon/profil/spieler/281773"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-149491",
+      "sourcePlayerId": "176140",
+      "sourcePlayerName": "Rodrigo Ely",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 3000000,
+        "valuedAt": "2023-06-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/rodrigo-ely/profil/spieler/176140"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-158959",
+      "sourcePlayerId": "243760",
+      "sourcePlayerName": "Álex Muñoz",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alex-munoz/profil/spieler/243760"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-159449",
+      "sourcePlayerId": "303248",
+      "sourcePlayerName": "Pedro López",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/pedro-lopez/profil/spieler/303248"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-171872",
+      "sourcePlayerId": "251896",
+      "sourcePlayerName": "Jesús Vallejo",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jesus-vallejo/profil/spieler/251896"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-177134",
+      "sourcePlayerId": "327126",
+      "sourcePlayerName": "Anuar",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/anuar/profil/spieler/327126"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-180218",
+      "sourcePlayerId": "114060",
+      "sourcePlayerName": "Enric Gallego",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 600000,
+        "valuedAt": "2023-06-14",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/enric-gallego/profil/spieler/114060"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-182106",
+      "sourcePlayerId": "262391",
+      "sourcePlayerName": "Lluís López",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 600000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/lluis-lopez/profil/spieler/262391"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-183188",
+      "sourcePlayerId": "276111",
+      "sourcePlayerName": "David Costas",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/david-costas/profil/spieler/276111"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-185802",
+      "sourcePlayerId": "286415",
+      "sourcePlayerName": "Pau López",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2500000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/pau-lopez/profil/spieler/286415"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-186119",
+      "sourcePlayerId": "251848",
+      "sourcePlayerName": "Iñigo Córdoba",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1500000,
+        "valuedAt": "2024-05-31",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/inigo-cordoba/profil/spieler/251848"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-186122",
+      "sourcePlayerId": "340206",
+      "sourcePlayerName": "Andoni López",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2023-06-14",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/andoni-lopez/profil/spieler/340206"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-186748",
+      "sourcePlayerId": "300168",
+      "sourcePlayerName": "Mikel Vesga",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/mikel-vesga/profil/spieler/300168"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-186820",
+      "sourcePlayerId": "298983",
+      "sourcePlayerName": "Javi Ontiveros",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/javi-ontiveros/profil/spieler/298983"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-192208",
+      "sourcePlayerId": "534379",
+      "sourcePlayerName": "Pejiño",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/pejino/profil/spieler/534379"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-193313",
+      "sourcePlayerId": "268167",
+      "sourcePlayerName": "Àlex Corredera",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alex-corredera/profil/spieler/268167"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-193623",
+      "sourcePlayerId": "251877",
+      "sourcePlayerName": "Carlos Marín",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2023-06-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/carlos-marin/profil/spieler/251877"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-194491",
+      "sourcePlayerId": "289236",
+      "sourcePlayerName": "Jon Bautista",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jon-bautista/profil/spieler/289236"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-196477",
+      "sourcePlayerId": "268957",
+      "sourcePlayerName": "José Matos",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 500000,
+        "valuedAt": "2023-06-14",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jose-matos/profil/spieler/268957"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-196481",
+      "sourcePlayerId": "208116",
+      "sourcePlayerName": "Curro Sánchez",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1500000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/curro-sanchez/profil/spieler/208116"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-199145",
+      "sourcePlayerId": "284430",
+      "sourcePlayerName": "Aarón Escandell",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 3000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/aaron-escandell/profil/spieler/284430"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-200453",
+      "sourcePlayerId": "255904",
+      "sourcePlayerName": "Kaiser",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2023-06-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/kaiser/profil/spieler/255904"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-204715",
+      "sourcePlayerId": "326416",
+      "sourcePlayerName": "Dani Calvo",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 900000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/dani-calvo/profil/spieler/326416"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-207102",
+      "sourcePlayerId": "216870",
+      "sourcePlayerName": "Nacho Vidal",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/nacho-vidal/profil/spieler/216870"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-207179",
+      "sourcePlayerId": "340339",
+      "sourcePlayerName": "Jorge Sáenz",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2023-06-14",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jorge-saenz/profil/spieler/340339"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-207490",
+      "sourcePlayerId": "169497",
+      "sourcePlayerName": "Juan Cruz",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/juan-cruz/profil/spieler/169497"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-210249",
+      "sourcePlayerId": "332615",
+      "sourcePlayerName": "Nélson Monte",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2023-06-16",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/nelson-monte/profil/spieler/332615"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-222400",
+      "sourcePlayerId": "448844",
+      "sourcePlayerName": "Carlos Neva",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2500000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/carlos-neva/profil/spieler/448844"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-226983",
+      "sourcePlayerId": "290533",
+      "sourcePlayerName": "Yann Bodiger",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1400000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/yann-bodiger/profil/spieler/290533"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-232539",
+      "sourcePlayerId": "336731",
+      "sourcePlayerName": "Nacho Gil",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 400000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/nacho-gil/profil/spieler/336731"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-234490",
+      "sourcePlayerId": "342223",
+      "sourcePlayerName": "Kévin Appin",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 600000,
+        "valuedAt": "2023-06-14",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/kevin-appin/profil/spieler/342223"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-235140",
+      "sourcePlayerId": "320271",
+      "sourcePlayerName": "Toni Lato",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1400000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/toni-lato/profil/spieler/320271"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-235191",
+      "sourcePlayerId": "438971",
+      "sourcePlayerName": "Viti Rozada",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-235682",
+      "sourcePlayerId": "335221",
+      "sourcePlayerName": "Dani Martín",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/dani-martin/profil/spieler/335221"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-240766",
+      "sourcePlayerId": "379548",
+      "sourcePlayerName": "Jokin Ezkieta",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jokin-ezkieta/profil/spieler/379548"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-246727",
+      "sourcePlayerId": "332305",
+      "sourcePlayerName": "Juan Otero",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2500000,
+        "valuedAt": "2023-06-14",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/juan-otero/profil/spieler/332305"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-247358",
+      "sourcePlayerId": "329722",
+      "sourcePlayerName": "André Horta",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2000000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/andre-horta/profil/spieler/329722"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-251357",
+      "sourcePlayerId": "283489",
+      "sourcePlayerName": "Luca Zidane",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/luca-zidane/profil/spieler/283489"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-255119",
+      "sourcePlayerId": "288255",
+      "sourcePlayerName": "Donny van de Beek",
+      "matchMethod": "CLUB_ASSISTED",
+      "marketValue": {
+        "amountEur": 1800000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/donny-van-de-beek/profil/spieler/288255"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-28004",
+      "sourcePlayerId": "57522",
+      "sourcePlayerName": "Andrés Fernández",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 600000,
+        "valuedAt": "2023-06-14",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/andres-fernandez/profil/spieler/57522"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-290474",
+      "sourcePlayerId": "251892",
+      "sourcePlayerName": "Juan Soriano",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/juan-soriano/profil/spieler/251892"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-296570",
+      "sourcePlayerId": "357770",
+      "sourcePlayerName": "Dinko Horkas",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-303368",
+      "sourcePlayerId": "481084",
+      "sourcePlayerName": "Marcos André",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/marcos-andre/profil/spieler/481084"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-307429",
+      "sourcePlayerId": "277384",
+      "sourcePlayerName": "Martin Valjent",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 3000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/martin-valjent/profil/spieler/277384"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-310033",
+      "sourcePlayerId": "423444",
+      "sourcePlayerName": "Fran Beltrán",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 4000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/fran-beltran/profil/spieler/423444"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3134438",
+      "sourcePlayerId": "996418",
+      "sourcePlayerName": "Pablo Meixús",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3140082",
+      "sourcePlayerId": "1030425",
+      "sourcePlayerName": "Thiago Ojeda",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3142815",
+      "sourcePlayerId": "857818",
+      "sourcePlayerName": "Yáser Asprilla",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 14000000,
+        "valuedAt": "2026-05-21",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/yaser-asprilla/profil/spieler/857818"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3150720",
+      "sourcePlayerId": "923915",
+      "sourcePlayerName": "Antal Yaakobishvili",
+      "matchMethod": "CLUB_ASSISTED",
+      "marketValue": {
+        "amountEur": 500000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/antal-yaakobishvili/profil/spieler/923915"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3155939",
+      "sourcePlayerId": "1072157",
+      "sourcePlayerName": "Thalys",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3161955",
+      "sourcePlayerId": "709971",
+      "sourcePlayerName": "Xavi Moreno",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/xavi-moreno/profil/spieler/709971"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-316511",
+      "sourcePlayerId": "423166",
+      "sourcePlayerName": "Pipa",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2200000,
+        "valuedAt": "2023-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/pipa/profil/spieler/423166"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3166163",
+      "sourcePlayerId": "904712",
+      "sourcePlayerName": "Justin Smith",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 100000,
+        "valuedAt": "2023-06-16",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/justin-smith/profil/spieler/904712"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-317325",
+      "sourcePlayerId": "340376",
+      "sourcePlayerName": "Abel Ruiz",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/abel-ruiz/profil/spieler/340376"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3182755",
+      "sourcePlayerId": "947431",
+      "sourcePlayerName": "David López",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/david-lopez/profil/spieler/947431"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3184301",
+      "sourcePlayerId": "1063553",
+      "sourcePlayerName": "Pau Cabanes",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2025-12-12",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/pau-cabanes/profil/spieler/1063553"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3184509",
+      "sourcePlayerId": "1063574",
+      "sourcePlayerName": "Jan Salas",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 500000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jan-salas/profil/spieler/1063574"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3188009",
+      "sourcePlayerId": "964190",
+      "sourcePlayerName": "Luken Beitia",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/luken-beitia/profil/spieler/964190"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3188012",
+      "sourcePlayerId": "979324",
+      "sourcePlayerName": "Eder García",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3188139",
+      "sourcePlayerId": "937945",
+      "sourcePlayerName": "Dani Díaz",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 400000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/dani-diaz/profil/spieler/937945"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-319030",
+      "sourcePlayerId": "335225",
+      "sourcePlayerName": "Manu Morlanes",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2400000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/manu-morlanes/profil/spieler/335225"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3192744",
+      "sourcePlayerId": "1146029",
+      "sourcePlayerName": "Juanma Herzog",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/juanma-herzog/profil/spieler/1146029"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3192783",
+      "sourcePlayerId": "1105810",
+      "sourcePlayerName": "Job Ochieng",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3192936",
+      "sourcePlayerId": "1063598",
+      "sourcePlayerName": "Gorka Carrera",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3202949",
+      "sourcePlayerId": "984544",
+      "sourcePlayerName": "Rodrigo Rêgo",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-320813",
+      "sourcePlayerId": "429790",
+      "sourcePlayerName": "Luka Ilic",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1400000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/luka-ilic/profil/spieler/429790"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3209998",
+      "sourcePlayerId": "854097",
+      "sourcePlayerName": "Stefan Dzodic",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3218422",
+      "sourcePlayerId": "961085",
+      "sourcePlayerName": "Óscar Marcos",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3221620",
+      "sourcePlayerId": "1000675",
+      "sourcePlayerName": "Alejo Sarco",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2000000,
+        "valuedAt": "2026-05-27",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alejo-sarco/profil/spieler/1000675"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3222026",
+      "sourcePlayerId": "1103986",
+      "sourcePlayerName": "Jerónimo Dómina",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3230344",
+      "sourcePlayerId": "1101641",
+      "sourcePlayerName": "Justin Kalumba",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/justin-kalumba/profil/spieler/1101641"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3231788",
+      "sourcePlayerId": "974251",
+      "sourcePlayerName": "Lass Kourouma",
+      "matchMethod": "CLUB_ASSISTED",
+      "marketValue": {
+        "amountEur": 500000,
+        "valuedAt": "2026-06-08",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/lass-kourouma/profil/spieler/974251"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3232272",
+      "sourcePlayerId": "1104143",
+      "sourcePlayerName": "Benjamin Pauwels",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2026-05-28",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/benjamin-pauwels/profil/spieler/1104143"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3238307",
+      "sourcePlayerId": "973805",
+      "sourcePlayerName": "Andrés Ferrari",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2200000,
+        "valuedAt": "2025-12-10",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/andres-ferrari/profil/spieler/973805"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3255275",
+      "sourcePlayerId": "937710",
+      "sourcePlayerName": "Edward Cedeño",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/edward-cedeno/profil/spieler/937710"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3256554",
+      "sourcePlayerId": "1131420",
+      "sourcePlayerName": "Lucas Lavagnino",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 150000,
+        "valuedAt": "2024-06-12",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/lucas-lavagnino/profil/spieler/1131420"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-325848",
+      "sourcePlayerId": "434990",
+      "sourcePlayerName": "Álex Sola",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2000000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alex-sola/profil/spieler/434990"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-325849",
+      "sourcePlayerId": "412041",
+      "sourcePlayerName": "Álex Millán",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 500000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alex-millan/profil/spieler/412041"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3260931",
+      "sourcePlayerId": "69819",
+      "sourcePlayerName": "Baba",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 175000,
+        "valuedAt": "2021-05-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/baba/profil/spieler/69819"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3263131",
+      "sourcePlayerId": "65986",
+      "sourcePlayerName": "Juan Díaz",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 400000,
+        "valuedAt": "2016-12-21",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/juan-diaz/profil/spieler/65986"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3266190",
+      "sourcePlayerId": "1016253",
+      "sourcePlayerName": "Efe Akman",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 500000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/efe-akman/profil/spieler/1016253"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-328280",
+      "sourcePlayerId": "341272",
+      "sourcePlayerName": "Álex Pozo",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1500000,
+        "valuedAt": "2026-06-04",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alex-pozo/profil/spieler/341272"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-328430",
+      "sourcePlayerId": "510396",
+      "sourcePlayerName": "Álex Suárez",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alex-suarez/profil/spieler/510396"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-329525",
+      "sourcePlayerId": "503602",
+      "sourcePlayerName": "Adam Jakobsen",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 250000,
+        "valuedAt": "2023-06-26",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/adam-jakobsen/profil/spieler/503602"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3312189",
+      "sourcePlayerId": "1262787",
+      "sourcePlayerName": "Hugo Burcio",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3312844",
+      "sourcePlayerId": "1081368",
+      "sourcePlayerName": "Arón Rodrigo",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3313047",
+      "sourcePlayerId": "1019408",
+      "sourcePlayerName": "Iñaki González",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3313650",
+      "sourcePlayerId": "1293040",
+      "sourcePlayerName": "Andrés Antañón",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3314353",
+      "sourcePlayerId": "1200328",
+      "sourcePlayerName": "Lucas Núñez",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3321747",
+      "sourcePlayerId": "1176519",
+      "sourcePlayerName": "Adrián Arnu",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3321959",
+      "sourcePlayerId": "1169436",
+      "sourcePlayerName": "Vladyslav Krapyvtsov",
+      "matchMethod": "CLUB_ASSISTED",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/vladyslav-krapyvtsov/profil/spieler/1169436"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-333413",
+      "sourcePlayerId": "511021",
+      "sourcePlayerName": "Manu Fuster",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1500000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/manu-fuster/profil/spieler/511021"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3342336",
+      "sourcePlayerId": "1354775",
+      "sourcePlayerName": "Ibai Aguirre",
+      "matchMethod": "CLUB_ASSISTED",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-33652",
+      "sourcePlayerId": "67546",
+      "sourcePlayerName": "Jorge Pulido",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jorge-pulido/profil/spieler/67546"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-336673",
+      "sourcePlayerId": "447823",
+      "sourcePlayerName": "Oier Luengo",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3367506",
+      "sourcePlayerId": "1331450",
+      "sourcePlayerName": "Hugo López",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2026-03-18",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/hugo-lopez/profil/spieler/1331450"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-337013",
+      "sourcePlayerId": "531274",
+      "sourcePlayerName": "Diego Fuoli",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2023-06-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/diego-fuoli/profil/spieler/531274"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-337608",
+      "sourcePlayerId": "513031",
+      "sourcePlayerName": "Antonio Sánchez",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/antonio-sanchez/profil/spieler/513031"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-337668",
+      "sourcePlayerId": "447052",
+      "sourcePlayerName": "Peru Nolaskoain",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2024-06-24",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/peru-nolaskoain/profil/spieler/447052"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-337911",
+      "sourcePlayerId": "538810",
+      "sourcePlayerName": "Chris Ramos",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2500000,
+        "valuedAt": "2026-05-26",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/chris-ramos/profil/spieler/538810"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-338261",
+      "sourcePlayerId": "541646",
+      "sourcePlayerName": "Diego Barri",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 150000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/diego-barri/profil/spieler/541646"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3393336",
+      "sourcePlayerId": "1201530",
+      "sourcePlayerName": "Alex Marchal",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alex-marchal/profil/spieler/1201530"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-339656",
+      "sourcePlayerId": "455349",
+      "sourcePlayerName": "Jon Morcillo",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1500000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jon-morcillo/profil/spieler/455349"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3408677",
+      "sourcePlayerId": "1137980",
+      "sourcePlayerName": "Julien Yanda",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-341132",
+      "sourcePlayerId": "536619",
+      "sourcePlayerName": "Raúl Sánchez",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-341684",
+      "sourcePlayerId": "422466",
+      "sourcePlayerName": "Javi Hernández",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2000000,
+        "valuedAt": "2026-06-04",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/javi-hernandez/profil/spieler/422466"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-342271",
+      "sourcePlayerId": "388513",
+      "sourcePlayerName": "Mateu Morey",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1400000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/mateu-morey/profil/spieler/388513"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-342273",
+      "sourcePlayerId": "495629",
+      "sourcePlayerName": "Hugo Guillamón",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1500000,
+        "valuedAt": "2026-05-29",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/hugo-guillamon/profil/spieler/495629"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-342275",
+      "sourcePlayerId": "505493",
+      "sourcePlayerName": "Diego Pampín",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/diego-pampin/profil/spieler/505493"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-34251",
+      "sourcePlayerId": "129444",
+      "sourcePlayerName": "David López",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 600000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/david-lopez/profil/spieler/129444"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-34268",
+      "sourcePlayerId": "54217",
+      "sourcePlayerName": "Raúl Fernández",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 100000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/raul-fernandez/profil/spieler/54217"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3469268",
+      "sourcePlayerId": "1289929",
+      "sourcePlayerName": "Santiago Lencina",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2000000,
+        "valuedAt": "2026-05-22",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/santiago-lencina/profil/spieler/1289929"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-348974",
+      "sourcePlayerId": "471474",
+      "sourcePlayerName": "Javi Martínez",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/javi-martinez/profil/spieler/471474"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-356557",
+      "sourcePlayerId": "566574",
+      "sourcePlayerName": "Kirian Rodríguez",
+      "matchMethod": "CLUB_ASSISTED",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/kirian-rodriguez/profil/spieler/566574"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-357898",
+      "sourcePlayerId": "480955",
+      "sourcePlayerName": "Miguel Atienza",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2023-06-14",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/miguel-atienza/profil/spieler/480955"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-365130",
+      "sourcePlayerId": "606848",
+      "sourcePlayerName": "Jonmi Magunagoitia",
+      "matchMethod": "CLUB_ASSISTED",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2023-06-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jonmi-magunagoitia/profil/spieler/606848"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-371915",
+      "sourcePlayerId": "22972",
+      "sourcePlayerName": "Rubén Pulido",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2014-03-28",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/ruben-pulido/profil/spieler/22972"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-374493",
+      "sourcePlayerId": "505308",
+      "sourcePlayerName": "César Gelabert",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1500000,
+        "valuedAt": "2024-06-03",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/cesar-gelabert/profil/spieler/505308"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-388486",
+      "sourcePlayerId": "611075",
+      "sourcePlayerName": "Iván Gil",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/ivan-gil/profil/spieler/611075"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-388495",
+      "sourcePlayerId": "628490",
+      "sourcePlayerName": "Genar Fornés",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 150000,
+        "valuedAt": "2023-06-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/genar-fornes/profil/spieler/628490"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-393705",
+      "sourcePlayerId": "505675",
+      "sourcePlayerName": "Rober González",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2500000,
+        "valuedAt": "2024-05-31",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/rober-gonzalez/profil/spieler/505675"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-393747",
+      "sourcePlayerId": "557147",
+      "sourcePlayerName": "José Gragera",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1500000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jose-gragera/profil/spieler/557147"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-406918",
+      "sourcePlayerId": "505673",
+      "sourcePlayerName": "Víctor Mollejo",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/victor-mollejo/profil/spieler/505673"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-41391",
+      "sourcePlayerId": "225459",
+      "sourcePlayerName": "Carlos Hernández",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/carlos-hernandez/profil/spieler/225459"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-414553",
+      "sourcePlayerId": "490223",
+      "sourcePlayerName": "Ibrahima Koné",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2500000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/ibrahima-kone/profil/spieler/490223"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-423494",
+      "sourcePlayerId": "435500",
+      "sourcePlayerName": "Sergio González",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 700000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/sergio-gonzalez/profil/spieler/435500"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-423667",
+      "sourcePlayerId": "341278",
+      "sourcePlayerName": "Iván Martín",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 5000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/ivan-martin/profil/spieler/341278"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-424831",
+      "sourcePlayerId": "540676",
+      "sourcePlayerName": "Thomas Carrique",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 400000,
+        "valuedAt": "2023-06-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/thomas-carrique/profil/spieler/540676"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-426992",
+      "sourcePlayerId": "536826",
+      "sourcePlayerName": "Nacho Quintana",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2023-06-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/nacho-quintana/profil/spieler/536826"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-426998",
+      "sourcePlayerId": "536831",
+      "sourcePlayerName": "Cedric Teguia",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2026-05-28",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/cedric-teguia/profil/spieler/536831"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-427578",
+      "sourcePlayerId": "523972",
+      "sourcePlayerName": "Sergio López",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1400000,
+        "valuedAt": "2023-10-19",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/sergio-lopez/profil/spieler/523972"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-427599",
+      "sourcePlayerId": "537763",
+      "sourcePlayerName": "Jordi Martín",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 600000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jordi-martin/profil/spieler/537763"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-427600",
+      "sourcePlayerId": "537762",
+      "sourcePlayerName": "Sergio Arribas",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 10000000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/sergio-arribas/profil/spieler/537762"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-428368",
+      "sourcePlayerId": "537382",
+      "sourcePlayerName": "Bryan Gil",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 8000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/bryan-gil/profil/spieler/537382"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-465203",
+      "sourcePlayerId": "388125",
+      "sourcePlayerName": "Stanko Juric",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/stanko-juric/profil/spieler/388125"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-466747",
+      "sourcePlayerId": "539965",
+      "sourcePlayerName": "Iuri Tabatadze",
+      "matchMethod": "CLUB_ASSISTED",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2026-03-18",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/iuri-tabatadze/profil/spieler/539965"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-468129",
+      "sourcePlayerId": "466783",
+      "sourcePlayerName": "Arnau Tenas",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 4000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/arnau-tenas/profil/spieler/466783"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-614835",
+      "sourcePlayerId": "581640",
+      "sourcePlayerName": "Coke Carrillo",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/coke-carrillo/profil/spieler/581640"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-62271",
+      "sourcePlayerId": "138935",
+      "sourcePlayerName": "Sergio Álvarez",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2023-06-14",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/sergio-alvarez/profil/spieler/138935"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-634147",
+      "sourcePlayerId": "569866",
+      "sourcePlayerName": "Roberto López",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/roberto-lopez/profil/spieler/569866"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-639223",
+      "sourcePlayerId": "412046",
+      "sourcePlayerName": "Ivan Chapela",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 600000,
+        "valuedAt": "2023-06-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/ivan-chapela/profil/spieler/412046"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-678449",
+      "sourcePlayerId": "620163",
+      "sourcePlayerName": "Yann Kembo",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-706115",
+      "sourcePlayerId": "448169",
+      "sourcePlayerName": "Amir Saipi",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1800000,
+        "valuedAt": "2026-06-02",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/amir-saipi/profil/spieler/448169"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-72364",
+      "sourcePlayerId": "59349",
+      "sourcePlayerName": "Diego Mariño",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/diego-marino/profil/spieler/59349"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-72693",
+      "sourcePlayerId": "149231",
+      "sourcePlayerName": "Fidel",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2023-06-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/fidel/profil/spieler/149231"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-731309",
+      "sourcePlayerId": "568155",
+      "sourcePlayerName": "Jordi Escobar",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-738419",
+      "sourcePlayerId": "711394",
+      "sourcePlayerName": "Javi Martón",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 500000,
+        "valuedAt": "2024-06-24",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/javi-marton/profil/spieler/711394"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-742614",
+      "sourcePlayerId": "582664",
+      "sourcePlayerName": "Álex Sala",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2026-05-29",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alex-sala/profil/spieler/582664"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-75845",
+      "sourcePlayerId": "221899",
+      "sourcePlayerName": "Léo Baptistão",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1500000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/leo-baptistao/profil/spieler/221899"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-76584",
+      "sourcePlayerId": "288318",
+      "sourcePlayerName": "Adrián Embarba",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/adrian-embarba/profil/spieler/288318"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-769411",
+      "sourcePlayerId": "740253",
+      "sourcePlayerName": "Javi Castro",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/javi-castro/profil/spieler/740253"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-775948",
+      "sourcePlayerId": "586736",
+      "sourcePlayerName": "Joel López",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2024-06-24",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/joel-lopez/profil/spieler/586736"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-776265",
+      "sourcePlayerId": "314941",
+      "sourcePlayerName": "Luis López",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2026-06-03",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/luis-lopez/profil/spieler/314941"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-776273",
+      "sourcePlayerId": "603940",
+      "sourcePlayerName": "Marvin Park",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/marvin-park/profil/spieler/603940"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-776277",
+      "sourcePlayerId": "337917",
+      "sourcePlayerName": "Théo Zidane",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2024-06-24",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/theo-zidane/profil/spieler/337917"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-776281",
+      "sourcePlayerId": "623521",
+      "sourcePlayerName": "Juanmi Latasa",
+      "matchMethod": "CLUB_ASSISTED",
+      "marketValue": {
+        "amountEur": 2000000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/juanmi-latasa/profil/spieler/623521"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-78584",
+      "sourcePlayerId": "162027",
+      "sourcePlayerName": "David Gil",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 700000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/david-gil/profil/spieler/162027"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-798581",
+      "sourcePlayerId": "631821",
+      "sourcePlayerName": "Vladyslav Vanat",
+      "matchMethod": "CLUB_ASSISTED",
+      "marketValue": {
+        "amountEur": 15000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/vladyslav-vanat/profil/spieler/631821"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-80389",
+      "sourcePlayerId": "177452",
+      "sourcePlayerName": "Abdón Prats",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/abdon-prats/profil/spieler/177452"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-814605",
+      "sourcePlayerId": "561745",
+      "sourcePlayerName": "Lautaro de León",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2023-06-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/lautaro-de-leon/profil/spieler/561745"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-815968",
+      "sourcePlayerId": "587520",
+      "sourcePlayerName": "Stipe Biuk",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2500000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/stipe-biuk/profil/spieler/587520"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-819299",
+      "sourcePlayerId": "568156",
+      "sourcePlayerName": "Antonio Pacheco",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 600000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/antonio-pacheco/profil/spieler/568156"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-82098",
+      "sourcePlayerId": "442816",
+      "sourcePlayerName": "Fran Gámez",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 500000,
+        "valuedAt": "2023-06-14",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/fran-gamez/profil/spieler/442816"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-831954",
+      "sourcePlayerId": "709380",
+      "sourcePlayerName": "Álex Forés",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 700000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alex-fores/profil/spieler/709380"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-850748",
+      "sourcePlayerId": "631221",
+      "sourcePlayerName": "Isma Ruiz",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 400000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/isma-ruiz/profil/spieler/631221"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-854043",
+      "sourcePlayerId": "500191",
+      "sourcePlayerName": "Pepe Sánchez",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/pepe-sanchez/profil/spieler/500191"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-857367",
+      "sourcePlayerId": "828338",
+      "sourcePlayerName": "Diego Percan",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-865468",
+      "sourcePlayerId": "882710",
+      "sourcePlayerName": "Ramón Martínez",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2025-12-12",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/ramon-martinez/profil/spieler/882710"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-870173",
+      "sourcePlayerId": "86062",
+      "sourcePlayerName": "Adilson",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 600000,
+        "valuedAt": "2013-07-02",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/adilson/profil/spieler/86062"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-873206",
+      "sourcePlayerId": "699771",
+      "sourcePlayerName": "Pedro Alemañ",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 150000,
+        "valuedAt": "2024-06-24",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/pedro-aleman/profil/spieler/699771"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-874752",
+      "sourcePlayerId": "634460",
+      "sourcePlayerName": "Álex Balboa",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 250000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alex-balboa/profil/spieler/634460"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-875046",
+      "sourcePlayerId": "717957",
+      "sourcePlayerName": "Jorge Moreno",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 500000,
+        "valuedAt": "2024-06-24",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jorge-moreno/profil/spieler/717957"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-875147",
+      "sourcePlayerId": "547248",
+      "sourcePlayerName": "Iker Álvarez",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/iker-alvarez/profil/spieler/547248"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-878207",
+      "sourcePlayerId": "682588",
+      "sourcePlayerName": "Mateo Mejía",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-879594",
+      "sourcePlayerId": "628464",
+      "sourcePlayerName": "Manu Lama",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 150000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/manu-lama/profil/spieler/628464"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-879604",
+      "sourcePlayerId": "628461",
+      "sourcePlayerName": "Iker Recio",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 50000,
+        "valuedAt": "2023-06-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/iker-recio/profil/spieler/628461"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-885916",
+      "sourcePlayerId": "668313",
+      "sourcePlayerName": "Aitor Fraga",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 500000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/aitor-fraga/profil/spieler/668313"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-885942",
+      "sourcePlayerId": "669511",
+      "sourcePlayerName": "Jorge Pascual",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jorge-pascual/profil/spieler/669511"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-894038",
+      "sourcePlayerId": "614988",
+      "sourcePlayerName": "Ilias Kostis",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 500000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/ilias-kostis/profil/spieler/614988"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-897581",
+      "sourcePlayerId": "574201",
+      "sourcePlayerName": "Grant-Leon Ranos",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 600000,
+        "valuedAt": "2026-06-01",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/grant-leon-ranos/profil/spieler/574201"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-899790",
+      "sourcePlayerId": "706797",
+      "sourcePlayerName": "Victor Aznar",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 100000,
+        "valuedAt": "2024-06-24",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/victor-aznar/profil/spieler/706797"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-900912",
+      "sourcePlayerId": "1332568",
+      "sourcePlayerName": "Kevin Medina",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-901706",
+      "sourcePlayerId": "55369",
+      "sourcePlayerName": "Guilherme",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 250000,
+        "valuedAt": "2024-06-04",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/guilherme/profil/spieler/55369"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-901784",
+      "sourcePlayerId": "696506",
+      "sourcePlayerName": "Gui Guedes",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 900000,
+        "valuedAt": "2024-06-20",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/gui-guedes/profil/spieler/696506"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-902115",
+      "sourcePlayerId": "810096",
+      "sourcePlayerName": "Ismaël Gharbi",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 5000000,
+        "valuedAt": "2026-05-27",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/ismael-gharbi/profil/spieler/810096"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-902127",
+      "sourcePlayerId": "709966",
+      "sourcePlayerName": "Aleix Garrido",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 500000,
+        "valuedAt": "2024-06-24",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/aleix-garrido/profil/spieler/709966"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-902142",
+      "sourcePlayerId": "709970",
+      "sourcePlayerName": "Jan Oliveras",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 150000,
+        "valuedAt": "2024-06-25",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jan-oliveras/profil/spieler/709970"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-907182",
+      "sourcePlayerId": "747197",
+      "sourcePlayerName": "Bruno Iribarne",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-911884",
+      "sourcePlayerId": "821820",
+      "sourcePlayerName": "Pablo Sáenz",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 150000,
+        "valuedAt": "2024-06-24",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/pablo-saenz/profil/spieler/821820"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-914879",
+      "sourcePlayerId": "895480",
+      "sourcePlayerName": "Adu Ares",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2000000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/adu-ares/profil/spieler/895480"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-917194",
+      "sourcePlayerId": "766552",
+      "sourcePlayerName": "Alberto Flores",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2024-06-24",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alberto-flores/profil/spieler/766552"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-917849",
+      "sourcePlayerId": "720038",
+      "sourcePlayerName": "Pablo Torre",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 5000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/pablo-torre/profil/spieler/720038"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-924149",
+      "sourcePlayerId": "814966",
+      "sourcePlayerName": "Agustín Sienra",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-94400",
+      "sourcePlayerId": "70245",
+      "sourcePlayerName": "Ignasi Miquel",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1200000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/ignasi-miquel/profil/spieler/70245"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-94506",
+      "sourcePlayerId": "246204",
+      "sourcePlayerName": "Salvi Sánchez",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/salvi-sanchez/profil/spieler/246204"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-948583",
+      "sourcePlayerId": "715679",
+      "sourcePlayerName": "Lalo Aguilar",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-948584",
+      "sourcePlayerId": "715683",
+      "sourcePlayerName": "Naim García",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/naim-garcia/profil/spieler/715683"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-948660",
+      "sourcePlayerId": "593412",
+      "sourcePlayerName": "Ilyas Chaira",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 4000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/ilyas-chaira/profil/spieler/593412"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-950566",
+      "sourcePlayerId": "710474",
+      "sourcePlayerName": "Álvaro Aceves",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 400000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alvaro-aceves/profil/spieler/710474"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-950674",
+      "sourcePlayerId": "435500",
+      "sourcePlayerName": "Sergio González",
+      "matchMethod": "CLUB_ASSISTED",
+      "marketValue": {
+        "amountEur": 700000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/sergio-gonzalez/profil/spieler/435500"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-950850",
+      "sourcePlayerId": "706138",
+      "sourcePlayerName": "Javi Llabrés",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/javi-llabres/profil/spieler/706138"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-950858",
+      "sourcePlayerId": "1062525",
+      "sourcePlayerName": "Álex Serradell",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alex-serradell/profil/spieler/1062525"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-950940",
+      "sourcePlayerId": "715622",
+      "sourcePlayerName": "Gael Alonso",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 150000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/gael-alonso/profil/spieler/715622"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-951233",
+      "sourcePlayerId": "570524",
+      "sourcePlayerName": "Diego Sánchez",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-951642",
+      "sourcePlayerId": "711380",
+      "sourcePlayerName": "Jon Balda",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 600000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jon-balda/profil/spieler/711380"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-979985",
+      "sourcePlayerId": "815556",
+      "sourcePlayerName": "Antonio Gala",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 75000,
+        "valuedAt": "2023-06-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/antonio-gala/profil/spieler/815556"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-986629",
+      "sourcePlayerId": "826224",
+      "sourcePlayerName": "Arnau Martínez",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 10000000,
+        "valuedAt": "2026-06-05",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/arnau-martinez/profil/spieler/826224"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-988715",
+      "sourcePlayerId": "711367",
+      "sourcePlayerName": "Egoitz Arana",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 100000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/egoitz-arana/profil/spieler/711367"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-993201",
+      "sourcePlayerId": "7663",
+      "sourcePlayerName": "Joaquín",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1500000,
+        "valuedAt": "2023-06-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/joaquin/profil/spieler/7663"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-995432",
+      "sourcePlayerId": "857832",
+      "sourcePlayerName": "David Torres",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 500000,
+        "valuedAt": "2023-10-13",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/david-torres/profil/spieler/857832"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-996706",
+      "sourcePlayerId": "935229",
+      "sourcePlayerName": "Marvel",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1000000,
+        "valuedAt": "2023-06-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/marvel/profil/spieler/935229"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-999074",
+      "sourcePlayerId": "789145",
+      "sourcePlayerName": "Víctor Barberá",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 700000,
+        "valuedAt": "2024-06-04",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/victor-barbera/profil/spieler/789145"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-999271",
+      "sourcePlayerId": "1061665",
+      "sourcePlayerName": "Jastin Garcia",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/jastin-garcia/profil/spieler/1061665"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-999290",
+      "sourcePlayerId": "1123335",
+      "sourcePlayerName": "Hamza Bellari",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/hamza-bellari/profil/spieler/1123335"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-999300",
+      "sourcePlayerId": "895331",
+      "sourcePlayerName": "Dani Pérez",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/dani-perez/profil/spieler/895331"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-999391",
+      "sourcePlayerId": "767229",
+      "sourcePlayerName": "Diego Hormigo",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/diego-hormigo/profil/spieler/767229"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-999714",
+      "sourcePlayerId": "1064103",
+      "sourcePlayerName": "Sergio Rodelas",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 200000,
+        "valuedAt": "2024-06-24",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/sergio-rodelas/profil/spieler/1064103"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-amath-ndiaye-diedhiou",
+      "sourcePlayerId": "339820",
+      "sourcePlayerName": "Amath Ndiaye",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 1500000,
+        "valuedAt": "2024-06-24",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/amath-ndiaye/profil/spieler/339820"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-diego-alende-lopez",
+      "sourcePlayerId": "373683",
+      "sourcePlayerName": "Diego Alende",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 600000,
+        "valuedAt": "2023-06-14",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/diego-alende/profil/spieler/373683"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-jose-alejandro-martin-valeron",
+      "sourcePlayerId": "345083",
+      "sourcePlayerName": "Álex Martín",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 800000,
+        "valuedAt": "2023-06-14",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/alex-martin/profil/spieler/345083"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-juan-brandariz-movilla",
+      "sourcePlayerId": "333361",
+      "sourcePlayerName": "Chumi",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2000000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/chumi/profil/spieler/333361"
+      },
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-sergio-ruiz-alonso",
+      "sourcePlayerId": "394694",
+      "sourcePlayerName": "Sergio Ruiz",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 2000000,
+        "valuedAt": "2024-06-07",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/sergio-ruiz/profil/spieler/394694"
+      },
+      "previousSeason": null
+    }
+  ]
+}

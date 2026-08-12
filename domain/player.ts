@@ -8,6 +8,39 @@ export interface TeamSummary {
   id: string; name: string; shortName: string; slug: string; primaryColor: string; crestUrl?: string | null;
 }
 
+export type IntelligenceConfidence = "HIGH" | "MEDIUM" | "LOW";
+
+export interface PlayerMarketValue {
+  amountEur: number;
+  valuedAt: string;
+  positionPercentile?: number;
+  source: string;
+  sourceUrl: string;
+}
+
+export interface PlayerHistoricalPerformance {
+  season: string;
+  competitions: readonly string[];
+  clubNames: readonly string[];
+  appearances: number;
+  starts: number | null;
+  minutes: number;
+  goals: number;
+  assists: number;
+  yellowCards: number;
+  redCards: number;
+  goalsPer90: number;
+  assistsPer90: number;
+  contributionsPer90: number;
+  appearanceRate: number;
+  minuteShare: number;
+  relevanceScore: number;
+  impactScore: number;
+  confidence: IntelligenceConfidence;
+  source: string;
+  sourceUrl: string;
+}
+
 export interface PlayerListItem {
   id: string; slug: string; name: string; shirtNumber: number | null; nationality: string; age: number | null;
   heightCm?: number | null; weightKg?: number | null;
@@ -16,6 +49,8 @@ export interface PlayerListItem {
   xg: number | null; xa: number | null; xgi: number | null; shots: number | null; keyPasses: number | null; cleanSheets: number | null;
   yellowCards?: number | null; redCards?: number | null;
   fantasyPoints: number | null; pointsPerGame: number | null; form: number | null; fis: number | null;
+  marketValue?: PlayerMarketValue | null;
+  previousSeason?: PlayerHistoricalPerformance | null;
   nextOpponent: string | null; fixtureDifficulty: number | null;
   recentMinutes: readonly number[]; recentPoints: readonly number[];
   strengths: readonly string[]; risks: readonly string[];

@@ -11,11 +11,14 @@
     "start": "vinext start",
     "test": "tsx --test tests/*.test.mjs",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern work",
     "check:release": "npm run typecheck && npm run lint && npm run data:check && npm test && npm run build",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "data:fetch": "tsx --env-file-if-exists=.env scripts/fetch-real-data.ts",
+    "data:history": "tsx scripts/fetch-rfef-history.ts",
+    "data:intelligence": "tsx scripts/fetch-player-intelligence.ts",
+    "data:refresh": "npm run data:fetch && npm run data:history && npm run data:intelligence",
     "data:check": "tsx scripts/check-data-quality.ts"
   },
   "dependencies": {
