@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AppShell } from "@/components/app-shell";
 import { PlayerAvailabilityDetail, PlayerAvailabilityStatus } from "@/components/player-availability";
+import { MyTeamAddButton } from "@/components/my-team-add-button";
 import { playerRepository } from "@/repositories/snapshot-player-repository";
 
 const metric = (value: number | null, decimals = 0) => value === null ? "—" : value.toFixed(decimals);
@@ -22,7 +23,7 @@ export default async function PlayerDetailPage({ params }: { params: Promise<{ s
       <section className="profile-header">
         <div className="player-number" style={{ borderColor: player.team.primaryColor }}>{player.shirtNumber ?? "—"}</div>
         <div className="profile-title"><div><span className="position-badge">{player.position}</span><PlayerAvailabilityStatus player={player} /></div><h1>{player.name}</h1><p>{player.team.name} · {player.nationality}{player.age !== null ? ` · ${player.age} años` : ""}{player.heightCm ? ` · ${player.heightCm} cm` : ""}{player.weightKg ? ` · ${player.weightKg} kg` : ""}</p></div>
-        <div className="profile-fixture"><small>Próximo partido</small><strong>{player.nextOpponent ?? "Por confirmar"}</strong>{player.fixtureDifficulty !== null ? <span className={`difficulty d${player.fixtureDifficulty}`}>Dificultad <b>{player.fixtureDifficulty}</b></span> : <small>Dificultad aún no calculada</small>}</div>
+        <div className="profile-fixture"><small>Próximo partido</small><strong>{player.nextOpponent ?? "Por confirmar"}</strong>{player.fixtureDifficulty !== null ? <span className={`difficulty d${player.fixtureDifficulty}`}>Dificultad <b>{player.fixtureDifficulty}</b></span> : <small>Dificultad aún no calculada</small>}<MyTeamAddButton player={player} /></div>
         <div className="profile-fis"><strong>{metric(player.fis, 1)}</strong><span>Fantasy Intelligence Score</span><small>{player.fis === null ? "Pendiente de histórico suficiente" : "Indicador provisional · no predictivo"}</small></div>
       </section>
 

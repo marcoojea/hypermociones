@@ -20,6 +20,7 @@ export default async function Home() {
           <p className="hero-copy">Compara forma, minutos, producción ofensiva y contexto de partido en una sola lectura.</p>
           <div className="hero-actions">
             <Link className="button button-primary" href="/players">Explorar jugadores →</Link>
+            <Link className="button" href="/my-team">Crear Mi equipo</Link>
             <Link className="button" href="/availability">Revisar disponibilidad</Link>
             <span className="data-note"><i /> Seed verificable · actualizado 11 ago</span>
           </div>

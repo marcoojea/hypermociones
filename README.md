@@ -11,12 +11,15 @@ Plataforma de analytics Fantasy para LaLiga Hypermotion. Incluye jugadores y equ
 - `/lineups`: centro de alineaciones por jornada con once probable, banquillo y notas cuando existe una edición guardada.
 - `/lineups/editor`: editor táctico con cinco formaciones, confianza por jugador, roles a balón parado, banquillo, notas e importación/exportación JSON.
 - `/availability`: centro editorial de lesiones, dudas, sanciones y disponibilidad con fuente, grado de confirmación y regreso estimado.
+- `/my-team`: plantilla Fantasy manual, reglas configurables y optimizador de once explicable por jornada.
 - `/fixtures`: calendario y resultados reales cuando existe una importación.
 - Dominio, repositorios e interfaces de proveedores separados de React.
 - Esquema relacional PostgreSQL preparado para histórico, ingesta, features, predicciones y backtesting.
 - Validación Zod de estadísticas entrantes y pruebas del dominio.
 
 El editor y los partes de disponibilidad se guardan por jornada en el navegador: son gratuitos, no requieren cuenta ni servidor y permiten exportar un JSON como copia de seguridad. Las incidencias se reflejan en fichas de equipo, fichas de jugador y alineaciones. Los datos que la fuente no publica se muestran como no disponibles; la aplicación no inventa métricas ni probabilidades.
+
+Mi equipo aplica reglas configurables —tamaño de plantilla, máximo por club, formaciones, banquillo y capitán—. El optimizador usa únicamente señales disponibles y las entradas manuales del usuario. Solo suma puntos esperados cuando los once titulares tienen una proyección introducida; de lo contrario muestra el resultado como pendiente.
 
 ## Desarrollo
 
@@ -28,6 +31,16 @@ npm run dev
 ```
 
 La aplicación queda disponible en la URL local indicada por el servidor.
+
+## Prueba manual antes de publicar
+
+1. Abre `/my-team` y pulsa **Cargar plantilla de prueba**.
+2. Cambia formación, titularidad y reglas; comprueba que el once se recalcula.
+3. Introduce proyección manual para los once y confirma que aparece el total.
+4. Marca un titular como lesionado desde `/availability` y vuelve a Mi equipo: debe desaparecer del once.
+5. Guarda, recarga la página y verifica que la plantilla permanece.
+6. Exporta el JSON, reinicia el equipo e impórtalo de nuevo.
+7. Repite los flujos principales con la ventana estrecha y usa la navegación inferior móvil.
 
 ## Cargar LaLiga Hypermotion 2026/27 gratis
 
