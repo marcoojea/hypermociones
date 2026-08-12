@@ -11,6 +11,8 @@
 - Privacidad, términos, atribución, estados de error y controles de indexación previos al lanzamiento.
 - Metadatos sociales, datos estructurados, sitemap, manifest y cabeceras defensivas.
 - Estado público de cobertura y frescura, endpoint de salud y control automático en GitHub.
+- Centro de jornada, Tier por posición, rankings, comparación, seguimiento, planificación y mercado aportado.
+- Historial local de revisiones editoriales para futuros controles de acierto.
 - Renovaciones semanales agrupadas mediante Dependabot.
 - Navegación adaptable a móvil.
 - Validación de tipos, lint, build y pruebas de dominio.

@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { effectivePlayerStatus, isHardUnavailable } from "@/domain/availability";
 import { clampConfidence, emptyLineup, formationCodes, formations, isStoredLineup, lineupStorageKey, type FormationCode, type StoredLineup } from "@/domain/lineup";
+import { appendLineupRevision, lineupHistoryStorageKey, parseLineupHistory } from "@/domain/lineup-history";
 import type { FixtureListItem } from "@/domain/fixture";
 import type { PlayerListItem, Position, TeamSummary } from "@/domain/player";
 import { useAvailability } from "./use-availability";
@@ -73,6 +74,8 @@ export function LineupEditor({ teams, team, players, round, fixture }: { teams: 
   const save = () => {
     const saved = { ...lineup, updatedAt: new Date().toISOString() };
     localStorage.setItem(lineupStorageKey(team.id, round), JSON.stringify(saved));
+    const historyKey = lineupHistoryStorageKey(team.id, round);
+    localStorage.setItem(historyKey, JSON.stringify(appendLineupRevision(parseLineupHistory(localStorage.getItem(historyKey), team.id, round), saved)));
     window.dispatchEvent(new Event("hypermociones:lineup-saved"));
     setLineup(saved); setDirty(false); setMessage(`Guardada ${new Date(saved.updatedAt).toLocaleString("es-ES")}`);
   };

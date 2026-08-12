@@ -23,13 +23,13 @@ export const metadata: Metadata = {
     url: siteUrl,
     siteName: "Hypermociones",
     locale: "es_ES",
-    images: [{ url: new URL("/og-launch.png", siteUrl).toString(), width: 1680, height: 945, alt: "Hypermociones — Fantasy Intelligence para LaLiga Hypermotion" }],
+    images: [{ url: new URL("/og-intelligence.png", siteUrl).toString(), width: 1680, height: 945, alt: "Hypermociones — Tier S+, titularidad y centro de jornada" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Hypermociones — Fantasy Intelligence",
     description: "Decisiones Fantasy respaldadas por datos.",
-    images: [new URL("/og-launch.png", siteUrl).toString()],
+    images: [new URL("/og-intelligence.png", siteUrl).toString()],
   },
 };
 

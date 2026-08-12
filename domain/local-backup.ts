@@ -9,6 +9,10 @@ const allowedPatterns = [
   /^hypermociones:my-team:v1$/,
   /^hypermociones:availability:v1:\d+$/,
   /^hypermociones:lineup:v1:[^:]+:\d+$/,
+  /^hypermociones:lineup-history:v1:[^:]+:\d+$/,
+  /^hypermociones:watchlist:v1$/,
+  /^hypermociones:planner:v1$/,
+  /^hypermociones:market:v1$/,
 ];
 
 export function isHypermocionesStorageKey(key: string) {
@@ -41,5 +45,9 @@ export function backupCategory(key: string) {
   if (key.includes(":my-team:")) return "Mi equipo";
   if (key.includes(":availability:")) return "Disponibilidad";
   if (key.includes(":lineup:")) return "Alineaciones";
+  if (key.includes(":lineup-history:")) return "Historial editorial";
+  if (key.includes(":watchlist:")) return "Seguimiento";
+  if (key.includes(":planner:")) return "Planificador";
+  if (key.includes(":market:")) return "Mercado";
   return "Otro";
 }

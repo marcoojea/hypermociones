@@ -20,9 +20,9 @@ export default async function Home() {
           <h1>Decisiones Fantasy,<br /><span>respaldadas por datos.</span></h1>
           <p className="hero-copy">Compara forma, minutos, producción ofensiva y contexto de partido en una sola lectura.</p>
           <div className="hero-actions">
-            <Link className="button button-primary" href="/players">Explorar jugadores →</Link>
+            <Link className="button button-primary" href="/gameweek">Preparar jornada →</Link>
+            <Link className="button" href="/tiers">Ver Tier list</Link>
             <Link className="button" href="/my-team">Crear Mi equipo</Link>
-            <Link className="button" href="/availability">Revisar disponibilidad</Link>
             <Link className="data-note" href="/data-status"><i /> Fuente verificable · actualizado {importedLabel}</Link>
           </div>
         </div>

@@ -12,6 +12,13 @@ Plataforma de analytics Fantasy para LaLiga Hypermotion. Incluye jugadores y equ
 - `/lineups/editor`: editor táctico con cinco formaciones, confianza por jugador, roles a balón parado, banquillo, notas e importación/exportación JSON.
 - `/availability`: centro editorial de lesiones, dudas, sanciones y disponibilidad con fuente, grado de confirmación y regreso estimado.
 - `/my-team`: plantilla Fantasy manual, reglas configurables y optimizador de once explicable por jornada.
+- `/gameweek`: centro de jornada con cuenta atrás, partidos, cambios y alertas de Mi equipo.
+- `/tiers`: Tier S+–C por posición y probabilidad de jugar, con fuente, cobertura y explicación.
+- `/rankings`: capitanes y mejores opciones evaluables por posición.
+- `/compare`: comparación de hasta cuatro jugadores con calendario y recomendación.
+- `/planner`: plantilla a cinco jornadas y hasta cinco simulaciones de fichaje.
+- `/watchlist`: radar local de jugadores y alertas.
+- `/market`: precios aportados por el usuario, variaciones y rentabilidad sin datos inventados.
 - `/settings/data`: copia, restauración y borrado controlado de todo el estado guardado localmente.
 - `/fixtures`: calendario y resultados reales cuando existe una importación.
 - `/data-status`: frescura, procedencia y cobertura exacta de cada grupo de métricas.

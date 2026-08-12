@@ -20,6 +20,9 @@ El mismo control se ejecuta en GitHub con cada subida y cada pull request.
 6. Comprobar navegación por teclado, foco visible y reducción de movimiento.
 7. Confirmar que `/api/health` devuelve `status: "ok"`.
 8. Confirmar que `/robots.txt` bloquea el rastreo mientras `NEXT_PUBLIC_ALLOW_INDEXING=false`.
+9. Guardar confianza editorial en una alineación y comprobar `/tiers`, `/rankings` y `/gameweek`.
+10. Añadir una estrella desde `/tiers`, revisarla en `/watchlist` y exportar la copia integral.
+11. Comparar jugadores, crear un escenario en `/planner` y registrar un precio en `/market`.
 
 ## Decisión de lanzamiento
 
