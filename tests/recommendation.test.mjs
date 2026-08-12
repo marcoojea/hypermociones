@@ -15,16 +15,20 @@ test("uses editorial confidence and explains status penalties", () => {
   const available = recommendPlayer({ player: player(), editorialConfidence: 90 });
   const doubtful = recommendPlayer({ player: player(), editorialConfidence: 90, status: "DOUBTFUL" });
   assert.equal(available.startingProbability, 90);
-  assert.equal(available.tier, "S+");
+  assert.equal(available.tier, "NR");
+  assert.equal(available.recommendationScore, null);
   assert.equal(doubtful.startingProbability, 50);
   assert.match(doubtful.risks.join(" "), /Duda/);
 });
 
-test("combines historical starting and minute signals with available performance", () => {
-  const result = recommendPlayer({ player: player({ appearances: 10, starts: 8, minutes: 760, recentMinutes: [90, 85, 70], form: 7, fixtureDifficulty: 2 }) });
-  assert.ok((result.startingProbability ?? 0) >= 80);
+test("combines real previous-season participation, impact, relevance and market context", () => {
+  const result = recommendPlayer({ player: player({ previousSeason: { season: "2025/26", competitions: ["Segunda División"], clubNames: [], appearances: 38, starts: 32, minutes: 3000, goals: 12, assists: 5, yellowCards: 3, redCards: 0, goalsPer90: .36, assistsPer90: .15, contributionsPer90: .51, appearanceRate: 90, minuteShare: 79, relevanceScore: 82, impactScore: 78, confidence: "HIGH", source: "RFEF", sourceUrl: "https://rfef.es" }, marketValue: { amountEur: 3_000_000, valuedAt: "2026-06-01", positionPercentile: 80, source: "Open data", sourceUrl: "https://example.com" } }) });
+  assert.ok((result.startingProbability ?? 0) >= 70);
+  assert.ok((result.startingProbability ?? 100) < 100);
   assert.notEqual(result.recommendationScore, null);
   assert.equal(result.source, "MODEL");
+  assert.equal(result.impactScore, 78);
+  assert.equal(result.marketValueEur, 3_000_000);
 });
 
 test("maps tiers at stable boundaries and ranks unrated players last", () => {

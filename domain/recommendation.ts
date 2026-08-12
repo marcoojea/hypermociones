@@ -9,6 +9,11 @@ export interface PlayerRecommendation {
   position: Position;
   startingProbability: number | null;
   recommendationScore: number | null;
+  impactScore: number | null;
+  relevanceScore: number | null;
+  marketValueEur: number | null;
+  marketValueDate: string | null;
+  historicalSeason: string | null;
   tier: PlayerTier;
   source: RecommendationSource;
   coverage: "HIGH" | "MEDIUM" | "LOW" | "NONE";
@@ -40,41 +45,58 @@ export function recommendPlayer(args: {
   const risks: string[] = [];
   const startSignals: Array<{ value: number; weight: number; label: string }> = [];
   const editorial = finite(editorialConfidence);
-  if (editorial !== null) startSignals.push({ value: clamp(editorial), weight: 5, label: `Confianza editorial: ${Math.round(clamp(editorial))}%` });
-  if (finite(player.starts) !== null && finite(player.appearances) !== null && (player.appearances ?? 0) >= 3) startSignals.push({ value: clamp(((player.starts ?? 0) / (player.appearances ?? 1)) * 100), weight: 3, label: "Frecuencia de titularidad" });
-  if (finite(player.minutes) !== null && finite(player.appearances) !== null && (player.appearances ?? 0) >= 3) startSignals.push({ value: clamp(((player.minutes ?? 0) / (player.appearances ?? 1) / 90) * 100), weight: 2, label: "Minutos por aparición" });
-  if (player.recentMinutes.length >= 2) startSignals.push({ value: clamp((player.recentMinutes.reduce((sum, value) => sum + value, 0) / player.recentMinutes.length / 90) * 100), weight: 2, label: "Minutos recientes" });
+  const history = player.previousSeason;
+  if (editorial !== null) startSignals.push({ value: clamp(editorial), weight: 6, label: `Confianza editorial actual: ${Math.round(clamp(editorial))}%` });
+  if (finite(player.starts) !== null && finite(player.appearances) !== null && (player.appearances ?? 0) >= 3) startSignals.push({ value: clamp(((player.starts ?? 0) / (player.appearances ?? 1)) * 100), weight: 5, label: "Titularidad de la temporada actual" });
+  if (player.recentMinutes.length >= 2) startSignals.push({ value: clamp((player.recentMinutes.reduce((sum, value) => sum + value, 0) / player.recentMinutes.length / 90) * 100), weight: 4, label: "Minutos recientes" });
+  if (history && history.appearances >= 3) {
+    if (finite(history.starts) !== null) startSignals.push({ value: clamp(((history.starts ?? 0) / history.appearances) * history.appearanceRate), weight: 5, label: `Titularidades ${history.season}: ${history.starts}/${history.appearances}` });
+    startSignals.push({ value: history.minuteShare, weight: 3, label: `Cuota de minutos ${history.season}: ${history.minuteShare}%` });
+    startSignals.push({ value: history.appearanceRate, weight: 1, label: `Participación ${history.season}: ${history.appearanceRate}%` });
+  }
 
   let startingProbability = startSignals.length ? startSignals.reduce((sum, signal) => sum + signal.value * signal.weight, 0) / startSignals.reduce((sum, signal) => sum + signal.weight, 0) : null;
+  const hasCurrentParticipation = editorial !== null || (finite(player.starts) !== null && finite(player.appearances) !== null) || player.recentMinutes.length >= 2;
+  if (startingProbability !== null && history && !hasCurrentParticipation) {
+    const reliability = history.confidence === "HIGH" ? .85 : history.confidence === "MEDIUM" ? .65 : .4;
+    startingProbability = 50 + (startingProbability - 50) * reliability;
+  }
   if (status === "INJURED" || status === "SUSPENDED") startingProbability = 0;
   else if (startingProbability !== null && status === "DOUBTFUL") startingProbability *= .55;
   startingProbability = startingProbability === null ? null : Math.round(clamp(startingProbability));
   reasons.push(...startSignals.slice(0, 3).map((signal) => signal.label));
+  if (history && !hasCurrentParticipation) reasons.push(`Estimación conservadora: histórico ${history.season} ajustado por tamaño de muestra`);
   if (status === "INJURED") risks.push("Lesionado: no recomendable");
   if (status === "SUSPENDED") risks.push("Sancionado: no disponible");
   if (status === "DOUBTFUL") risks.push("Duda: probabilidad penalizada");
-  if (status === "UNKNOWN") risks.push("Disponibilidad por confirmar");
+  if (status === "UNKNOWN") risks.push("Disponibilidad 2026/27 por confirmar");
 
-  const performanceSignals = [
-    finite(player.pointsPerGame) === null ? null : { value: clamp((player.pointsPerGame ?? 0) * 10), label: "Puntos por partido" },
-    finite(player.form) === null ? null : { value: clamp((player.form ?? 0) * 10), label: "Forma reciente" },
-    finite(player.fis) === null ? null : { value: clamp(player.fis ?? 0), label: "FIS" },
-    finite(player.xgi) === null ? null : { value: clamp((player.xgi ?? 0) * 70), label: "Producción xGI" },
-  ].filter((signal): signal is { value: number; label: string } => signal !== null);
+  const impactScore = finite(history?.impactScore);
+  const relevanceScore = finite(history?.relevanceScore);
+  const marketIsCurrentEnough = player.marketValue ? Date.now() - new Date(player.marketValue.valuedAt).getTime() <= 370 * 86_400_000 : false;
+  const marketPercentile = marketIsCurrentEnough ? finite(player.marketValue?.positionPercentile) : null;
   const fixture = finite(fixtureDifficulty);
   const scoreParts: Array<{ value: number; weight: number }> = [];
-  if (startingProbability !== null) scoreParts.push({ value: startingProbability, weight: 7 });
-  if (performanceSignals.length) scoreParts.push({ value: performanceSignals.reduce((sum, signal) => sum + signal.value, 0) / performanceSignals.length, weight: 2 });
+  if (startingProbability !== null) scoreParts.push({ value: startingProbability, weight: 4.5 });
+  if (impactScore !== null) scoreParts.push({ value: impactScore, weight: 2.5 });
+  if (relevanceScore !== null) scoreParts.push({ value: relevanceScore, weight: 2 });
+  if (marketPercentile !== null) scoreParts.push({ value: marketPercentile, weight: 1 });
   if (fixture !== null && fixture >= 1 && fixture <= 5) scoreParts.push({ value: (6 - fixture) * 20, weight: 1 });
-  const recommendationScore = scoreParts.length ? Math.round(scoreParts.reduce((sum, part) => sum + part.value * part.weight, 0) / scoreParts.reduce((sum, part) => sum + part.weight, 0)) : null;
-  if (performanceSignals.length) reasons.push(`Rendimiento: ${performanceSignals.map((signal) => signal.label).join(", ")}`);
+  const recommendationScore = startingProbability === null || (impactScore === null && relevanceScore === null)
+    ? null : Math.round(scoreParts.reduce((sum, part) => sum + part.value * part.weight, 0) / scoreParts.reduce((sum, part) => sum + part.weight, 0));
+  if (history) reasons.push(`Impacto ${history.season}: ${history.impactScore}/100 · relevancia: ${history.relevanceScore}/100`);
+  if (player.marketValue) reasons.push(`Valor de mercado: ${(player.marketValue.amountEur / 1_000_000).toLocaleString("es-ES", { maximumFractionDigits: 2 })} M€ (${player.marketValue.valuedAt})`);
   if (fixture !== null && fixture >= 1 && fixture <= 5) reasons.push(`Dificultad del rival: ${fixture}/5`);
-  if (startingProbability === null) risks.push("Sin señales suficientes para estimar titularidad");
-  if (!performanceSignals.length) risks.push("Sin métricas de rendimiento disponibles");
-  const signalsUsed = startSignals.length + performanceSignals.length + (fixture !== null ? 1 : 0);
-  const coverage = signalsUsed >= 6 ? "HIGH" : signalsUsed >= 3 ? "MEDIUM" : signalsUsed >= 1 ? "LOW" : "NONE";
-  const source: RecommendationSource = editorial !== null && startSignals.length > 1 ? "MIXED" : editorial !== null ? "EDITORIAL" : startSignals.length ? "MODEL" : "UNRATED";
-  return { playerId: player.id, position: player.position, startingProbability, recommendationScore, tier: tierFromScore(recommendationScore), source, coverage, signalsUsed, reasons, risks };
+  if (startingProbability === null) risks.push("Sin señales suficientes para estimar participación");
+  if (!history) risks.push("Sin rendimiento 2025/26 enlazado");
+  if (!player.marketValue) risks.push("Sin valor de mercado enlazado");
+  else if (Date.now() - new Date(player.marketValue.valuedAt).getTime() > 370 * 86_400_000) risks.push("Valor de mercado con más de un año: revisar antes de decidir");
+  const signalsUsed = startSignals.length + Number(impactScore !== null) + Number(relevanceScore !== null) + Number(marketPercentile !== null) + Number(fixture !== null);
+  const coverage = history?.confidence === "HIGH" && marketIsCurrentEnough ? "HIGH" : history ? "MEDIUM" : signalsUsed ? "LOW" : "NONE";
+  const source: RecommendationSource = editorial !== null && history ? "MIXED" : editorial !== null ? "EDITORIAL" : history ? "MODEL" : "UNRATED";
+  return { playerId: player.id, position: player.position, startingProbability, recommendationScore, impactScore, relevanceScore,
+    marketValueEur: player.marketValue?.amountEur ?? null, marketValueDate: player.marketValue?.valuedAt ?? null, historicalSeason: history?.season ?? null,
+    tier: tierFromScore(recommendationScore), source, coverage, signalsUsed, reasons, risks };
 }
 
 export function rankRecommendations(recommendations: readonly PlayerRecommendation[]) {

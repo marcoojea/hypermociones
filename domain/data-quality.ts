@@ -35,6 +35,9 @@ export function buildMetricCoverage(players: readonly PlayerListItem[]): MetricC
     ["goals", "Goles", (player) => player.goals !== null],
     ["assists", "Asistencias", (player) => player.assists !== null],
     ["cards", "Tarjetas", (player) => player.yellowCards != null || player.redCards != null],
+    ["history", "Histórico 2025/26", (player) => player.previousSeason !== null && player.previousSeason !== undefined],
+    ["impact", "Impacto por posición", (player) => player.previousSeason?.impactScore !== undefined],
+    ["marketValue", "Valor de mercado", (player) => player.marketValue !== null && player.marketValue !== undefined],
     ["fis", "FIS", (player) => player.fis !== null],
   ];
   return metrics.map(([key, label, hasValue]) => {

@@ -17,7 +17,7 @@ export default function DataStatusPage() {
         <div className={`freshness freshness-${status.freshness.level.toLowerCase()}`}><i /><span>{status.freshness.label}</span><small>{status.provider}</small></div>
       </section>
       <div className="data-status-kpis">
-        <div><span>Equipos</span><strong>{status.teams}</strong></div><div><span>Jugadores</span><strong>{status.players}</strong></div><div><span>Partidos</span><strong>{status.fixtures}</strong></div><div><span>Temporada</span><strong>{status.season}</strong></div>
+        <div><span>Equipos</span><strong>{status.teams}</strong></div><div><span>Histórico real</span><strong>{status.intelligence.historicalPlayers}</strong></div><div><span>Valores vigentes</span><strong>{status.intelligence.currentMarketValues}</strong></div><div><span>Temporada base</span><strong>{status.intelligence.performanceSeason ?? "—"}</strong></div>
       </div>
       <div className="data-status-grid">
         <section className="panel"><p className="eyebrow">Cobertura por campo</p><h2>Datos disponibles</h2><div className="coverage-list">{status.coverage.map((metric) => <div key={metric.key}><span><strong>{metric.label}</strong><small>{metric.available} de {metric.total}</small></span><span aria-label={`Cobertura de ${metric.label}`} aria-valuemax={100} aria-valuemin={0} aria-valuenow={metric.percentage} className="coverage-track" role="progressbar"><i style={{ width: `${metric.percentage}%` }} /></span><b>{metric.percentage}%</b></div>)}</div></section>
