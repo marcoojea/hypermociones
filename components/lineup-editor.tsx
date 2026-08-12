@@ -35,16 +35,21 @@ export function LineupEditor({ teams, team, players, round, fixture }: { teams: 
 
   useEffect(() => {
     const raw = localStorage.getItem(lineupStorageKey(team.id, round));
+    let stored: StoredLineup | null = null;
     if (raw) {
       try {
         const parsed: unknown = JSON.parse(raw);
-        if (validStoredLineup(parsed, team.id, round)) {
-          setLineup(parsed);
-          setMessage(`Guardada ${new Date(parsed.updatedAt).toLocaleString("es-ES")}`);
-        }
+        if (validStoredLineup(parsed, team.id, round)) stored = parsed;
       } catch { localStorage.removeItem(lineupStorageKey(team.id, round)); }
     }
-    setLoaded(true);
+    const frame = window.requestAnimationFrame(() => {
+      if (stored) {
+        setLineup(stored);
+        setMessage(`Guardada ${new Date(stored.updatedAt).toLocaleString("es-ES")}`);
+      }
+      setLoaded(true);
+    });
+    return () => window.cancelAnimationFrame(frame);
   }, [team.id, round]);
 
   const update = (transform: (current: StoredLineup) => StoredLineup) => {
@@ -65,10 +70,12 @@ export function LineupEditor({ teams, team, players, round, fixture }: { teams: 
   const save = () => {
     const saved = { ...lineup, updatedAt: new Date().toISOString() };
     localStorage.setItem(lineupStorageKey(team.id, round), JSON.stringify(saved));
+    window.dispatchEvent(new Event("hypermociones:lineup-saved"));
     setLineup(saved); setDirty(false); setMessage(`Guardada ${new Date(saved.updatedAt).toLocaleString("es-ES")}`);
   };
   const reset = () => {
     localStorage.removeItem(lineupStorageKey(team.id, round));
+    window.dispatchEvent(new Event("hypermociones:lineup-saved"));
     setLineup(suggestedLineup(team.id, round, players, lineup.formation)); setDirty(false); setMessage("Borrador automático restaurado");
   };
   const exportLineup = () => {

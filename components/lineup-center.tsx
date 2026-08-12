@@ -38,7 +38,8 @@ export function LineupCenter({ matches, players, teams, rounds, selectedRound }:
       if (!raw) continue;
       try { lineups[team.id] = JSON.parse(raw) as StoredLineup; } catch { localStorage.removeItem(lineupStorageKey(team.id, selectedRound)); }
     }
-    setSaved(lineups);
+    const frame = window.requestAnimationFrame(() => setSaved(lineups));
+    return () => window.cancelAnimationFrame(frame);
   }, [teams, selectedRound]);
   const byTeam = new Map<string, PlayerListItem[]>();
   for (const player of players) byTeam.set(player.team.id, [...(byTeam.get(player.team.id) ?? []), player]);
