@@ -2,35 +2,38 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { effectivePlayerStatus, isHardUnavailable, type AvailabilityRecord } from "@/domain/availability";
 import type { FixtureListItem } from "@/domain/fixture";
 import { formations, lineupStorageKey, type StoredLineup } from "@/domain/lineup";
 import type { PlayerListItem, TeamSummary } from "@/domain/player";
 import { LineupPitch } from "./lineup-pitch";
+import { useAvailability } from "./use-availability";
 
 const positionOrder = { POR: 0, DEF: 1, MED: 2, DEL: 3 } as const;
 const statusLabels = { AVAILABLE: "Disponible", DOUBTFUL: "Duda", INJURED: "Lesionado", SUSPENDED: "Sancionado", UNKNOWN: "Por confirmar" } as const;
 
-function fallbackCandidates(players: PlayerListItem[]) {
-  return [...players].sort((a, b) => positionOrder[a.position] - positionOrder[b.position] || a.name.localeCompare(b.name, "es")).slice(0, 11);
+function fallbackCandidates(players: PlayerListItem[], availability: ReadonlyMap<string, AvailabilityRecord>) {
+  return [...players].filter((player) => !isHardUnavailable(effectivePlayerStatus(player, availability))).sort((a, b) => positionOrder[a.position] - positionOrder[b.position] || a.name.localeCompare(b.name, "es")).slice(0, 11);
 }
 
-function TeamLineup({ team, players, lineup, round }: { team: TeamSummary; players: PlayerListItem[]; lineup?: StoredLineup; round: number }) {
+function TeamLineup({ team, players, lineup, round, availability }: { team: TeamSummary; players: PlayerListItem[]; lineup?: StoredLineup; round: number; availability: ReadonlyMap<string, AvailabilityRecord> }) {
   const playerById = useMemo(() => new Map(players.map((player) => [player.id, player])), [players]);
-  const candidates = fallbackCandidates(players);
+  const candidates = fallbackCandidates(players, availability);
   const hasPublishedLineup = lineup && lineup.starters.some((item) => item.playerId) && formations[lineup.formation];
   return <section className="lineup-team public-lineup-team">
     <div className="lineup-team-heading"><div><span>{hasPublishedLineup ? `Once probable · ${lineup.formation}` : "Candidatos RFEF"}</span><h3>{team.name}</h3></div><Link href={`/lineups/editor?team=${team.slug}&round=${round}`}>{hasPublishedLineup ? "Editar" : "Crear"} →</Link></div>
     {hasPublishedLineup ? <>
-      <LineupPitch lineup={lineup} players={playerById} compact />
+      <LineupPitch lineup={lineup} players={playerById} availability={availability} compact />
       <div className="published-meta"><span>Actualizada {new Date(lineup.updatedAt).toLocaleString("es-ES", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" })}</span>{lineup.captainId && <strong>Capitán · {playerById.get(lineup.captainId)?.name}</strong>}</div>
       {lineup.substitutes.length > 0 && <div className="published-bench"><small>Alternativas</small>{lineup.substitutes.map((item) => <span key={item.playerId}><b>{item.confidence}%</b>{playerById.get(item.playerId)?.name}</span>)}</div>}
       {lineup.notes && <p className="published-notes">{lineup.notes}</p>}
-    </> : <div className="candidate-list">{candidates.map((player) => <Link className="candidate" href={`/player/${player.slug}`} key={player.id}><span className="candidate-chance unknown">s/d</span><span><strong>{player.name}</strong><small>{player.position} · {statusLabels[player.status]}</small></span></Link>)}{candidates.length === 0 && <p className="lineup-empty">Plantilla no disponible.</p>}</div>}
+    </> : <div className="candidate-list">{candidates.map((player) => { const status = effectivePlayerStatus(player, availability); return <Link className="candidate" href={`/player/${player.slug}`} key={player.id}><span className="candidate-chance unknown">s/d</span><span><strong>{player.name}</strong><small>{player.position} · {statusLabels[status]}</small></span></Link>; })}{candidates.length === 0 && <p className="lineup-empty">Plantilla no disponible.</p>}</div>}
   </section>;
 }
 
 export function LineupCenter({ matches, players, teams, rounds, selectedRound }: { matches: FixtureListItem[]; players: PlayerListItem[]; teams: TeamSummary[]; rounds: number[]; selectedRound: number }) {
   const [saved, setSaved] = useState<Record<string, StoredLineup>>({});
+  const { byPlayer: availability } = useAvailability(selectedRound);
   useEffect(() => {
     const lineups: Record<string, StoredLineup> = {};
     for (const team of teams) {
@@ -50,7 +53,7 @@ export function LineupCenter({ matches, players, teams, rounds, selectedRound }:
     <div className="lineup-status-banner"><span><i /> {publishedCount} alineaciones editadas en este dispositivo</span><p>Los equipos sin edición muestran únicamente candidatos de la plantilla RFEF, sin porcentajes inventados.</p></div>
     <div className="lineup-matches">{matches.map((fixture) => <article className="lineup-match" key={fixture.id}>
       <header><span>Jornada {fixture.round}</span><strong>{fixture.homeTeam.shortName} <i>vs</i> {fixture.awayTeam.shortName}</strong><small>{new Date(fixture.kickoffAt).toLocaleDateString("es-ES", { day: "numeric", month: "long" })} · hora pendiente</small></header>
-      <div className="lineup-grid"><TeamLineup team={fixture.homeTeam} players={byTeam.get(fixture.homeTeam.id) ?? []} lineup={saved[fixture.homeTeam.id]} round={selectedRound} /><TeamLineup team={fixture.awayTeam} players={byTeam.get(fixture.awayTeam.id) ?? []} lineup={saved[fixture.awayTeam.id]} round={selectedRound} /></div>
+      <div className="lineup-grid"><TeamLineup team={fixture.homeTeam} players={byTeam.get(fixture.homeTeam.id) ?? []} lineup={saved[fixture.homeTeam.id]} round={selectedRound} availability={availability} /><TeamLineup team={fixture.awayTeam} players={byTeam.get(fixture.awayTeam.id) ?? []} lineup={saved[fixture.awayTeam.id]} round={selectedRound} availability={availability} /></div>
     </article>)}</div>
   </>;
 }

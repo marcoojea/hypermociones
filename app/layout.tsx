@@ -13,13 +13,13 @@ export const metadata: Metadata = {
     title: "Hypermociones — Fantasy Intelligence",
     description: "Decisiones Fantasy respaldadas por datos.",
     type: "website",
-    images: [{ url: "/og.png", width: 1748, height: 909, alt: "Hypermociones — Fantasy Intelligence" }],
+    images: [{ url: "/og-availability.png", width: 1748, height: 909, alt: "Hypermociones — Fantasy Intelligence y disponibilidad" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Hypermociones — Fantasy Intelligence",
     description: "Decisiones Fantasy respaldadas por datos.",
-    images: ["/og.png"],
+    images: ["/og-availability.png"],
   },
 };
 

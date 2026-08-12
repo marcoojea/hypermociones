@@ -10,12 +10,13 @@ Plataforma de analytics Fantasy para LaLiga Hypermotion. Incluye jugadores y equ
 - `/teams` y `/team/{slug}`: directorio de los 22 clubes, plantilla oficial, disponibilidad y próximo partido.
 - `/lineups`: centro de alineaciones por jornada con once probable, banquillo y notas cuando existe una edición guardada.
 - `/lineups/editor`: editor táctico con cinco formaciones, confianza por jugador, roles a balón parado, banquillo, notas e importación/exportación JSON.
+- `/availability`: centro editorial de lesiones, dudas, sanciones y disponibilidad con fuente, grado de confirmación y regreso estimado.
 - `/fixtures`: calendario y resultados reales cuando existe una importación.
 - Dominio, repositorios e interfaces de proveedores separados de React.
 - Esquema relacional PostgreSQL preparado para histórico, ingesta, features, predicciones y backtesting.
 - Validación Zod de estadísticas entrantes y pruebas del dominio.
 
-El editor guarda cada equipo y jornada en el navegador: es gratis, no requiere cuenta ni servidor y permite exportar un JSON como copia de seguridad. Los datos que la fuente no publica se muestran como no disponibles; la aplicación no inventa métricas ni probabilidades.
+El editor y los partes de disponibilidad se guardan por jornada en el navegador: son gratuitos, no requieren cuenta ni servidor y permiten exportar un JSON como copia de seguridad. Las incidencias se reflejan en fichas de equipo, fichas de jugador y alineaciones. Los datos que la fuente no publica se muestran como no disponibles; la aplicación no inventa métricas ni probabilidades.
 
 ## Desarrollo
 
