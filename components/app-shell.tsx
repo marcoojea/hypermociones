@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const nav = [
   ["dashboard", "/", "Resumen"], ["players", "/players", "Jugadores"],
-  ["lineups", "/lineups", "Alineaciones"], ["fixtures", "/fixtures", "Partidos"], ["market", "#", "Mercado"],
+  ["teams", "/teams", "Equipos"], ["lineups", "/lineups", "Alineaciones"], ["fixtures", "/fixtures", "Partidos"],
 ] as const;
 
 export function AppShell({ active, children }: { active: string; children: React.ReactNode }) {
