@@ -12,6 +12,7 @@ Plataforma de analytics Fantasy para LaLiga Hypermotion. Incluye jugadores y equ
 - `/lineups/editor`: editor táctico con cinco formaciones, confianza por jugador, roles a balón parado, banquillo, notas e importación/exportación JSON.
 - `/availability`: centro editorial de lesiones, dudas, sanciones y disponibilidad con fuente, grado de confirmación y regreso estimado.
 - `/my-team`: plantilla Fantasy manual, reglas configurables y optimizador de once explicable por jornada.
+- `/settings/data`: copia, restauración y borrado controlado de todo el estado guardado localmente.
 - `/fixtures`: calendario y resultados reales cuando existe una importación.
 - Dominio, repositorios e interfaces de proveedores separados de React.
 - Esquema relacional PostgreSQL preparado para histórico, ingesta, features, predicciones y backtesting.
@@ -39,8 +40,9 @@ La aplicación queda disponible en la URL local indicada por el servidor.
 3. Introduce proyección manual para los once y confirma que aparece el total.
 4. Marca un titular como lesionado desde `/availability` y vuelve a Mi equipo: debe desaparecer del once.
 5. Guarda, recarga la página y verifica que la plantilla permanece.
-6. Exporta el JSON, reinicia el equipo e impórtalo de nuevo.
-7. Repite los flujos principales con la ventana estrecha y usa la navegación inferior móvil.
+6. Entra en `/settings/data`, descarga una copia integral y comprueba que puede restaurarse.
+7. Visita `/privacy`, `/terms`, `/contact`, `/methodology` y `/robots.txt`; antes de publicar, robots debe bloquear el rastreo.
+8. Repite los flujos principales con la ventana estrecha y usa la navegación inferior móvil.
 
 ## Cargar LaLiga Hypermotion 2026/27 gratis
 
@@ -98,5 +100,7 @@ Más detalle en [docs/architecture.md](docs/architecture.md) y [docs/data-source
 | `DATA_PROVIDER` | Adaptador activo; predeterminado y recomendado `free-public` | No |
 | `API_FOOTBALL_API_KEY` | Clave privada del proveedor opcional API-Football | Solo para ese proveedor |
 | `FOOTBALL_DATA_API_TOKEN` | Token alternativo de football-data.org | Solo para ese proveedor |
+| `NEXT_PUBLIC_SITE_URL` | URL canónica usada en metadatos y sitemap | Recomendable al publicar |
+| `NEXT_PUBLIC_ALLOW_INDEXING` | Permite robots y sitemap cuando vale `true` | No; debe permanecer `false` durante pruebas |
 
 No se deben guardar claves reales en el repositorio.

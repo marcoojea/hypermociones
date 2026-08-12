@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { effectivePlayerStatus, isHardUnavailable } from "@/domain/availability";
-import { clampConfidence, emptyLineup, formationCodes, formations, lineupStorageKey, type FormationCode, type StoredLineup } from "@/domain/lineup";
+import { clampConfidence, emptyLineup, formationCodes, formations, isStoredLineup, lineupStorageKey, type FormationCode, type StoredLineup } from "@/domain/lineup";
 import type { FixtureListItem } from "@/domain/fixture";
 import type { PlayerListItem, Position, TeamSummary } from "@/domain/player";
 import { useAvailability } from "./use-availability";
@@ -15,12 +15,6 @@ function suggestedLineup(teamId: string, round: number, players: PlayerListItem[
   const available = new Map(positionOrder.map((position) => [position, players.filter((player) => player.position === position)]));
   lineup.starters = formations[formation].map((slot) => ({ slotId: slot.id, playerId: available.get(slot.position)?.shift()?.id ?? null, confidence: 50 }));
   return lineup;
-}
-
-function validStoredLineup(value: unknown, teamId: string, round: number): value is StoredLineup {
-  if (!value || typeof value !== "object") return false;
-  const lineup = value as Partial<StoredLineup>;
-  return lineup.version === 1 && lineup.teamId === teamId && lineup.round === round && formationCodes.includes(lineup.formation as FormationCode) && Array.isArray(lineup.starters);
 }
 
 export function LineupEditor({ teams, team, players, round, fixture }: { teams: TeamSummary[]; team: TeamSummary; players: PlayerListItem[]; round: number; fixture: FixtureListItem | null }) {
@@ -48,7 +42,7 @@ export function LineupEditor({ teams, team, players, round, fixture }: { teams: 
     if (raw) {
       try {
         const parsed: unknown = JSON.parse(raw);
-        if (validStoredLineup(parsed, team.id, round)) stored = parsed;
+        if (isStoredLineup(parsed, team.id, round)) stored = parsed;
       } catch { localStorage.removeItem(lineupStorageKey(team.id, round)); }
     }
     const frame = window.requestAnimationFrame(() => {
@@ -96,14 +90,14 @@ export function LineupEditor({ teams, team, players, round, fixture }: { teams: 
     if (!file) return;
     try {
       const parsed: unknown = JSON.parse(await file.text());
-      if (!validStoredLineup(parsed, team.id, round)) throw new Error("El archivo no corresponde a este equipo y jornada.");
+      if (!isStoredLineup(parsed, team.id, round)) throw new Error("El archivo no corresponde a este equipo y jornada.");
       setLineup(parsed); setDirty(true); setMessage("Alineación importada · pulsa Guardar");
     } catch (error) { setMessage(error instanceof Error ? error.message : "Archivo no válido"); }
   };
 
   if (!loaded) return <section className="setup-state"><span>H</span><div><p className="eyebrow">Preparando editor</p><h2>Cargando tu alineación</h2></div></section>;
   return <>
-    <section className="editor-header"><div><p className="eyebrow">Centro editorial · Jornada {round}</p><h1>Editor de alineaciones</h1><p>{team.name}{opponent ? ` · ${fixture?.homeTeam.id === team.id ? "vs" : "@"} ${opponent.name}` : ""}</p></div><div className={`save-state ${dirty ? "dirty" : ""}`}><i /><span>{message}</span></div></section>
+    <section className="editor-header"><div><p className="eyebrow">Centro editorial · Jornada {round}</p><h1>Editor de alineaciones</h1><p>{team.name}{opponent ? ` · ${fixture?.homeTeam.id === team.id ? "vs" : "@"} ${opponent.name}` : ""}</p></div><div className={`save-state ${dirty ? "dirty" : ""}`} role="status" aria-live="polite"><i /><span>{message}</span></div></section>
     <div className="editor-toolbar"><label><span>Equipo</span><select value={team.slug} onChange={(event) => { window.location.href = `/lineups/editor?team=${event.target.value}&round=${round}`; }}>{teams.map((item) => <option value={item.slug} key={item.id}>{item.name}</option>)}</select></label><label><span>Jornada</span><select value={round} onChange={(event) => { window.location.href = `/lineups/editor?team=${team.slug}&round=${event.target.value}`; }}><option value={1}>Jornada 1</option><option value={2}>Jornada 2</option></select></label><label><span>Formación</span><select value={lineup.formation} onChange={(event) => changeFormation(event.target.value as FormationCode)}>{formationCodes.map((formation) => <option key={formation}>{formation}</option>)}</select></label><div className="editor-toolbar-actions"><Link className="button" href={`/team/${team.slug}`}>Ficha del equipo</Link><button className="button button-primary" type="button" onClick={save}>Guardar alineación</button></div></div>
     <div className="editor-layout"><section className="editor-pitch-panel"><div className="editor-section-heading"><div><p className="eyebrow">Once inicial</p><h2>{lineup.formation}</h2></div><span>{lineup.starters.filter((item) => item.playerId).length}/11 seleccionados</span></div>{selectedAlerts.length > 0 && <div className="lineup-availability-alert"><strong>{selectedAlerts.length} alertas en el once</strong>{selectedAlerts.map(({ player, status }) => <span key={player.id}>{player.name} · {status}</span>)}<Link href={`/availability?round=${round}`}>Revisar partes →</Link></div>}<div className="football-pitch editor-pitch"><div className="pitch-circle" /><div className="pitch-halfway" /><div className="pitch-box pitch-box-top" /><div className="pitch-box pitch-box-bottom" />{formations[lineup.formation].map((slot) => {
       const selection = lineup.starters.find((item) => item.slotId === slot.id)!;

@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { clampConfidence, emptyLineup, formationCodes, formations, lineupStorageKey } from "../domain/lineup.ts";
+import { clampConfidence, emptyLineup, formationCodes, formations, isStoredLineup, lineupStorageKey } from "../domain/lineup.ts";
 
 test("every supported formation defines exactly eleven unique pitch slots", () => {
   for (const code of formationCodes) {
@@ -28,4 +28,11 @@ test("builds isolated storage keys and clamps confidence values", () => {
   assert.equal(clampConfidence(49.6), 50);
   assert.equal(clampConfidence(108), 100);
   assert.equal(clampConfidence(Number.NaN), 0);
+});
+
+test("validates complete stored lineups and rejects malformed confidence", () => {
+  const lineup = emptyLineup("team-1", 2, "4-4-2");
+  assert.equal(isStoredLineup(lineup, "team-1", 2), true);
+  assert.equal(isStoredLineup({ ...lineup, starters: lineup.starters.slice(1) }, "team-1", 2), false);
+  assert.equal(isStoredLineup({ ...lineup, starters: lineup.starters.map((item, index) => index === 0 ? { ...item, confidence: 101 } : item) }), false);
 });

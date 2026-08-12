@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { emptyFantasyTeam, optimizeFantasyLineup, scoreFantasyPlayer } from "../domain/fantasy-team.ts";
+import { emptyFantasyTeam, isMyFantasyTeam, optimizeFantasyLineup, scoreFantasyPlayer } from "../domain/fantasy-team.ts";
 
 const teamSummary = (id) => ({ id, name: id, shortName: id.toUpperCase(), slug: id, primaryColor: "#fff" });
 const player = (id, position, club, overrides = {}) => ({
@@ -49,4 +49,11 @@ test("respects the configurable maximum number of starters per club", () => {
   const result = optimizeFantasyLineup({ team, players });
   const clubA = result.starters.filter((item) => players.find((candidate) => candidate.id === item.playerId)?.team.id === "a");
   assert.ok(clubA.length <= 2);
+});
+
+test("validates saved fantasy teams before restoring local data", () => {
+  const valid = { ...emptyFantasyTeam(1), squad: [{ playerId: "p1", purchasePrice: 1.5, projectedPoints: 4, startingChance: 75 }] };
+  assert.equal(isMyFantasyTeam(valid), true);
+  assert.equal(isMyFantasyTeam({ ...valid, squad: [...valid.squad, valid.squad[0]] }), false);
+  assert.equal(isMyFantasyTeam({ ...valid, rules: { ...valid.rules, maxPlayersPerClub: 0 } }), false);
 });

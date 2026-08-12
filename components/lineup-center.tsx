@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { effectivePlayerStatus, isHardUnavailable, type AvailabilityRecord } from "@/domain/availability";
 import type { FixtureListItem } from "@/domain/fixture";
-import { formations, lineupStorageKey, type StoredLineup } from "@/domain/lineup";
+import { formations, isStoredLineup, lineupStorageKey, type StoredLineup } from "@/domain/lineup";
 import type { PlayerListItem, TeamSummary } from "@/domain/player";
 import { LineupPitch } from "./lineup-pitch";
 import { useAvailability } from "./use-availability";
@@ -39,7 +39,7 @@ export function LineupCenter({ matches, players, teams, rounds, selectedRound }:
     for (const team of teams) {
       const raw = localStorage.getItem(lineupStorageKey(team.id, selectedRound));
       if (!raw) continue;
-      try { lineups[team.id] = JSON.parse(raw) as StoredLineup; } catch { localStorage.removeItem(lineupStorageKey(team.id, selectedRound)); }
+      try { const parsed: unknown = JSON.parse(raw); if (isStoredLineup(parsed, team.id, selectedRound)) lineups[team.id] = parsed; else localStorage.removeItem(lineupStorageKey(team.id, selectedRound)); } catch { localStorage.removeItem(lineupStorageKey(team.id, selectedRound)); }
     }
     const frame = window.requestAnimationFrame(() => setSaved(lineups));
     return () => window.cancelAnimationFrame(frame);

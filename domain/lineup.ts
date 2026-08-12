@@ -91,3 +91,22 @@ export function emptyLineup(teamId: string, round: number, formation: FormationC
 export function clampConfidence(value: number) {
   return Math.max(0, Math.min(100, Math.round(Number.isFinite(value) ? value : 0)));
 }
+
+export function isStoredLineup(value: unknown, expectedTeamId?: string, expectedRound?: number): value is StoredLineup {
+  if (!value || typeof value !== "object") return false;
+  const lineup = value as Partial<StoredLineup>;
+  if (lineup.version !== 1 || typeof lineup.teamId !== "string" || (expectedTeamId !== undefined && lineup.teamId !== expectedTeamId)
+    || !Number.isInteger(lineup.round) || (expectedRound !== undefined && lineup.round !== expectedRound)
+    || !formationCodes.includes(lineup.formation as FormationCode) || !Array.isArray(lineup.starters) || !Array.isArray(lineup.substitutes)
+    || typeof lineup.notes !== "string" || typeof lineup.updatedAt !== "string") return false;
+  const validSlots = new Set(formations[lineup.formation as FormationCode].map((slot) => slot.id));
+  const selectedSlots = new Set<string>();
+  const validSelection = lineup.starters.length === validSlots.size && lineup.starters.every((selection) => {
+    if (!selection || typeof selection.slotId !== "string" || !validSlots.has(selection.slotId) || selectedSlots.has(selection.slotId)
+      || !(selection.playerId === null || typeof selection.playerId === "string") || typeof selection.confidence !== "number" || !Number.isFinite(selection.confidence) || selection.confidence < 0 || selection.confidence > 100) return false;
+    selectedSlots.add(selection.slotId); return true;
+  });
+  const validBench = lineup.substitutes.every((selection) => selection && typeof selection.playerId === "string" && typeof selection.confidence === "number" && Number.isFinite(selection.confidence) && selection.confidence >= 0 && selection.confidence <= 100);
+  const validRole = (role: unknown) => role === null || typeof role === "string";
+  return validSelection && validBench && validRole(lineup.captainId) && validRole(lineup.penaltyTakerId) && validRole(lineup.freeKickTakerId) && validRole(lineup.cornerTakerId);
+}

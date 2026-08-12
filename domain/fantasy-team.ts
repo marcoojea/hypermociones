@@ -69,10 +69,24 @@ const clamp = (value: number, min: number, max: number) => Math.max(min, Math.mi
 export function isMyFantasyTeam(value: unknown): value is MyFantasyTeam {
   if (!value || typeof value !== "object") return false;
   const team = value as Partial<MyFantasyTeam>;
-  return team.version === 1 && typeof team.name === "string" && typeof team.round === "number"
-    && formationCodes.includes(team.formation as FormationCode) && Array.isArray(team.squad)
-    && Boolean(team.rules) && Array.isArray(team.rules?.allowedFormations)
-    && team.squad.every((entry) => typeof entry?.playerId === "string" && typeof entry?.startingChance === "number");
+  const rules = team.rules;
+  if (team.version !== 1 || typeof team.name !== "string" || !team.name.trim() || team.name.length > 80
+    || !Number.isInteger(team.round) || (team.round ?? 0) < 1 || (team.round ?? 0) > 100
+    || !formationCodes.includes(team.formation as FormationCode) || !Array.isArray(team.squad) || team.squad.length > 100
+    || !rules || !Number.isInteger(rules.squadSize) || rules.squadSize < 11 || rules.squadSize > 40
+    || rules.lineupSize !== 11 || !Number.isInteger(rules.benchSize) || rules.benchSize < 0 || rules.benchSize > 12
+    || !Number.isInteger(rules.maxPlayersPerClub) || rules.maxPlayersPerClub < 1 || rules.maxPlayersPerClub > 11
+    || typeof rules.captainEnabled !== "boolean" || !Array.isArray(rules.allowedFormations) || rules.allowedFormations.length < 1
+    || !rules.allowedFormations.every((formation) => formationCodes.includes(formation)) || !rules.allowedFormations.includes(team.formation as FormationCode)
+    || !(team.budget === null || typeof team.budget === "number" && Number.isFinite(team.budget) && team.budget >= 0)) return false;
+  const playerIds = new Set<string>();
+  return team.squad.every((entry) => {
+    if (!entry || typeof entry.playerId !== "string" || !entry.playerId || playerIds.has(entry.playerId)
+      || !(entry.purchasePrice === null || typeof entry.purchasePrice === "number" && Number.isFinite(entry.purchasePrice) && entry.purchasePrice >= 0)
+      || !(entry.projectedPoints === null || typeof entry.projectedPoints === "number" && Number.isFinite(entry.projectedPoints) && entry.projectedPoints >= 0 && entry.projectedPoints <= 30)
+      || typeof entry.startingChance !== "number" || !Number.isFinite(entry.startingChance) || entry.startingChance < 0 || entry.startingChance > 100) return false;
+    playerIds.add(entry.playerId); return true;
+  });
 }
 
 export function scoreFantasyPlayer(player: PlayerListItem, entry: FantasySquadEntry, status: PlayerStatus): PlayerDecisionScore {
