@@ -16,3 +16,12 @@ export const accountSnapshots = sqliteTable("account_snapshots", {
   payloadJson: text("payload_json").notNull(),
   updatedAt: text("updated_at").notNull().default(sql`CURRENT_TIMESTAMP`),
 });
+
+export const liveFeedCache = sqliteTable("live_feed_cache", {
+  cacheKey: text("cache_key").primaryKey(),
+  provider: text("provider").notNull(),
+  payloadJson: text("payload_json").notNull(),
+  fetchedAt: text("fetched_at").notNull(),
+  expiresAt: text("expires_at").notNull(),
+  updatedAt: text("updated_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+});

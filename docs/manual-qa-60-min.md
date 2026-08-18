@@ -25,6 +25,8 @@ Objetivo: validar en una hora los recorridos con mayor riesgo antes de una candi
 4. En `/lineups/editor`, cambia titulares, confianza y una nota; guarda y verifica el resultado en `/lineups`.
 5. Abre `/gameweek` y comprueba que sus alertas coinciden con la disponibilidad y la plantilla guardadas.
 
+En una ventana con partido real, reserva dos minutos de este bloque para `/live`: verifica minuto, marcador, eventos, actualización automática y que las métricas ausentes aparecen como `—`, nunca como cero.
+
 ## Decisión, mercado y planificación — minutos 27 a 38
 
 1. En `/tiers`, cambia posición, equipo y orden; abre al menos una explicación.

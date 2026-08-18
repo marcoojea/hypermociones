@@ -8,9 +8,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     playerRepository.findMany(), playerRepository.listTeams(), playerRepository.getProvenance(),
   ]);
   const lastModified = provenance.importedAt ? new Date(provenance.importedAt) : new Date();
-  const publicRoutes = ["", "/gameweek", "/tiers", "/rankings", "/compare", "/market", "/players", "/teams", "/fixtures", "/lineups", "/data-status", "/methodology", "/privacy", "/terms", "/contact"];
+  const publicRoutes = ["", "/live", "/gameweek", "/tiers", "/rankings", "/compare", "/market", "/players", "/teams", "/fixtures", "/lineups", "/data-status", "/methodology", "/privacy", "/terms", "/contact"];
   return [
-    ...publicRoutes.map((route) => ({ url: `${siteUrl}${route}`, lastModified, changeFrequency: "weekly" as const, priority: route === "" ? 1 : .7 })),
+    ...publicRoutes.map((route) => ({ url: `${siteUrl}${route}`, lastModified, changeFrequency: route === "/live" ? "hourly" as const : "weekly" as const, priority: route === "" ? 1 : route === "/live" ? .9 : .7 })),
     ...players.map((player) => ({ url: `${siteUrl}/player/${player.slug}`, lastModified, changeFrequency: "weekly" as const, priority: .6 })),
     ...teams.map((team) => ({ url: `${siteUrl}/team/${team.slug}`, lastModified, changeFrequency: "weekly" as const, priority: .7 })),
   ];

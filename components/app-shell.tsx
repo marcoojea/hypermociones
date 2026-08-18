@@ -9,7 +9,7 @@ import { ProductRuntime } from "@/components/product-runtime";
 import { playerRepository } from "@/repositories/snapshot-player-repository";
 
 const nav = [
-  ["dashboard", "/", "Resumen"], ["gameweek", "/gameweek", "Jornada"], ["tiers", "/tiers", "Tiers"],
+  ["dashboard", "/", "Resumen"], ["live", "/live", "Live"], ["gameweek", "/gameweek", "Jornada"], ["tiers", "/tiers", "Tiers"],
   ["players", "/players", "Jugadores"], ["rankings", "/rankings", "Rankings"],
   ["my-team", "/my-team", "Mi equipo"], ["lineups", "/lineups", "Alineaciones"],
 ] as const;
@@ -54,7 +54,7 @@ export async function AppShell({ active, children }: { active: string; children:
       <div className={`data-freshness ${stale ? "data-stale" : ""}`} role={stale ? "alert" : "status"}><span><i />{stale ? "Datos pendientes de actualización" : `Datos importados el ${importedLabel}`}</span><Link href="/data-status">Ver cobertura y fuentes →</Link></div>
       <main id="main-content">{children}</main>
       <nav className="mobile-nav" aria-label="Navegación móvil">
-        {nav.filter(([key]) => ["dashboard", "gameweek", "tiers", "my-team", "lineups"].includes(key)).map(([key, href, label]) => <Link aria-current={active === key ? "page" : undefined} className={active === key ? "active" : ""} href={href} key={key}>{label}</Link>)}
+        {nav.filter(([key]) => ["dashboard", "live", "gameweek", "my-team", "lineups"].includes(key)).map(([key, href, label]) => <Link aria-current={active === key ? "page" : undefined} className={active === key ? "active" : ""} href={href} key={key}>{label}</Link>)}
       </nav>
       <footer>
         <div className="footer-brand"><strong>HYPERMOCIONES</strong><span>Analytics Fantasy independiente · 2026</span></div>

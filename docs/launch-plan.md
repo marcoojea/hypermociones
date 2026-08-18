@@ -14,6 +14,7 @@ Estado: en curso.
 - [x] Acceso visible a privacidad, condiciones, metodología y contacto.
 - [x] Onboarding de portada y explicación del almacenamiento local.
 - [x] Suite de interacción montada para navegación, botones, formularios, detalles, descargas e importaciones.
+- [x] Centro live, adaptador validado y caché central D1 implementados con degradación explícita.
 - [ ] Ejecutar manualmente QA en Chromium después de cada lote.
 - [ ] Ejecutar la matriz Firefox/WebKit antes de la release candidate.
 - [ ] Verificar cabeceras en el despliegue real, porque el proveedor puede añadir o reemplazar valores.
@@ -36,6 +37,8 @@ Estado: en curso.
 - Elegir monitorización de errores con una política de datos compatible con privacidad.
 - Decidir si se necesita analítica; definir previamente preguntas, eventos y retención.
 - Contratar un proveedor autorizado antes de presentar métricas Fantasy avanzadas como automáticas.
+- Ampliar la suscripción live para cubrir 2026/27 y comprobar `events`, `statistics_fixtures` y `statistics_players` con partidos reales.
+- Definir la plataforma Fantasy y versionar sus reglas antes de calcular puntos en directo.
 
 ## Fase 4 — Release candidate
 

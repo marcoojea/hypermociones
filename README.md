@@ -21,6 +21,7 @@ Plataforma de analytics Fantasy para LaLiga Hypermotion. Incluye jugadores y equ
 - `/market`: precios aportados por el usuario, variaciones y rentabilidad sin datos inventados.
 - `/settings/data`: copia, restauración y borrado controlado de todo el estado guardado localmente.
 - `/account`: acceso opcional con ChatGPT, perfil, preferencias y copia sincronizada entre dispositivos.
+- `/live`: marcador, minuto, eventos y métricas por partido con polling centralizado y caché D1.
 - Buscador global con `Ctrl/⌘ + K`, acciones rápidas, onboarding guiado, avisos de guardado e instalación PWA.
 - `/fixtures`: calendario y resultados reales cuando existe una importación.
 - `/data-status`: frescura, procedencia y cobertura exacta de cada grupo de métricas.
@@ -125,7 +126,7 @@ Más detalle en [docs/architecture.md](docs/architecture.md) y [docs/data-source
 | --- | --- | --- |
 | `DATABASE_URL` | Conexión PostgreSQL para migraciones y persistencia de ingesta | No, pero recomendada |
 | `DATA_PROVIDER` | Adaptador activo; predeterminado y recomendado `free-public` | No |
-| `API_FOOTBALL_API_KEY` | Clave privada del proveedor opcional API-Football | Solo para ese proveedor |
+| `API_FOOTBALL_API_KEY` | Clave privada de API-Football para `/live`; requiere cobertura contratada de 2026/27 | Solo para activar live |
 | `FOOTBALL_DATA_API_TOKEN` | Token alternativo de football-data.org | Solo para ese proveedor |
 | `NEXT_PUBLIC_SITE_URL` | URL canónica usada en metadatos y sitemap | Recomendable al publicar |
 | `NEXT_PUBLIC_ALLOW_INDEXING` | Permite robots y sitemap cuando vale `true` | No; debe permanecer `false` durante pruebas |

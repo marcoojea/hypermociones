@@ -12,6 +12,17 @@ Proveedor -> adaptador -> validación/normalización -> staging/import run
           -> repositorio de lectura -> Server Components/API -> interfaz
 ```
 
+El flujo live es independiente del snapshot editorial:
+
+```text
+Proveedor live -> validación Zod -> captura compartida D1 (TTL 30–300 s)
+               -> /api/live -> polling visible del navegador -> /live
+```
+
+La caché central evita que cada visitante consuma cuota del proveedor. Si la fuente falla, la API devuelve la última captura marcada como obsoleta; si nunca hubo una captura válida, muestra cobertura no disponible y no fabrica resultados.
+
+Mientras no exista una primera captura contratada, `/api/live` puede devolver un conjunto de resultados y estadísticas de equipo consolidados y verificados manualmente, siempre marcado como obsoleto y con enlace de procedencia. Los eventos, tiros a puerta, paradas y datos individuales permanecen ausentes si no existe una fuente suficiente. Este respaldo evita una pantalla vacía, pero no se presenta como live ni sustituye la integración autorizada.
+
 ## Límites de módulos
 
 - `domain`: tipos y reglas puras. No importa React, base de datos ni proveedores.
@@ -51,10 +62,16 @@ La persistencia usa upserts por `provider + externalId`, una transacción por sn
 
 El snapshot JSON es una proyección de lectura local, no la fuente canónica de largo plazo. Permite que el runtime web funcione sin abrir conexiones PostgreSQL desde componentes y se regenera tras cada importación. El siguiente paso será servir estas proyecciones desde una API/repositorio PostgreSQL desplegable.
 
+## Centro live
+
+`ApiFootballLiveProvider` normaliza estados, marcador, minuto, eventos, estadísticas de equipo y rendimiento individual. `/api/live` consulta primero `live_feed_cache` en D1 y solo solicita una captura nueva cuando expira. La interfaz reduce el polling a cinco minutos fuera de ventanas en juego y detiene consultas cuando la pestaña no está visible.
+
+La captura live no sustituye el histórico analítico PostgreSQL: cuando exista infraestructura de ingesta permanente, cada cierre de partido debe consolidarse en `fixtures`, `matches`, `team_match_stats` y `player_match_stats`. D1 sirve únicamente como proyección de baja latencia y caché compartida.
+
 ## Decisiones diferidas
 
 - FIS: el valor seed solo demuestra la presentación en modo demo. Con datos reales permanece ausente hasta definir, versionar y calibrar la fórmula.
 - Expected points automático: no se calcula sin histórico y backtesting. El usuario puede introducir proyecciones manuales, claramente identificadas.
-- Autenticación: no es necesaria hasta persistir plantillas de usuarios.
+- Puntuación Fantasy live: necesita plataforma y reglamento versionado; el rating del proveedor no se presenta como puntos Fantasy.
 - Servicio Python: se introduce únicamente cuando feature engineering/backtesting exceda el monolito.
-- Caché, colas y rate limiting: se seleccionarán con el primer proveedor real y sus límites contractuales.
+- Ingesta histórica live: falta desplegar PostgreSQL/cola o un almacén analítico antes de conservar cada cambio minuto a minuto.

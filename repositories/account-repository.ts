@@ -11,7 +11,7 @@ export interface AccountPreferences {
 }
 
 export async function ensureAccount(user: ChatGPTUser) {
-  const db = getSiteDb();
+  const db = await getSiteDb();
   await db.insert(accountProfiles).values({
     userId: user.userId,
     email: user.email,
@@ -24,14 +24,14 @@ export async function ensureAccount(user: ChatGPTUser) {
 }
 
 export async function getAccount(userId: string) {
-  const db = getSiteDb();
+  const db = await getSiteDb();
   const [profile] = await db.select().from(accountProfiles).where(eq(accountProfiles.userId, userId)).limit(1);
   return profile ?? null;
 }
 
 export async function updateAccount(user: ChatGPTUser, input: { displayName: string; onboardingCompleted: boolean; preferences: AccountPreferences }) {
   await ensureAccount(user);
-  const db = getSiteDb();
+  const db = await getSiteDb();
   await db.update(accountProfiles).set({
     displayName: input.displayName,
     onboardingCompleted: input.onboardingCompleted,
@@ -42,20 +42,20 @@ export async function updateAccount(user: ChatGPTUser, input: { displayName: str
 }
 
 export async function deleteAccount(userId: string) {
-  const db = getSiteDb();
+  const db = await getSiteDb();
   await db.delete(accountSnapshots).where(eq(accountSnapshots.userId, userId));
   await db.delete(accountProfiles).where(eq(accountProfiles.userId, userId));
 }
 
 export async function getAccountSnapshot(userId: string) {
-  const db = getSiteDb();
+  const db = await getSiteDb();
   const [snapshot] = await db.select().from(accountSnapshots).where(eq(accountSnapshots.userId, userId)).limit(1);
   return snapshot ?? null;
 }
 
 export async function saveAccountSnapshot(user: ChatGPTUser, payloadJson: string) {
   await ensureAccount(user);
-  const db = getSiteDb();
+  const db = await getSiteDb();
   const updatedAt = new Date().toISOString();
   await db.insert(accountSnapshots).values({ userId: user.userId, payloadJson, updatedAt }).onConflictDoUpdate({
     target: accountSnapshots.userId,
@@ -65,5 +65,6 @@ export async function saveAccountSnapshot(user: ChatGPTUser, payloadJson: string
 }
 
 export async function deleteAccountSnapshot(userId: string) {
-  await getSiteDb().delete(accountSnapshots).where(eq(accountSnapshots.userId, userId));
+  const db = await getSiteDb();
+  await db.delete(accountSnapshots).where(eq(accountSnapshots.userId, userId));
 }
