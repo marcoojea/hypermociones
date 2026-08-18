@@ -36,6 +36,14 @@ yarn-error.log*
 *.tsbuildinfo
 /hypermociones/
 
+# Playwright authentication
+/QA/playwright/auth/*.json
+
+# Playwright results
+/QA/playwright/playwright-report/
+/QA/playwright/test-results/
+/test-results/
+
 # vercel
 .vercel
 

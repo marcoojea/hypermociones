@@ -7,6 +7,7 @@ import { clampConfidence, emptyLineup, formationCodes, formations, isStoredLineu
 import { appendLineupRevision, lineupHistoryStorageKey, parseLineupHistory } from "@/domain/lineup-history";
 import type { FixtureListItem } from "@/domain/fixture";
 import type { PlayerListItem, Position, TeamSummary } from "@/domain/player";
+import { notifyProduct } from "@/domain/product-events";
 import { useAvailability } from "./use-availability";
 
 const positionOrder: Position[] = ["POR", "DEF", "MED", "DEL"];
@@ -56,6 +57,12 @@ export function LineupEditor({ teams, team, players, round, fixture }: { teams: 
     return () => window.cancelAnimationFrame(frame);
   }, [team.id, round]);
 
+  useEffect(() => {
+    const warn = (event: BeforeUnloadEvent) => { if (dirty) event.preventDefault(); };
+    window.addEventListener("beforeunload", warn);
+    return () => window.removeEventListener("beforeunload", warn);
+  }, [dirty]);
+
   const update = (transform: (current: StoredLineup) => StoredLineup) => {
     setLineup((current) => transform(current)); setDirty(true); setMessage("Cambios sin guardar");
   };
@@ -78,11 +85,12 @@ export function LineupEditor({ teams, team, players, round, fixture }: { teams: 
     localStorage.setItem(historyKey, JSON.stringify(appendLineupRevision(parseLineupHistory(localStorage.getItem(historyKey), team.id, round), saved)));
     window.dispatchEvent(new Event("hypermociones:lineup-saved"));
     setLineup(saved); setDirty(false); setMessage(`Guardada ${new Date(saved.updatedAt).toLocaleString("es-ES")}`);
+    notifyProduct("Alineación guardada.");
   };
   const reset = () => {
     localStorage.removeItem(lineupStorageKey(team.id, round));
     window.dispatchEvent(new Event("hypermociones:lineup-saved"));
-    setLineup(suggestedLineup(team.id, round, players, lineup.formation)); setDirty(false); setMessage("Borrador automático restaurado");
+    setLineup(suggestedLineup(team.id, round, players, lineup.formation)); setDirty(false); setMessage("Borrador automático restaurado"); notifyProduct("Borrador restaurado.", "info");
   };
   const exportLineup = () => {
     const blob = new Blob([JSON.stringify(lineup, null, 2)], { type: "application/json" });
@@ -94,7 +102,7 @@ export function LineupEditor({ teams, team, players, round, fixture }: { teams: 
     try {
       const parsed: unknown = JSON.parse(await file.text());
       if (!isStoredLineup(parsed, team.id, round)) throw new Error("El archivo no corresponde a este equipo y jornada.");
-      setLineup(parsed); setDirty(true); setMessage("Alineación importada · pulsa Guardar");
+      setLineup(parsed); setDirty(true); setMessage("Alineación importada · pulsa Guardar"); notifyProduct("Alineación importada; revisa y guarda.", "info");
     } catch (error) { setMessage(error instanceof Error ? error.message : "Archivo no válido"); }
   };
 

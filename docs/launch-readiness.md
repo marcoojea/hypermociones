@@ -15,6 +15,9 @@
 - Historial local de revisiones editoriales para futuros controles de acierto.
 - Renovaciones semanales agrupadas mediante Dependabot.
 - Navegación adaptable a móvil.
+- Meta robots coherente con el interruptor de indexación y cabeceras defensivas básicas.
+- Onboarding de producto, señales de confianza y acceso visible a soporte y documentos legales.
+- Visor QA con puerto local disponible automáticamente.
 - Validación de tipos, lint, build y pruebas de dominio.
 - Despliegue privado reproducible y repositorio GitHub sincronizado hasta la última versión aprobada.
 
@@ -28,6 +31,8 @@
 6. Activar el canal privado de vulnerabilidades y elegir monitorización de errores.
 7. Añadir analítica respetuosa con privacidad solo si aporta decisiones concretas.
 8. Activar `NEXT_PUBLIC_ALLOW_INDEXING=true` únicamente en el despliegue público definitivo.
+
+El orden de trabajo y los criterios de salida están detallados en [launch-plan.md](launch-plan.md).
 
 ## Criterio de honestidad analítica
 

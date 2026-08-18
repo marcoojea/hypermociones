@@ -20,6 +20,8 @@ Plataforma de analytics Fantasy para LaLiga Hypermotion. Incluye jugadores y equ
 - `/watchlist`: radar local de jugadores y alertas.
 - `/market`: precios aportados por el usuario, variaciones y rentabilidad sin datos inventados.
 - `/settings/data`: copia, restauración y borrado controlado de todo el estado guardado localmente.
+- `/account`: acceso opcional con ChatGPT, perfil, preferencias y copia sincronizada entre dispositivos.
+- Buscador global con `Ctrl/⌘ + K`, acciones rápidas, onboarding guiado, avisos de guardado e instalación PWA.
 - `/fixtures`: calendario y resultados reales cuando existe una importación.
 - `/data-status`: frescura, procedencia y cobertura exacta de cada grupo de métricas.
 - `/api/health`: comprobación mínima del servicio y del catálogo, sin exponer estado personal.
@@ -27,7 +29,7 @@ Plataforma de analytics Fantasy para LaLiga Hypermotion. Incluye jugadores y equ
 - Esquema relacional PostgreSQL preparado para histórico, ingesta, features, predicciones y backtesting.
 - Validación Zod de estadísticas entrantes y pruebas del dominio.
 
-El editor y los partes de disponibilidad se guardan por jornada en el navegador: son gratuitos, no requieren cuenta ni servidor y permiten exportar un JSON como copia de seguridad. Las incidencias se reflejan en fichas de equipo, fichas de jugador y alineaciones. Los datos que la fuente no publica se muestran como no disponibles; la aplicación no inventa métricas ni probabilidades.
+El editor y los partes de disponibilidad se guardan por jornada en el navegador: son gratuitos, no requieren cuenta y permiten exportar un JSON. Quien accede con ChatGPT puede sincronizar voluntariamente esa copia mediante la base D1 del despliegue. Las incidencias se reflejan en fichas de equipo, fichas de jugador y alineaciones. Los datos que la fuente no publica se muestran como no disponibles; la aplicación no inventa métricas ni probabilidades.
 
 Mi equipo aplica reglas configurables —tamaño de plantilla, máximo por club, formaciones, banquillo y capitán—. El optimizador usa únicamente señales disponibles y las entradas manuales del usuario. Solo suma puntos esperados cuando los once titulares tienen una proyección introducida; de lo contrario muestra el resultado como pendiente.
 
@@ -82,15 +84,21 @@ npm run build
 npm run check:release
 ```
 
-`check:release` ejecuta toda la validación en el mismo orden que GitHub. Consulta también [docs/release-checklist.md](docs/release-checklist.md).
+`check:release` ejecuta toda la validación en el mismo orden que GitHub. Consulta también [docs/release-checklist.md](docs/release-checklist.md) y la [ruta manual de 60 minutos](docs/manual-qa-60-min.md).
 
-## Base de datos
+## Bases de datos
 
-El modelo usa PostgreSQL y Drizzle. Copia `.env.example` a `.env` cuando exista una instancia local. La ingesta persiste el snapshot mediante upserts idempotentes; la aplicación usa una proyección JSON generada para mantener el runtime web desacoplado de la conexión.
+El modelo analítico usa PostgreSQL y Drizzle. Sus migraciones viven en `drizzle-postgres/`. Copia `.env.example` a `.env` cuando exista una instancia local. La ingesta persiste el snapshot mediante upserts idempotentes; la aplicación usa una proyección JSON generada para mantener el runtime web desacoplado de la conexión.
 
 ```bash
 npm run db:generate
 npm run db:migrate
+```
+
+Las cuentas y copias opcionales del sitio utilizan SQLite/D1. Su esquema está en `db/site-schema.ts` y las migraciones de despliegue en `drizzle/`:
+
+```bash
+npm run db:generate:site
 ```
 
 El esquema preserva temporalidad mediante `player_teams`, snapshots Fantasy, estados con ventana de validez, features versionadas y predicciones por versión de modelo.
@@ -104,7 +112,7 @@ data/            seed de demostración y snapshot real generado
 domain/          tipos y reglas puras
 repositories/    puertos y adaptadores de consulta
 providers/       contratos de football, fantasy y noticias
-db/              esquema PostgreSQL
+db/              esquemas PostgreSQL y SQLite/D1
 docs/            arquitectura y evaluación de fuentes
 tests/           pruebas de dominio y normalización
 ```

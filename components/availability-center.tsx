@@ -10,6 +10,7 @@ import {
   type AvailabilityRecord,
 } from "@/domain/availability";
 import type { DataProvenance, PlayerListItem, PlayerStatus, TeamSummary } from "@/domain/player";
+import { notifyProduct } from "@/domain/product-events";
 import { saveAvailabilityRecords, useAvailability } from "./use-availability";
 
 const statusLabels: Record<PlayerStatus, string> = {
@@ -73,6 +74,7 @@ export function AvailabilityCenter({ players, teams, rounds, selectedRound, prov
     saveAvailabilityRecords(selectedRound, next);
     setDraft(saved);
     setMessage(`Guardado ${new Date(saved.updatedAt).toLocaleString("es-ES")}.`);
+    notifyProduct("Disponibilidad actualizada.");
   };
 
   const clear = () => {
@@ -80,6 +82,7 @@ export function AvailabilityCenter({ players, teams, rounds, selectedRound, prov
     saveAvailabilityRecords(selectedRound, records.filter((record) => record.playerId !== selectedPlayer.id));
     setDraft(emptyAvailabilityRecord(selectedPlayer, selectedRound));
     setMessage("Edición eliminada; vuelve a aplicarse el estado del proveedor.");
+    notifyProduct("Edición de disponibilidad eliminada.", "info");
   };
 
   const exportRecords = () => {
@@ -97,6 +100,7 @@ export function AvailabilityCenter({ players, teams, rounds, selectedRound, prov
       const playerIds = new Set(players.map((player) => player.id));
       saveAvailabilityRecords(selectedRound, parsed.filter((record) => playerIds.has(record.playerId)));
       setMessage(`${parsed.length} registros importados.`);
+      notifyProduct("Disponibilidad importada.");
     } catch (error) { setMessage(error instanceof Error ? error.message : "Archivo no válido."); }
   };
 

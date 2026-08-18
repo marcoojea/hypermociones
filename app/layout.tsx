@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://hypermociones-2627.marcoojea97.chatgpt.site";
+const allowIndexing = process.env.NEXT_PUBLIC_ALLOW_INDEXING === "true";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -14,6 +15,10 @@ export const metadata: Metadata = {
     "Analytics explicable para tomar mejores decisiones Fantasy en LaLiga Hypermotion.",
   keywords: ["LaLiga Hypermotion", "Fantasy Football", "alineaciones probables", "Segunda División", "analytics fútbol"],
   category: "sports",
+  robots: allowIndexing
+    ? { index: true, follow: true }
+    : { index: false, follow: false, nocache: true },
+  formatDetection: { telephone: false, address: false, email: false },
   manifest: "/manifest.webmanifest",
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
   openGraph: {

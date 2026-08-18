@@ -13,6 +13,8 @@ const allowedPatterns = [
   /^hypermociones:watchlist:v1$/,
   /^hypermociones:planner:v1$/,
   /^hypermociones:market:v1$/,
+  /^hypermociones:onboarding:v1$/,
+  /^hypermociones:preferences:v1$/,
 ];
 
 export function isHypermocionesStorageKey(key: string) {
@@ -49,5 +51,6 @@ export function backupCategory(key: string) {
   if (key.includes(":watchlist:")) return "Seguimiento";
   if (key.includes(":planner:")) return "Planificador";
   if (key.includes(":market:")) return "Mercado";
+  if (key.includes(":onboarding:") || key.includes(":preferences:")) return "Preferencias";
   return "Otro";
 }

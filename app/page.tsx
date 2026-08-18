@@ -1,13 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { AppShell } from "@/components/app-shell";
+import { HomeWorkspace } from "@/components/home-workspace";
+import { fixtureRepository } from "@/repositories/fixture-repository";
 import { playerRepository } from "@/repositories/snapshot-player-repository";
 
 export const metadata: Metadata = { title: "Panel de jugadores" };
 
 export default async function Home() {
-  const players = await playerRepository.findMany({ sort: "fis", direction: "desc" });
-  const provenance = await playerRepository.getProvenance();
+  const [players, provenance, fixtures] = await Promise.all([
+    playerRepository.findMany({ sort: "fis", direction: "desc" }),
+    playerRepository.getProvenance(),
+    fixtureRepository.findAll(),
+  ]);
   const ranked = players.filter((player) => player.fis !== null);
   const featured = (ranked.length ? ranked : players).slice(0, 3);
   const importedLabel = provenance.importedAt ? new Date(provenance.importedAt).toLocaleDateString("es-ES", { day: "2-digit", month: "short" }) : "pendiente";
@@ -45,6 +50,18 @@ export default async function Home() {
             </Link>
           ))}
         </div>
+      </section>
+
+      <HomeWorkspace fixtures={fixtures} players={players} />
+
+      <section className="home-trust" aria-labelledby="home-trust-title">
+        <div><p className="eyebrow">Transparencia operativa</p><h2 id="home-trust-title">Datos identificados. Ausencias visibles. Control local.</h2></div>
+        <div className="trust-points">
+          <p><strong>Sin métricas inventadas</strong><span>Los campos sin fuente permanecen como no disponibles.</span></p>
+          <p><strong>Fuentes y fechas visibles</strong><span>La cobertura y la última importación pueden comprobarse.</span></p>
+          <p><strong>Privacidad por diseño</strong><span>El modo invitado permanece local; la cuenta y la sincronización son opcionales.</span></p>
+        </div>
+        <div className="trust-actions"><Link className="button" href="/data-status">Estado de los datos</Link><Link className="button" href="/privacy">Privacidad</Link><Link className="button" href="/contact">Correcciones y soporte</Link></div>
       </section>
     </AppShell>
   );

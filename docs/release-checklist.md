@@ -10,6 +10,18 @@ npm.cmd run check:release
 
 El mismo control se ejecuta en GitHub con cada subida y cada pull request.
 
+La batería Playwright se ejecuta manualmente por separado:
+
+```powershell
+npm.cmd run qa:e2e:chromium
+```
+
+Para abrir el informe se reserva automáticamente un puerto local disponible, evitando colisiones con el puerto 9323:
+
+```powershell
+npm.cmd run qa:e2e:report
+```
+
 ## Prueba manual
 
 1. Revisar portada, jugadores, equipos, partidos y estado de datos en escritorio y móvil.
@@ -23,6 +35,11 @@ El mismo control se ejecuta en GitHub con cada subida y cada pull request.
 9. Guardar confianza editorial en una alineación y comprobar `/tiers`, `/rankings` y `/gameweek`.
 10. Añadir una estrella desde `/tiers`, revisarla en `/watchlist` y exportar la copia integral.
 11. Comparar jugadores, crear un escenario en `/planner` y registrar un precio en `/market`.
+12. Completar el onboarding desde un perfil limpio y probar el buscador global con teclado.
+13. En el despliegue, acceder con ChatGPT, guardar el perfil, sincronizar una copia y restaurarla en otro perfil de navegador.
+14. Comprobar cierre de sesión y eliminación con una cuenta de prueba desechable.
+
+La ruta cronometrada completa está en [manual-qa-60-min.md](manual-qa-60-min.md).
 
 ## Decisión de lanzamiento
 
@@ -32,6 +49,7 @@ El mismo control se ejecuta en GitHub con cada subida y cada pull request.
 - Configurar `NEXT_PUBLIC_SITE_URL` con la URL definitiva.
 - Cambiar `NEXT_PUBLIC_ALLOW_INDEXING=true` solamente en el despliegue aprobado.
 - Publicar y repetir el smoke test contra la URL definitiva.
+- Completar las fases y bloqueos descritos en [launch-plan.md](launch-plan.md).
 
 ## Actualizar los datos sin usar PowerShell
 

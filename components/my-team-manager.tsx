@@ -9,6 +9,7 @@ import {
 } from "@/domain/fantasy-team";
 import { formationCodes, type FormationCode } from "@/domain/lineup";
 import type { DataProvenance, PlayerListItem, PlayerStatus, TeamSummary } from "@/domain/player";
+import { notifyProduct } from "@/domain/product-events";
 import { LineupPitch } from "./lineup-pitch";
 import { useAvailability } from "./use-availability";
 
@@ -46,6 +47,12 @@ export function MyTeamManager({ players, teams, rounds, provenance }: { players:
     return () => window.cancelAnimationFrame(frame);
   }, []);
 
+  useEffect(() => {
+    const warn = (event: BeforeUnloadEvent) => { if (dirty) event.preventDefault(); };
+    window.addEventListener("beforeunload", warn);
+    return () => window.removeEventListener("beforeunload", warn);
+  }, [dirty]);
+
   const update = (transform: (current: MyFantasyTeam) => MyFantasyTeam) => {
     setTeam((current) => transform(current)); setDirty(true); setMessage("Cambios sin guardar.");
   };
@@ -53,6 +60,7 @@ export function MyTeamManager({ players, teams, rounds, provenance }: { players:
     const saved = { ...team, updatedAt: new Date().toISOString() };
     localStorage.setItem(myTeamStorageKey, JSON.stringify(saved)); setTeam(saved); setDirty(false);
     setMessage(`Equipo guardado ${new Date(saved.updatedAt).toLocaleString("es-ES")}.`);
+    notifyProduct("Mi equipo se ha guardado.");
   };
   const addPlayer = (player: PlayerListItem) => {
     if (entryById.has(player.id)) return;
@@ -63,7 +71,7 @@ export function MyTeamManager({ players, teams, rounds, provenance }: { players:
   };
   const updateEntry = (playerId: string, values: Partial<FantasySquadEntry>) => update((current) => ({ ...current, squad: current.squad.map((entry) => entry.playerId === playerId ? { ...entry, ...values } : entry) }));
   const removePlayer = (playerId: string) => update((current) => ({ ...current, squad: current.squad.filter((entry) => entry.playerId !== playerId) }));
-  const reset = () => { localStorage.removeItem(myTeamStorageKey); setTeam(emptyFantasyTeam(rounds[0] ?? 1)); setDirty(false); setMessage("Plantilla reiniciada."); };
+  const reset = () => { localStorage.removeItem(myTeamStorageKey); setTeam(emptyFantasyTeam(rounds[0] ?? 1)); setDirty(false); setMessage("Plantilla reiniciada."); notifyProduct("Mi equipo se ha reiniciado.", "info"); };
   const loadTestSquad = () => {
     const quotas = new Map([["POR", 2], ["DEF", 8], ["MED", 8], ["DEL", 7]] as const);
     const selected: FantasySquadEntry[] = [];
@@ -88,6 +96,7 @@ export function MyTeamManager({ players, teams, rounds, provenance }: { players:
       const knownIds = new Set(players.map((player) => player.id));
       const sanitized = { ...parsed, squad: parsed.squad.filter((entry) => knownIds.has(entry.playerId)) };
       setTeam(sanitized); setDirty(true); setMessage(`${sanitized.squad.length} jugadores importados; pulsa Guardar.`);
+      notifyProduct("Plantilla importada; revisa y guarda los cambios.", "info");
     } catch (error) { setMessage(error instanceof Error ? error.message : "Archivo no válido."); }
   };
 

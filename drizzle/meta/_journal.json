@@ -1,26 +1,12 @@
 {
   "version": "7",
-  "dialect": "postgresql",
+  "dialect": "sqlite",
   "entries": [
     {
       "idx": 0,
-      "version": "7",
-      "when": 1786473620792,
-      "tag": "0000_illegal_korg",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1786474014729,
-      "tag": "0001_fuzzy_lily_hollister",
-      "breakpoints": true
-    },
-    {
-      "idx": 2,
-      "version": "7",
-      "when": 1786475551875,
-      "tag": "0002_remarkable_kronos",
+      "version": "6",
+      "when": 1787056076001,
+      "tag": "0000_handy_cable",
       "breakpoints": true
     }
   ]
