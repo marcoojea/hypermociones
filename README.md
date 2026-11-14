@@ -1,5 +1,9 @@
 # Hypermociones
 
+> **EN:** Fantasy football analytics platform for LaLiga Hypermotion, with 2026/27 players and teams, match calendar, club pages, a lineup editor and a team optimizer that uses only available signals. Built with React, TypeScript, Vite, Zod and PostgreSQL schemas.
+>
+> **Estado: pausado.** Último cambio de código en agosto de 2026. Se mantiene público como referencia.
+
 Plataforma de analytics Fantasy para LaLiga Hypermotion. Incluye jugadores y equipos reales 2026/27, calendario, fichas de club y un editor completo de alineaciones probables.
 
 ## Estado actual
