@@ -1,6 +1,9 @@
 name: Refresh official data
 
 on:
+  schedule:
+    # Monday and Thursday 06:00 UTC. Data older than 7 days fails the quality gate.
+    - cron: "0 6 * * 1,4"
   workflow_dispatch:
 
 permissions:
@@ -42,4 +45,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/generated/real-data.json data/generated/rfef-history.json data/generated/player-intelligence.json
           git commit -m "chore(data): refresh catalog and player intelligence"
+          git pull --rebase --autostash
           git push
