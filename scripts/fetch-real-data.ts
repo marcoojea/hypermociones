@@ -1,6 +1,7 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
-import { buildRealDataSnapshot } from "@/providers/football/build-real-data-snapshot";
+import type { RealDataSnapshot } from "@/data/real-data-types";
+import { buildRealDataSnapshot, carryOverEmptyTeams } from "@/providers/football/build-real-data-snapshot";
 import { FootballDataOrgProvider } from "@/providers/football/football-data-org";
 import { ApiFootballProvider } from "@/providers/football/api-football";
 import { FreePublicProvider } from "@/providers/football/free-public";
@@ -30,8 +31,10 @@ async function main() {
   } else {
     throw new Error(`DATA_PROVIDER desconocido: ${providerName}. Usa free-public, api-football o football-data-org.`);
   }
-  const snapshot = await buildRealDataSnapshot(provider, seasonStartYear, includePlayerAggregates);
   const outputDirectory = resolve("data/generated");
+  const previous = await readFile(resolve(outputDirectory, "real-data.json"), "utf8").then((text) => JSON.parse(text) as RealDataSnapshot).catch(() => null);
+  const snapshot = carryOverEmptyTeams(await buildRealDataSnapshot(provider, seasonStartYear, includePlayerAggregates), previous);
+  if (snapshot.metadata?.carriedOverTeams?.length) console.warn(`RFEF no publicó plantilla para ${snapshot.metadata.carriedOverTeams.join(", ")}: se conserva la anterior.`);
   await mkdir(outputDirectory, { recursive: true });
   await writeFile(resolve(outputDirectory, "real-data.json"), `${JSON.stringify(snapshot, null, 2)}\n`, "utf8");
   if (process.env.DATABASE_URL) await persistRealDataSnapshot(snapshot, process.env.DATABASE_URL);

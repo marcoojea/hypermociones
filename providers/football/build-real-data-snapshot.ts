@@ -5,6 +5,16 @@ import type { FootballDataProvider, ProviderPlayerAggregate } from "./football-d
 
 const palette = ["#d9e6d5", "#f3d55b", "#d7e7f5", "#efc6c2", "#d8cbe8", "#cfe8e2"];
 
+// A team RFEF returned without players keeps its last roster and the snapshot says so. No previous roster means failing.
+export function carryOverEmptyTeams(snapshot: RealDataSnapshot, previous: RealDataSnapshot | null): RealDataSnapshot {
+  const emptyTeams = snapshot.teams.filter((team) => !snapshot.players.some((player) => player.team.id === team.id));
+  if (emptyTeams.length === 0) return snapshot;
+  const missing = emptyTeams.filter((team) => !previous?.players.some((player) => player.team.id === team.id)).map((team) => team.name);
+  if (missing.length > 0) throw new Error(`Sin plantilla RFEF ni plantilla anterior para: ${missing.join(", ")}.`);
+  const restored = emptyTeams.flatMap((team) => (previous?.players ?? []).filter((player) => player.team.id === team.id).map((player) => ({ ...player, team })));
+  return { ...snapshot, players: [...snapshot.players, ...restored], metadata: snapshot.metadata && { ...snapshot.metadata, carriedOverTeams: emptyTeams.map((team) => team.name) } };
+}
+
 function slugify(value: string) {
   return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("es").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }

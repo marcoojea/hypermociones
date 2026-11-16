@@ -31,6 +31,9 @@ async function requestCached(cacheName: string, parameters: Record<string, strin
 await mkdir(CACHE_DIR, { recursive: true });
 const catalogPlayers = snapshotJson.players as PlayerListItem[];
 const historical: RfefHistoricalPlayer[] = [];
+// RFEF sometimes returns a profile without the 2025/26 table. Keep the last value read for that player instead of dropping it.
+const previousById = new Map(((await readFile(OUTPUT_PATH, "utf8").then((text) => JSON.parse(text) as RfefHistorySnapshot).catch(() => null))?.players ?? []).map((item) => [item.playerId, item]));
+let carried = 0;
 let cursor = 0;
 async function worker() {
   while (cursor < catalogPlayers.length) {
@@ -39,10 +42,9 @@ async function worker() {
     const sourceTeamId = current.team.id.replace(/^fd-team-/, "");
     const sourcePlayerId = current.id.replace(/^fd-player-/, "");
     const profileHtml = await requestCached(`player-${sourcePlayerId}-${sourceTeamId}-${SEASON}.html`, { type: "player_info_ajax", id: sourcePlayerId, team: sourceTeamId, season: SEASON }, true);
-    if (profileHtml) {
-      const stats = parseRfefPlayerHistory(profileHtml);
-      if (stats) historical.push({ playerId: current.id, sourcePlayerId, teamId: current.team.id, season: "2025/26", sourceUrl: playerSourceUrl(sourcePlayerId, sourceTeamId), ...stats });
-    }
+    const stats = profileHtml ? parseRfefPlayerHistory(profileHtml) : null;
+    if (stats) historical.push({ playerId: current.id, sourcePlayerId, teamId: current.team.id, season: "2025/26", sourceUrl: playerSourceUrl(sourcePlayerId, sourceTeamId), ...stats });
+    else if (previousById.has(current.id)) { historical.push({ ...previousById.get(current.id)!, teamId: current.team.id }); carried += 1; }
     if (cursor % 50 === 0) console.log(`${cursor}/${catalogPlayers.length} fichas procesadas · ${historical.length} con histórico`);
   }
 }
@@ -51,4 +53,4 @@ await Promise.all([worker(), worker(), worker()]);
 const result: RfefHistorySnapshot = { metadata: { provider: "RFEF / widget público de competición", importedAt: new Date().toISOString(), season: "2025/26", matchedPlayers: historical.length, catalogPlayers: catalogPlayers.length,
   note: "Las titularidades se derivan como PJ menos apariciones como suplente (columna S de la ficha pública). Solo se usa el identificador estable de cada jugador del catálogo actual." }, players: historical.sort((a, b) => a.playerId.localeCompare(b.playerId)) };
 await writeFile(OUTPUT_PATH, `${JSON.stringify(result, null, 2)}\n`, "utf8");
-console.log(`Histórico RFEF generado: ${historical.length}/${catalogPlayers.length} jugadores actuales con métricas 2025/26.`);
+console.log(`Histórico RFEF generado: ${historical.length}/${catalogPlayers.length} jugadores actuales con métricas 2025/26 (${carried} conservados de la importación anterior).`);

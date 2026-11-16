@@ -13,6 +13,8 @@ export interface RealDataSnapshot {
     importedAt: string;
     includesPlayerAggregates: boolean;
     unavailableMetrics: readonly string[];
+    // Teams whose RFEF roster was empty in this import and kept the previous one.
+    carriedOverTeams?: readonly string[];
   } | null;
   teams: TeamSummary[];
   players: PlayerListItem[];

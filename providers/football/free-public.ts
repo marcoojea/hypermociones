@@ -72,19 +72,29 @@ export class FreePublicProvider implements FootballDataProvider {
   private readonly requestIntervalMs: number;
   constructor(requestIntervalMs = 500) { this.requestIntervalMs = requestIntervalMs; }
 
+  // RFEF sometimes answers "No hay datos disponibles" for a team. Retry, then return no players; the caller decides what to keep.
+  private async fetchTeamPlayers(teamId: string): Promise<ProviderPlayer[]> {
+    const query = new URLSearchParams({ type: "team_info", competition: "2", team: teamId, style: "rfef" });
+    for (let attempt = 1; ; attempt++) {
+      const response = await fetch(`${RFEF_WIDGET_URL}?${query}`, { headers: { Accept: "text/html", "User-Agent": "Hypermociones/0.1 (plantillas RFEF; caché local)" } });
+      if (!response.ok) throw new Error(`La ficha RFEF respondió ${response.status} para el equipo ${teamId}.`);
+      const parsed = parseRfefTeamWidget(await response.text(), teamId);
+      if (parsed.players.length > 0) {
+        for (const [playerId, aggregate] of parsed.aggregates) this.aggregates.set(playerId, aggregate);
+        return parsed.players;
+      }
+      if (attempt === 3) return [];
+      await new Promise((resolve) => setTimeout(resolve, 5_000));
+    }
+  }
+
   private requestPlayers(teamId: string): Promise<ProviderPlayer[]> {
     let resolveRequest!: (players: ProviderPlayer[]) => void;
     let rejectRequest!: (error: unknown) => void;
     const result = new Promise<ProviderPlayer[]>((resolve, reject) => { resolveRequest = resolve; rejectRequest = reject; });
     this.requestQueue = this.requestQueue.then(async () => {
       try {
-        const query = new URLSearchParams({ type: "team_info", competition: "2", team: teamId, style: "rfef" });
-        const response = await fetch(`${RFEF_WIDGET_URL}?${query}`, { headers: { Accept: "text/html", "User-Agent": "Hypermociones/0.1 (plantillas RFEF; caché local)" } });
-        if (!response.ok) throw new Error(`La ficha RFEF respondió ${response.status} para el equipo ${teamId}.`);
-        const parsed = parseRfefTeamWidget(await response.text(), teamId);
-        if (parsed.players.length === 0) throw new Error(`La ficha RFEF no devolvió jugadores para el equipo ${teamId}.`);
-        for (const [playerId, aggregate] of parsed.aggregates) this.aggregates.set(playerId, aggregate);
-        resolveRequest(parsed.players);
+        resolveRequest(await this.fetchTeamPlayers(teamId));
       } catch (error) { rejectRequest(error); }
       if (this.requestIntervalMs > 0) await new Promise((resolve) => setTimeout(resolve, this.requestIntervalMs));
     });
