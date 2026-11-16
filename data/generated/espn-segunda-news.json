@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "fetchedAt": "2026-11-16T12:43:18.104Z",
+    "source": "ESPN (API no oficial)",
+    "season": "2026-27",
+    "errors": []
+  },
+  "articles": [
+    {
+      "headline": "Tenerife pay tribute to Jesús de Miguel in first match since his death",
+      "published": "2026-11-15T19:33:29Z",
+      "link": "https://www.espn.com/soccer/story/_/id/50491662/tenerife-tribute-jesus-de-miguel-first-match-death",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Goalkeeper banned 12 games for collision that led to Spanish player's death",
+      "published": "2026-11-14T16:23:14Z",
+      "link": "https://www.espn.com/soccer/story/_/id/50474551/andorra-goalkeeper-jesus-owono-tenerife-death-jesus-de-miguel",
+      "injuryCandidate": true
+    },
+    {
+      "headline": "Andorra boss: Jesús Owono to decide if or when to return after Jesús de Miguel death",
+      "published": "2026-11-12T17:58:16Z",
+      "link": "https://www.espn.com/soccer/story/_/id/50462344/jesus-de-miguel-death-tenerife-jesus-owono-andorra",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Spain coach, Real Madrid president attend funeral of Tenerife's Jesús de Miguel",
+      "published": "2026-11-05T17:47:02Z",
+      "link": "https://www.espn.com/soccer/story/_/id/50389136/spain-coach-madrid-president-attend-de-miguel-funeral",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Jesús de Miguel death: Tenerife player honoured by rival club Las Palmas",
+      "published": "2026-11-05T11:34:27Z",
+      "link": "https://www.espn.com/soccer/story/_/id/50387105/jesus-de-miguel-death-tenerife-honoured-las-palmas",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Spanish medical official questions pitchside emergency protocols after De Miguel's death",
+      "published": "2026-11-05T09:14:08Z",
+      "link": "https://www.espn.com/soccer/story/_/id/50383582/medical-official-pitchside-emergency-upgrades-de-miguel-death",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Andorra GK Owono on De Miguel death: 'Most difficult days of my life'",
+      "published": "2026-11-05T02:20:21Z",
+      "link": "https://www.espn.com/soccer/story/_/id/50379500/andorra-gk-owono-statement-de-miguel-death-difficult-days",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Jesús de Miguel death: Goalkeeper involved in incident 'deeply affected'",
+      "published": "2026-11-04T17:33:17Z",
+      "link": "https://www.espn.com/soccer/story/_/id/50377166/jesus-de-miguel-death-goalkeeper-jesus-owono",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Jesús de Miguel dies: Arsenal, Man United lead tributes from Premier League",
+      "published": "2026-11-03T15:13:42Z",
+      "link": "https://www.espn.com/soccer/story/_/id/50368827/jesus-de-miguel-dies-arsenal-man-united-lead-tributes-premier-league",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Tenerife's Jesús de Miguel dies after on-field collision; police open investigation",
+      "published": "2026-11-04T08:57:03Z",
+      "link": "https://www.espn.com/soccer/story/_/id/50366968/tenerife-forward-jesus-de-miguel-dies-game-cardiac-arrest",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Tenerife forward Jesús De Miguel 'stable' after in-game cardiac arrest",
+      "published": "2026-11-02T23:31:53Z",
+      "link": "https://www.espn.com/soccer/story/_/id/50361749/tenerife-de-miguel-stable-cardiac-arrest",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Spain's top two football divisions to observe minute's silence for train crash victims",
+      "published": "2026-10-29T10:32:00Z",
+      "link": "https://www.espn.com/soccer/story/_/id/50316339/spain-top-two-football-divisions-observe-minutes-silence-train-crash-victims",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Need a pre-World Cup soccer fix? There's plenty to watch, if you know where to look",
+      "published": "2026-05-31T09:02:24Z",
+      "link": "https://www.espn.com/soccer/story/_/id/48919132/need-pre-world-cup-soccer-fix-there-plenty-watch-know-where-look",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Both goalkeepers sent off after big brawl in Spain's 2nd tier",
+      "published": "2026-04-27T23:31:15Z",
+      "link": "https://www.espn.com/soccer/story/_/id/48603165/both-goalkeepers-sent-big-brawl-spain-2nd-tier",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Second-division match in Spain abandoned after fan's death",
+      "published": "2025-11-09T19:29:01Z",
+      "link": "https://www.espn.com/soccer/story/_/id/46906722/second-division-match-spain-abandoned-fan-death",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Soccer's longest away trips: Truro's got nothing on the 'Distance Derby'",
+      "published": "2025-10-27T09:38:13Z",
+      "link": "https://www.espn.com/soccer/story/_/id/46678079/soccer-longest-away-trips-truros-got-distance-derby",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Santi Cazorla helps Real Oviedo end 24-year LaLiga absence",
+      "published": "2025-06-21T22:49:05Z",
+      "link": "https://www.espn.com/soccer/story/_/id/45558434/santi-cazorla-real-oviedo-promoted-laliga-playoff-final",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Oviedo book LaLiga ticket with stunning extra time winner",
+      "published": "2025-06-21T21:53:03Z",
+      "link": "https://www.espn.com/video/clip?id=45558192",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Santi Cazorla: Ex-Arsenal star fires Real Oviedo to LaLiga playoff final",
+      "published": "2025-06-12T10:31:11Z",
+      "link": "https://www.espn.com/soccer/story/_/id/45497520/santi-cazorla-ex-arsenal-star-fires-real-oviedo-laliga-playoff-final",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Santi Cazorla's brilliant free-kick sends Oviedo to LaLiga promotion final",
+      "published": "2025-06-12T09:00:50Z",
+      "link": "https://www.espn.com/video/clip?id=45497275",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "40-year-old Santi Cazorla sends Real Oviedo to playoff final",
+      "published": "2025-06-11T23:03:57Z",
+      "link": "https://www.espn.com/video/clip?id=45494635",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Footballer hospitalised after falling into sea while taking a selfie",
+      "published": "2025-05-18T11:44:42Z",
+      "link": "https://www.espn.com/soccer/story/_/id/45205566/footballer-hospitalised-falling-sea-taking-selfie",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Shell shock: Elche ban sunflower seeds to clean up stadium",
+      "published": "2025-05-01T15:00:47Z",
+      "link": "https://www.espn.com/soccer/story/_/id/44950220/shell-shock-elche-ban-sunflower-seeds-clean-stadium",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "PSG owners QSI finalising Málaga purchase - source",
+      "published": "2025-03-27T18:17:10Z",
+      "link": "https://www.espn.com/soccer/story/_/id/44430218/psg-owners-qsi-finalising-malaga-purchase-source",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Cazorla is living his dream, trying to take Oviedo to LaLiga",
+      "published": "2025-01-16T13:03:27Z",
+      "link": "https://www.espn.com/soccer/story/_/id/43422901/santi-cazorla-living-dream-trying-take-real-oviedo-laliga",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "As Madrid await, meet the owner behind Leganes' LaLiga push",
+      "published": "2024-11-24T10:59:29Z",
+      "link": "https://www.espn.com/soccer/story/_/id/40136338/how-ex-mlb-exec-leganes-laliga-push-cancun-title",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Valencia-Real Madrid among games postponed amid fatal floods",
+      "published": "2024-10-31T19:50:19Z",
+      "link": "https://www.espn.com/soccer/story/_/id/42110187/valencia-real-madrid-games-postponed-amid-fatal-floods",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Spain promotes Marta Huerta de Aza, first female ref to call men's game",
+      "published": "2024-06-24T17:29:37Z",
+      "link": "https://www.espn.com/soccer/story/_/id/40421785/spain-promotes-de-aza-first-female-ref-men-game",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Meet Mario Suarez and the rebuilding process of Atletico Madrid",
+      "published": "2024-03-14T17:04:52Z",
+      "link": "https://www.espn.com/video/clip?id=39731181",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Valencia, Levante games postponed after deadly fire in city",
+      "published": "2024-02-23T13:30:43Z",
+      "link": "https://www.espn.com/soccer/story/_/id/39582136/valencia-levante-games-postponed-deadly-fire-city",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "How realistic is Girona's chance to win LaLiga?",
+      "published": "2024-01-12T19:48:38Z",
+      "link": "https://www.espn.com/video/clip?id=39294667",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Referee, VAR discussions to be made public in LaLiga",
+      "published": "2023-12-19T12:27:04Z",
+      "link": "https://www.espn.com/soccer/story/_/id/39145312/referee-var-discussions-made-public-laliga",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Cordoba's Dragisa Gudelj collapses again in Spain",
+      "published": "2023-12-03T19:24:26Z",
+      "link": "https://www.espn.com/soccer/story/_/id/39034631/cordoba-dragisa-gudelj-collapses-again-spain",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Pique to move, rename FC Andorra after stadium row with govt.",
+      "published": "2023-10-07T14:15:08Z",
+      "link": "https://www.espn.com/soccer/story/_/id/38591516/gerard-pique-move-rename-fc-andorra-stadium-row-govt",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Alaves' playoff promotion is a barely believable true story",
+      "published": "2023-06-18T18:49:00Z",
+      "link": "https://www.espn.com/soccer/story/_/id/37873858/alaves-playoff-promotion-barely-believable-true-story",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Getafe and Cadiz play out goalless draw",
+      "published": "2022-11-05T15:19:09Z",
+      "link": "https://www.espn.com/video/clip?id=34953418",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Former Astros general manager Jeff Luhnow buys Spanish soccer club Leganes",
+      "published": "2023-05-17T04:34:50Z",
+      "link": "https://www.espn.com/soccer/story/_/id/37629546/former-astros-general-manager-jeff-luhnow-buys-spanish-soccer-club-leganes",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Cristhian Stuani and Girona's long, unfortunate road back to LaLiga runs through Tenerife",
+      "published": "2023-05-17T04:35:31Z",
+      "link": "https://www.espn.com/soccer/story/_/id/37629396/cristhian-stuani-girona-long-unfortunate-road-back-laliga-runs-tenerife",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Nigeria's Kelechi  Nwakali accuses Huesca of bullying over AFCON call-up",
+      "published": "2023-05-17T04:43:45Z",
+      "link": "https://www.espn.com/soccer/story/_/id/37627149/nigeria-kelechi-nwakali-accuses-huesca-bullying-afcon-call-up",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Ex-Liverpool, Real Madrid midfielder Xabi Alonso makes history at Real Sociedad B",
+      "published": "2023-05-17T05:19:49Z",
+      "link": "https://www.espn.com/soccer/story/_/id/37617535/ex-liverpool-real-madrid-midfielder-xabi-alonso-makes-history-real-sociedad-b",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Real Mallorca join Segunda winners Espanyol in La Liga promotion",
+      "published": "2023-05-17T05:20:22Z",
+      "link": "https://www.espn.com/soccer/story/_/id/37617394/real-mallorca-join-segunda-winners-espanyol-la-liga-promotion",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "PSG target Mohamed Salah; Manchester United in pole position for Jadon Sancho",
+      "published": "2023-05-19T18:39:34Z",
+      "link": "https://www.espn.com/soccer/story/_/id/37617139/psg-target-mohamed-salah-manchester-united-pole-position-jadon-sancho",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Barcelona legend Xavi could become club's Alex Ferguson says presidential hopeful",
+      "published": "2023-05-17T05:42:15Z",
+      "link": "https://www.espn.com/soccer/story/_/id/37608827/barcelona-legend-xavi-become-club-alex-ferguson-says-presidential-hopeful",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Man City's Messi transfer pursuit criticised by La Liga chief",
+      "published": "2023-05-17T05:42:26Z",
+      "link": "https://www.espn.com/soccer/story/_/id/37608791/man-city-messi-transfer-pursuit-criticised-la-liga-chief",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Bayern Munich agree €15m deal to sign Marc Roca from Espanyol - sources",
+      "published": "2023-05-17T05:47:33Z",
+      "link": "https://www.espn.com/soccer/story/_/id/37587967/bayern-munich-agree-15m-deal-sign-marc-roca-espanyol-sources",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Malaga could sack half of first-team squad to ease financial issues",
+      "published": "2023-05-17T05:52:12Z",
+      "link": "https://www.espn.com/soccer/story/_/id/37586349/malaga-sack-half-first-team-squad-ease-financial-issues",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Spain FA rules that Fuenlabrada-Deportivo game to be played Wednesday",
+      "published": "2023-05-17T05:54:31Z",
+      "link": "https://www.espn.com/soccer/story/_/id/37585741/spain-fa-rules-fuenlabrada-deportivo-game-played-wednesday",
+      "injuryCandidate": false
+    },
+    {
+      "headline": "Segunda game suspended again after coronavirus outbreak",
+      "published": "2023-05-17T05:55:25Z",
+      "link": "https://www.espn.com/soccer/story/_/id/37585496/segunda-game-suspended-again-coronavirus-outbreak",
+      "injuryCandidate": true
+    },
+    {
+      "headline": "Chaos in Spain as Segunda game suspended after coronavirus outbreak",
+      "published": "2023-05-17T05:56:00Z",
+      "link": "https://www.espn.com/soccer/story/_/id/37585340/chaos-spain-segunda-game-suspended-coronavirus-outbreak",
+      "injuryCandidate": true
+    },
+    {
+      "headline": "MLS new club Charlotte signs Spanish midfielder Sergio Ruiz",
+      "published": "2023-05-17T05:57:35Z",
+      "link": "https://www.espn.com/soccer/story/_/id/37584932/mls-new-club-charlotte-signs-spanish-midfielder-sergio-ruiz",
+      "injuryCandidate": false
+    }
+  ]
+}

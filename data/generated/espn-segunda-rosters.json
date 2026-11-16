@@ -1,0 +1,5726 @@
+{
+  "metadata": {
+    "fetchedAt": "2026-11-16T12:43:18.099Z",
+    "source": "ESPN (API no oficial)",
+    "season": "2026-27",
+    "errors": []
+  },
+  "teams": [
+    {
+      "teamName": "Almería",
+      "espnTeamId": "6832",
+      "athletes": [
+        {
+          "espnId": "28065",
+          "name": "Jesus Lopez",
+          "position": "G",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "87897",
+          "name": "Andrés Fernández",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "161896",
+          "name": "Fernando Martínez",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "377529",
+          "name": "Áron Yaakobishvili",
+          "position": "G",
+          "jersey": "31",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "152557",
+          "name": "Jorge Pulido",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "155584",
+          "name": "Rodrigo Ely",
+          "position": "D",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "178896",
+          "name": "Álex Muñoz",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "268439",
+          "name": "Chumi",
+          "position": "D",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "283833",
+          "name": "Federico Bonini",
+          "position": "D",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "297291",
+          "name": "Daijiro Chirino",
+          "position": "D",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "344843",
+          "name": "Leonardo Lelo",
+          "position": "D",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "347438",
+          "name": "Marcos Luna Marcos Ruiz",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "414761",
+          "name": "Andrej Popovic",
+          "position": "D",
+          "jersey": "32",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "5326668",
+          "name": "Ayouba Koné",
+          "position": "D",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "214275",
+          "name": "Javi Muñoz",
+          "position": "M",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "222373",
+          "name": "Mikel Vesga",
+          "position": "M",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "290565",
+          "name": "Nicolás Melamed",
+          "position": "M",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "307917",
+          "name": "Sergio Arribas",
+          "position": "M",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "324005",
+          "name": "Guilherme Borges Guedes",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "376425",
+          "name": "Quim Junyent",
+          "position": "M",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "389437",
+          "name": "Stefan Dzodic",
+          "position": "M",
+          "jersey": "29",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "396775",
+          "name": "Kassoum Koné",
+          "position": "M",
+          "jersey": "26",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3115619",
+          "name": "Daniel Sánchez",
+          "position": "M",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "41549",
+          "name": "Ibrahima Koné",
+          "position": "F",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "175010",
+          "name": "Léo Baptistão",
+          "position": "F",
+          "jersey": "12",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "193130",
+          "name": "Adri Embarba",
+          "position": "F",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "277717",
+          "name": "Miguel de la Fuente",
+          "position": "F",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "286167",
+          "name": "Álex Sola",
+          "position": "F",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "306578",
+          "name": "Jon Morcillo",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "352285",
+          "name": "Brian Cipenga",
+          "position": "F",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "361458",
+          "name": "Thalys",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Castellón",
+      "espnTeamId": "4438",
+      "athletes": [
+        {
+          "espnId": "288729",
+          "name": "Amir Saipi",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "290546",
+          "name": "Romain Matthys",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "375517",
+          "name": "Sergi Torner",
+          "position": "G",
+          "jersey": "35",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "153315",
+          "name": "Federico Ceccherini",
+          "position": "D",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "192132",
+          "name": "Alberto",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "251774",
+          "name": "Fabrizio Brignani",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "251935",
+          "name": "Juanjo",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "289894",
+          "name": "Jeremy Mellot",
+          "position": "D",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "303324",
+          "name": "Agustín Sienra",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "354041",
+          "name": "Martín Conde",
+          "position": "D",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "355900",
+          "name": "Ilias Kostis",
+          "position": "D",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "388057",
+          "name": "Lucas Alcázar",
+          "position": "D",
+          "jersey": "12",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "407949",
+          "name": "Michal Willmann",
+          "position": "D",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "89223",
+          "name": "Antonio Gala",
+          "position": "M",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "97583",
+          "name": "Francisco Castillo",
+          "position": "M",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "193909",
+          "name": "Axel Pérez",
+          "position": "M",
+          "jersey": "32",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "227414",
+          "name": "Iñigo Córdoba",
+          "position": "M",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "261186",
+          "name": "Diego Hernández Barriuso",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "272720",
+          "name": "Jari Vlak",
+          "position": "M",
+          "jersey": "25",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "278015",
+          "name": "Israel Suero",
+          "position": "M",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331546",
+          "name": "Álvaro Martín",
+          "position": "M",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "405713",
+          "name": "Matías Orozco",
+          "position": "M",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3125585",
+          "name": "Óscar Albiol Giner",
+          "position": "M",
+          "jersey": "31",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3125601",
+          "name": "José Nadal Sanchis",
+          "position": "M",
+          "jersey": "36",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3135838",
+          "name": "Manuel Juan Portela",
+          "position": "M",
+          "jersey": "38",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "47036",
+          "name": "Jaime Pérez",
+          "position": "F",
+          "jersey": "34",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "264285",
+          "name": "Raúl Sánchez",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "274984",
+          "name": "Adam Jakobsen",
+          "position": "F",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "297042",
+          "name": "David",
+          "position": "F",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "311793",
+          "name": "Varo",
+          "position": "F",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "375769",
+          "name": "Pablo Santiago",
+          "position": "F",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "401594",
+          "name": "Hamza Bellari",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "412188",
+          "name": "Ousmane Camara",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "412307",
+          "name": "Miguelon",
+          "position": "F",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "415025",
+          "name": "Rodrigo Rêgo",
+          "position": "F",
+          "jersey": "26",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Granada",
+      "espnTeamId": "3747",
+      "athletes": [
+        {
+          "espnId": "153481",
+          "name": "Raúl Lizoain",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "185100",
+          "name": "Alberto Flores",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "392986",
+          "name": "Iker Garcia",
+          "position": "M",
+          "jersey": "37",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "173611",
+          "name": "Sergio López",
+          "position": "D",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "220716",
+          "name": "Benedikt Gimber",
+          "position": "D",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "264488",
+          "name": "Diego Pampín",
+          "position": "D",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "312144",
+          "name": "Manu Lama",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "313347",
+          "name": "Baila Diallo",
+          "position": "D",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "332011",
+          "name": "Pau Casadesús",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "356227",
+          "name": "Diego Hormigo",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "412251",
+          "name": "Juanjo",
+          "position": "D",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "423021",
+          "name": "Bourama Dembelé",
+          "position": "D",
+          "jersey": "35",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3128636",
+          "name": "Ángelo García Hidalgo",
+          "position": "D",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "186181",
+          "name": "Gerard Gumbau",
+          "position": "M",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "214317",
+          "name": "Rubén Alcaraz",
+          "position": "M",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "330246",
+          "name": "Pedro Alemañ",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "409385",
+          "name": "Mario Jiménez Gambin",
+          "position": "M",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3094331",
+          "name": "Dylan Rodríguez Vellisca",
+          "position": "M",
+          "jersey": "32",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3140846",
+          "name": "Manuel Maza Barranco",
+          "position": "M",
+          "jersey": "34",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "229522",
+          "name": "José Arnaiz",
+          "position": "F",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "269263",
+          "name": "Kader Bamba",
+          "position": "F",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "271900",
+          "name": "Alejandro Marqués",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "343634",
+          "name": "Jorge Pascual Medina",
+          "position": "F",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "384447",
+          "name": "Sergio Rodelas",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3094492",
+          "name": "Owen Mira Chukwuemeka",
+          "position": "F",
+          "jersey": "36",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3128637",
+          "name": "Chinaza Marvellous Onouha Okonyia",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Girona",
+      "espnTeamId": "9812",
+      "athletes": [
+        {
+          "espnId": "164469",
+          "name": "Paulo Gazzaniga",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "259908",
+          "name": "Sergi Puig",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "367976",
+          "name": "Vladyslav Krapyvtsov",
+          "position": "G",
+          "jersey": "25",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "399407",
+          "name": "Jordi Danso",
+          "position": "G",
+          "jersey": "44",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "30377",
+          "name": "Álex Moreno",
+          "position": "D",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "160740",
+          "name": "David López",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "241139",
+          "name": "Abdul Mumin",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "265992",
+          "name": "Mateu Morey",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "297825",
+          "name": "Alejandro Francés",
+          "position": "D",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "373877",
+          "name": "Javier Boñar",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "403881",
+          "name": "Mauro Furtado",
+          "position": "D",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "409290",
+          "name": "Gibert Jordana",
+          "position": "D",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "422939",
+          "name": "Holmes Zamorano",
+          "position": "D",
+          "jersey": "38",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3118648",
+          "name": "Guillem Badía Gutiérrez",
+          "position": "D",
+          "jersey": "39",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "215717",
+          "name": "Donny van de Beek",
+          "position": "M",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "242383",
+          "name": "Fran Beltrán",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "279748",
+          "name": "Unai Hernandez",
+          "position": "M",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "297369",
+          "name": "Ivan Ruiz Morante",
+          "position": "M",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "311056",
+          "name": "Yáser Asprilla",
+          "position": "M",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "375753",
+          "name": "Izan González",
+          "position": "M",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "384393",
+          "name": "Lancinet Kourouma",
+          "position": "M",
+          "jersey": "29",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "113737",
+          "name": "Cristhian Stuani",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "152166",
+          "name": "Portu",
+          "position": "F",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "261468",
+          "name": "Carles Pérez",
+          "position": "F",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "261613",
+          "name": "Abel Ruiz",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "284429",
+          "name": "Bryan Gil",
+          "position": "F",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "314176",
+          "name": "Vladyslav Vanat",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "372151",
+          "name": "Juan Arango",
+          "position": "F",
+          "jersey": "32",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "372324",
+          "name": "Jastin García",
+          "position": "F",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "376336",
+          "name": "Mohammed Hamony",
+          "position": "F",
+          "jersey": "35",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "406305",
+          "name": "Oleksandr Pishchur",
+          "position": "F",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "411877",
+          "name": "Javier Sarasa",
+          "position": "F",
+          "jersey": "36",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3139006",
+          "name": "Alex Cantarell Rull",
+          "position": "F",
+          "jersey": "40",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Eibar",
+      "espnTeamId": "3752",
+      "athletes": [
+        {
+          "espnId": "290751",
+          "name": "Jon Mikel Magunagoitia",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "304321",
+          "name": "Luis López",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "150806",
+          "name": "Anaitz Arbilla",
+          "position": "D",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "164194",
+          "name": "Juan Bernat",
+          "position": "D",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "231214",
+          "name": "Unai Elgezabel",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "238894",
+          "name": "Jair Amador Silos",
+          "position": "D",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "251661",
+          "name": "Álvaro Rodríguez Pérez",
+          "position": "D",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "300512",
+          "name": "Sergio Cubero",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "320987",
+          "name": "Imanol García de Albéniz",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "354555",
+          "name": "Arana",
+          "position": "D",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "395603",
+          "name": "Oier Llorente",
+          "position": "D",
+          "jersey": "34",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3132583",
+          "name": "Haritz Ortuzar Mariño",
+          "position": "D",
+          "jersey": "36",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "87963",
+          "name": "Sergio Álvarez",
+          "position": "M",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "224587",
+          "name": "Lander Olaetxea",
+          "position": "M",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "271822",
+          "name": "Peru Nolaskoain",
+          "position": "M",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "307986",
+          "name": "Lucas Nuñez",
+          "position": "M",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "325010",
+          "name": "Jon Magunacelaya",
+          "position": "M",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331283",
+          "name": "Iván Gil",
+          "position": "M",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "361257",
+          "name": "Aleix Garrido",
+          "position": "M",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "367721",
+          "name": "Ander Madariaga",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "376033",
+          "name": "Jon Guruzeta",
+          "position": "M",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "234335",
+          "name": "Jon Bautista",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "270597",
+          "name": "Pejiño",
+          "position": "F",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "324351",
+          "name": "Javier Martón",
+          "position": "F",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "347412",
+          "name": "Malcom Adu Ares",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "385027",
+          "name": "Eric Pérez",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "398861",
+          "name": "Carlos Lumbreras",
+          "position": "F",
+          "jersey": "32",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "418212",
+          "name": "Elijah Gift",
+          "position": "F",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3133547",
+          "name": "Iker Zubiría Azpiroz",
+          "position": "F",
+          "jersey": "29",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Burgos",
+      "espnTeamId": "12597",
+      "athletes": [
+        {
+          "espnId": "189960",
+          "name": "Ander Cantero",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "364743",
+          "name": "Bruno Alemán",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "394375",
+          "name": "Cristian Torrelavid",
+          "position": "G",
+          "jersey": "37",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "395802",
+          "name": "Marc Monedero",
+          "position": "G",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "398639",
+          "name": "Diego González",
+          "position": "G",
+          "jersey": "35",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "245822",
+          "name": "Oier Luengo",
+          "position": "D",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "259821",
+          "name": "Gregorio Sierra",
+          "position": "D",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "268602",
+          "name": "Sergio González",
+          "position": "D",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "279554",
+          "name": "Ignasi Vilarrasa",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331721",
+          "name": "Brais Martínez",
+          "position": "D",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "333167",
+          "name": "Alberto Dadie",
+          "position": "D",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "375963",
+          "name": "Álex Lizancos",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "414055",
+          "name": "Iván Martínez",
+          "position": "D",
+          "jersey": "36",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3127908",
+          "name": "David Hernáiz García",
+          "position": "D",
+          "jersey": "39",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "34390",
+          "name": "Pablo Galdames",
+          "position": "M",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "231344",
+          "name": "Curro",
+          "position": "M",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "276262",
+          "name": "Kevin Appin",
+          "position": "M",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "288761",
+          "name": "José Gragera",
+          "position": "M",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "302945",
+          "name": "Unai Vencedor",
+          "position": "M",
+          "jersey": "12",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "332595",
+          "name": "Saúl del Cerro",
+          "position": "M",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "346404",
+          "name": "David González",
+          "position": "M",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "388441",
+          "name": "Santiago Lencina",
+          "position": "M",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "388525",
+          "name": "Marcelo Expósito",
+          "position": "M",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "395588",
+          "name": "Mario Cantero",
+          "position": "M",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "261183",
+          "name": "Victor Mollejo",
+          "position": "F",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "279504",
+          "name": "Fermín García",
+          "position": "F",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "324350",
+          "name": "Jon Karrikaburu",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331154",
+          "name": "Javi Llabrés",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "343629",
+          "name": "Alex Fores",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "393967",
+          "name": "Irian Ribas",
+          "position": "F",
+          "jersey": "31",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3127900",
+          "name": "Pablo Sagredo García",
+          "position": "F",
+          "jersey": "40",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Mallorca",
+      "espnTeamId": "84",
+      "athletes": [
+        {
+          "espnId": "32501",
+          "name": "Iván Cuéllar",
+          "position": "G",
+          "jersey": "25",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "290043",
+          "name": "Arnau Tenas",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "296406",
+          "name": "Lucas Bergstrom",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "333922",
+          "name": "Toni Dols",
+          "position": "G",
+          "jersey": "37",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "172998",
+          "name": "Alberto Moreno",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "190569",
+          "name": "Luis Orejuela",
+          "position": "D",
+          "jersey": "29",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "193397",
+          "name": "Martin Valjent",
+          "position": "D",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "222333",
+          "name": "Antonio Raíllo",
+          "position": "D",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "232275",
+          "name": "Toni Lato",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "311996",
+          "name": "John Donald",
+          "position": "D",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "371688",
+          "name": "David López",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "381633",
+          "name": "Aboubaka Soumahoro",
+          "position": "D",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "422183",
+          "name": "Miguel Calatayud",
+          "position": "D",
+          "jersey": "34",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3132293",
+          "name": "Iago Mendes Vicens",
+          "position": "D",
+          "jersey": "41",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "119310",
+          "name": "Álex Sala",
+          "position": "M",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "165519",
+          "name": "Sergi Darder",
+          "position": "M",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "206110",
+          "name": "Pablo Torre",
+          "position": "M",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "268753",
+          "name": "Manu Morlanes",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "279511",
+          "name": "Antonio Sánchez",
+          "position": "M",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "291437",
+          "name": "Arnau Puigmal",
+          "position": "M",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "302590",
+          "name": "Daniel Luna",
+          "position": "M",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "388286",
+          "name": "Guille Fernández",
+          "position": "M",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "390026",
+          "name": "Jan Salas",
+          "position": "M",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "415866",
+          "name": "Jandro García",
+          "position": "M",
+          "jersey": "39",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3132303",
+          "name": "Alejandro Yerga González",
+          "position": "M",
+          "jersey": "40",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "155935",
+          "name": "Abdón Prats",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "257211",
+          "name": "Adam Buksa",
+          "position": "F",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "297035",
+          "name": "Zito Luvumbo",
+          "position": "F",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331787",
+          "name": "Fuentes",
+          "position": "F",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "354218",
+          "name": "Josep Cerdà",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "361266",
+          "name": "Justin-Noel Kalumba",
+          "position": "F",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "368332",
+          "name": "Antoniu Roca",
+          "position": "F",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "381682",
+          "name": "Adrián Liso",
+          "position": "F",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "383176",
+          "name": "Aimar Peña",
+          "position": "F",
+          "jersey": "36",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Sporting Gijón",
+      "espnTeamId": "3788",
+      "athletes": [
+        {
+          "espnId": "192718",
+          "name": "Rubén Yáñez",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "333166",
+          "name": "Egoitz Arana",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "46803",
+          "name": "Pablo García",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "77179",
+          "name": "Alex Diego",
+          "position": "D",
+          "jersey": "34",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "128372",
+          "name": "Pablo Vázquez",
+          "position": "D",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "209736",
+          "name": "Jorge",
+          "position": "D",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "217524",
+          "name": "Emanuel Gularte",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "303933",
+          "name": "Guillermo Rosas",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "341498",
+          "name": "Diego Sanchez",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "376421",
+          "name": "Andrés Cuenca",
+          "position": "D",
+          "jersey": "44",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "388802",
+          "name": "Aimar Duñabeitia",
+          "position": "D",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "389359",
+          "name": "Iker Martínez",
+          "position": "D",
+          "jersey": "26",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "124228",
+          "name": "Mamadou Loum",
+          "position": "M",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "261615",
+          "name": "Àlex Corredera",
+          "position": "M",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "265985",
+          "name": "Hugo Guillamón",
+          "position": "M",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "265991",
+          "name": "César Gelabert",
+          "position": "M",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "287498",
+          "name": "Konrad De La Fuente",
+          "position": "M",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "303829",
+          "name": "Gaspar Campos",
+          "position": "M",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "311586",
+          "name": "Nacho Martínez",
+          "position": "F",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "394376",
+          "name": "Manu Rodríguez",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "414177",
+          "name": "Christian Ferreres",
+          "position": "M",
+          "jersey": "35",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "415368",
+          "name": "Bruno Rubio",
+          "position": "M",
+          "jersey": "36",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "422029",
+          "name": "Mata",
+          "position": "M",
+          "jersey": "34",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "206554",
+          "name": "Juan Otero",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "304369",
+          "name": "Nikita Iosifov",
+          "position": "F",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331786",
+          "name": "Antonio Casas",
+          "position": "F",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "359913",
+          "name": "Andrés Ferrari",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "371484",
+          "name": "Alejo Sarco",
+          "position": "F",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "409509",
+          "name": "Enol Prendes",
+          "position": "F",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "421249",
+          "name": "Miguel Conde",
+          "position": "F",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Real Oviedo",
+      "espnTeamId": "92",
+      "athletes": [
+        {
+          "espnId": "200964",
+          "name": "Aarón Escandell",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331457",
+          "name": "Miguel Narváez",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "387151",
+          "name": "Mate Sauri",
+          "position": "G",
+          "jersey": "26",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3137638",
+          "name": "Samuel Franganillo Moreno",
+          "position": "G",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "123743",
+          "name": "Dani Calvo",
+          "position": "D",
+          "jersey": "12",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "155392",
+          "name": "Juan Cruz",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "157965",
+          "name": "David Jiménez",
+          "position": "D",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "192796",
+          "name": "David Costas",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "240102",
+          "name": "Nacho Vidal",
+          "position": "D",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "312376",
+          "name": "Carlos Domínguez",
+          "position": "D",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "372860",
+          "name": "Marco Esteban",
+          "position": "D",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "395613",
+          "name": "Samu Rodríguez",
+          "position": "D",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3139407",
+          "name": "Xavi Vicente Jimenez",
+          "position": "D",
+          "jersey": "35",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "253732",
+          "name": "Alberto Reina",
+          "position": "M",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "303968",
+          "name": "Daniel Villahermosa",
+          "position": "M",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "305781",
+          "name": "Brandon Domingues",
+          "position": "M",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "320768",
+          "name": "Aritz Aldasoro",
+          "position": "M",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "347357",
+          "name": "Youness Lachhab",
+          "position": "M",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "354340",
+          "name": "Aisar",
+          "position": "M",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "376695",
+          "name": "Diego Menéndez",
+          "position": "M",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "396611",
+          "name": "Mikel Goti",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3128635",
+          "name": "Enzo Pérez Miranda",
+          "position": "M",
+          "jersey": "32",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "184640",
+          "name": "José Luis Morales",
+          "position": "F",
+          "jersey": "25",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "197906",
+          "name": "Carlos Fernández",
+          "position": "F",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "242382",
+          "name": "Jacobo González",
+          "position": "F",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "269266",
+          "name": "Chris Ramos",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "304332",
+          "name": "Ilyas Chaira",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "304881",
+          "name": "Alexandru Mihai Isfan",
+          "position": "F",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "333244",
+          "name": "Estanis Pedrola",
+          "position": "F",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "353537",
+          "name": "Pablo Sáenz",
+          "position": "F",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3108501",
+          "name": "Víctor García Mingo",
+          "position": "F",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3131030",
+          "name": "Óscar De La Hera Suárez",
+          "position": "F",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3139406",
+          "name": "Enzo Cazorla Santirso",
+          "position": "F",
+          "jersey": "34",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Córdoba",
+      "espnTeamId": "8447",
+      "athletes": [
+        {
+          "espnId": "24278",
+          "name": "Iker Álvarez",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "362882",
+          "name": "Guilherme Fernandes",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "390844",
+          "name": "Alejandro Arevalo",
+          "position": "G",
+          "jersey": "26",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "141666",
+          "name": "Nélson Monte",
+          "position": "D",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "240592",
+          "name": "Rubén González",
+          "position": "D",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "264083",
+          "name": "Carlos Albarrán",
+          "position": "D",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "289625",
+          "name": "Álex Martín",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "300765",
+          "name": "Franck Fomeyem",
+          "position": "D",
+          "jersey": "12",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "303809",
+          "name": "Diego Bri",
+          "position": "D",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "332007",
+          "name": "Dani Tasende",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "347358",
+          "name": "Juan Gutiérrez",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "378408",
+          "name": "Egoitz Muñoz",
+          "position": "D",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "381110",
+          "name": "Daniel Budesca",
+          "position": "D",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "393463",
+          "name": "Álex López",
+          "position": "D",
+          "jersey": "32",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "412147",
+          "name": "Jacobo Martí",
+          "position": "D",
+          "jersey": "29",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "108464",
+          "name": "Isma Ruiz",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "297164",
+          "name": "Theo Zidane",
+          "position": "M",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "312005",
+          "name": "Damián",
+          "position": "M",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "354360",
+          "name": "Youssouf Diarra",
+          "position": "M",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "415364",
+          "name": "Eder García",
+          "position": "M",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3116693",
+          "name": "Borja García Criado",
+          "position": "M",
+          "jersey": "38",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "113187",
+          "name": "Victor Sánchez",
+          "position": "F",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "300214",
+          "name": "Adilson",
+          "position": "F",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "300285",
+          "name": "Cristian Carracedo",
+          "position": "F",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "311040",
+          "name": "Kevin Villodres",
+          "position": "F",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331812",
+          "name": "Percan",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "353812",
+          "name": "Ibai Sanz",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "359361",
+          "name": "Enol Rodríguez",
+          "position": "F",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "363063",
+          "name": "Salim El Jebari",
+          "position": "F",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "395130",
+          "name": "Adnane Ghailan",
+          "position": "F",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Las Palmas",
+      "espnTeamId": "98",
+      "athletes": [
+        {
+          "espnId": "136272",
+          "name": "Jorge Valverde",
+          "position": "G",
+          "jersey": "41",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "239387",
+          "name": "Caro",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "406376",
+          "name": "Adri Suárez",
+          "position": "G",
+          "jersey": "35",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3142101",
+          "name": "Eduard Mohedano Serrano",
+          "position": "G",
+          "jersey": "43",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "121611",
+          "name": "Álex Suárez",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "256836",
+          "name": "Nicholas Opoku",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "292217",
+          "name": "Enrique Clemente",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "307916",
+          "name": "Marvin",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "335952",
+          "name": "Giovanni Bonfanti",
+          "position": "D",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "367729",
+          "name": "Juanma Herzog",
+          "position": "D",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "375799",
+          "name": "Andrés Rodríguez",
+          "position": "D",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "388727",
+          "name": "Valentín Pezzolesi",
+          "position": "D",
+          "jersey": "25",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3140807",
+          "name": "Aidán Pieter Pérez Kraaijeveld",
+          "position": "D",
+          "jersey": "40",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3140808",
+          "name": "Rachid Saiah Bouchaiba",
+          "position": "D",
+          "jersey": "42",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3144268",
+          "name": "Adrián Rodríguez Del Rosario",
+          "position": "D",
+          "jersey": "44",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "184759",
+          "name": "Sergio Ruiz",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "236458",
+          "name": "Viti",
+          "position": "M",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "272870",
+          "name": "Enzo Loiodice",
+          "position": "M",
+          "jersey": "12",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "280489",
+          "name": "Iván Jaime",
+          "position": "M",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "288936",
+          "name": "Kirian Rodríguez",
+          "position": "M",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "292774",
+          "name": "Manu Fuster",
+          "position": "M",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "325873",
+          "name": "Ale García",
+          "position": "M",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "363153",
+          "name": "Edward Cedeño",
+          "position": "M",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "367731",
+          "name": "Iñaki González",
+          "position": "M",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "379136",
+          "name": "Aboubacar Bassinga",
+          "position": "M",
+          "jersey": "26",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "380670",
+          "name": "Jeremía Recoba",
+          "position": "M",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "387901",
+          "name": "Mateo Acimovic",
+          "position": "M",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3145646",
+          "name": "Aimar Domínguez Rodríguez",
+          "position": "M",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "5326095",
+          "name": "Sergio Viera García",
+          "position": "M",
+          "jersey": "34",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "162453",
+          "name": "Jesé",
+          "position": "F",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "165671",
+          "name": "Jefté",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "188165",
+          "name": "Sandro",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "241461",
+          "name": "Elías Romero",
+          "position": "F",
+          "jersey": "29",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "259984",
+          "name": "Jorge Cruz",
+          "position": "F",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "265959",
+          "name": "Taisei Miyashiro",
+          "position": "F",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "409288",
+          "name": "Adam Arvelo",
+          "position": "F",
+          "jersey": "31",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "414085",
+          "name": "Iván Medina",
+          "position": "F",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "422046",
+          "name": "Rafa Cruz",
+          "position": "F",
+          "jersey": "32",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "5333407",
+          "name": "Jeredian José López Méndez",
+          "position": "F",
+          "jersey": "48",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Real Valladolid",
+      "espnTeamId": "95",
+      "athletes": [
+        {
+          "espnId": "347431",
+          "name": "Álvaro Aceves",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "361401",
+          "name": "Lucas Lavagnino",
+          "position": "G",
+          "jersey": "26",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "388809",
+          "name": "Daniel Martín",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "409246",
+          "name": "Hugo Wauthier",
+          "position": "G",
+          "jersey": "31",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "168363",
+          "name": "Carlos Clerc",
+          "position": "D",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "272874",
+          "name": "Homam Ahmed",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "273291",
+          "name": "Miguel Rubio",
+          "position": "D",
+          "jersey": "12",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "324949",
+          "name": "Pablo Tomeo",
+          "position": "D",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331988",
+          "name": "Trilli",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "332089",
+          "name": "Ramón Martínez",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "340464",
+          "name": "Guillermo Bueno",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "347433",
+          "name": "David Torres",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "367677",
+          "name": "Iván Garriel",
+          "position": "D",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "409248",
+          "name": "Alejandro Galdeano",
+          "position": "D",
+          "jersey": "35",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "236070",
+          "name": "Ryotaro Ito",
+          "position": "M",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "276450",
+          "name": "Julien Ponceau",
+          "position": "M",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "276578",
+          "name": "Stanko Juric",
+          "position": "M",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "313340",
+          "name": "Mathis Lachuer",
+          "position": "M",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "318125",
+          "name": "Thiago Ojeda",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "332009",
+          "name": "Álex Balboa",
+          "position": "M",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "353854",
+          "name": "Daniel Pérez",
+          "position": "M",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "367679",
+          "name": "Víctor Fernández",
+          "position": "M",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "403591",
+          "name": "Marcos Parriego",
+          "position": "M",
+          "jersey": "32",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "206473",
+          "name": "Iván Alejo",
+          "position": "F",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "271345",
+          "name": "Kaj de Rooij",
+          "position": "F",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "324954",
+          "name": "Tai Abed",
+          "position": "F",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331411",
+          "name": "Luis Rodriguez",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "335235",
+          "name": "Juan Latasa",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "353477",
+          "name": "Yeray Cabanzón",
+          "position": "F",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "363540",
+          "name": "Victor Barberà",
+          "position": "F",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "364090",
+          "name": "Robin Van Duiven",
+          "position": "F",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "371617",
+          "name": "Adrián Arnun",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "422017",
+          "name": "Brain Obosso",
+          "position": "F",
+          "jersey": "34",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3111397",
+          "name": "Tomás Fernández Sabatini",
+          "position": "F",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3125552",
+          "name": "Hugo Calvo Vadillo",
+          "position": "F",
+          "jersey": "37",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Tenerife",
+      "espnTeamId": "245",
+      "athletes": [
+        {
+          "espnId": "264077",
+          "name": "Dani Martín",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "388804",
+          "name": "Oier Gastesi",
+          "position": "G",
+          "jersey": "41",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "400058",
+          "name": "Gabriel Lozano",
+          "position": "G",
+          "jersey": "40",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "84064",
+          "name": "Jorge Moreno",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "130137",
+          "name": "Marc Mateu",
+          "position": "D",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "204899",
+          "name": "José León",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "235018",
+          "name": "Anthony Landázuri",
+          "position": "D",
+          "jersey": "12",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "308453",
+          "name": "David Rodríguez Ramos",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "346838",
+          "name": "Roko Jureskin",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "355507",
+          "name": "Neal Viereck",
+          "position": "D",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "377597",
+          "name": "César Álvarez",
+          "position": "D",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "102805",
+          "name": "Jesús Álvarez",
+          "position": "M",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "185866",
+          "name": "Juanjo",
+          "position": "M",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "195785",
+          "name": "Víctor Moreno",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "220073",
+          "name": "Mauro Pittón",
+          "position": "M",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "231574",
+          "name": "Nacho Gil",
+          "position": "M",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "311533",
+          "name": "Martin Pecar",
+          "position": "M",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "363722",
+          "name": "Anes Krdzalic",
+          "position": "M",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "384650",
+          "name": "Daniel Fernández",
+          "position": "M",
+          "jersey": "29",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "412263",
+          "name": "Fabricio",
+          "position": "M",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "222379",
+          "name": "Gerard Valentín",
+          "position": "F",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "276634",
+          "name": "Enric Gallego",
+          "position": "F",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "279899",
+          "name": "Jesús De Miguel",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "322156",
+          "name": "Christian Gomis",
+          "position": "F",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "323935",
+          "name": "Grant-Leon Ranos",
+          "position": "F",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "324482",
+          "name": "Iván Chapela",
+          "position": "F",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331987",
+          "name": "Noel López",
+          "position": "F",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "350640",
+          "name": "Alassán Manjam Gutiérrez",
+          "position": "F",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "412103",
+          "name": "Baba Diocou",
+          "position": "F",
+          "jersey": "26",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "CD Sabadell",
+      "espnTeamId": "11487",
+      "athletes": [
+        {
+          "espnId": "138674",
+          "name": "Marc Vidal",
+          "position": "G",
+          "jersey": "25",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "306293",
+          "name": "Diego Fuoli",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "311302",
+          "name": "Jose Ortega",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3129557",
+          "name": "Manel Estévez Rubio",
+          "position": "G",
+          "jersey": "31",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "128669",
+          "name": "Edgar González",
+          "position": "D",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "242434",
+          "name": "Juan Carlos Lázaro Cervera",
+          "position": "D",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "260245",
+          "name": "Pipa",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "300270",
+          "name": "Gerard Fornés",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "356085",
+          "name": "Miquel Codina",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "376662",
+          "name": "José Luis Català Vázquez",
+          "position": "D",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "155283",
+          "name": "Óscar Sanz",
+          "position": "M",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "178565",
+          "name": "Pere Pons",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "253008",
+          "name": "Arthur Bonaldo",
+          "position": "M",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "287445",
+          "name": "Quadri Liameed",
+          "position": "M",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "300303",
+          "name": "Alain Ribeiro",
+          "position": "M",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "300776",
+          "name": "Eneko Aguilar",
+          "position": "M",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "345216",
+          "name": "Urri",
+          "position": "M",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "347354",
+          "name": "Javi López",
+          "position": "M",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "388399",
+          "name": "Yussif Owusu",
+          "position": "M",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "218510",
+          "name": "Nikolai Óbolo",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "245840",
+          "name": "Yanis Rahmani",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "296749",
+          "name": "Nicholas Gioacchini",
+          "position": "F",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "300272",
+          "name": "Ton Ripoll",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "303843",
+          "name": "Ángel Baena",
+          "position": "F",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "307709",
+          "name": "Joel Priego",
+          "position": "F",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "346850",
+          "name": "Patrick Nuamah",
+          "position": "F",
+          "jersey": "29",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "380822",
+          "name": "Gastón Valles",
+          "position": "F",
+          "jersey": "12",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "403617",
+          "name": "Xavi Moreno",
+          "position": "F",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "412261",
+          "name": "Quim Utgés",
+          "position": "F",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Eldense",
+      "espnTeamId": "7320",
+      "athletes": [
+        {
+          "espnId": "331424",
+          "name": "Juan Palomares",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "354450",
+          "name": "Ramon Vila",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "394916",
+          "name": "David Bernabeu",
+          "position": "G",
+          "jersey": "36",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "11719",
+          "name": "Javier Olaizola",
+          "position": "D",
+          "jersey": "34",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "310837",
+          "name": "Iker Ortega",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "311264",
+          "name": "Jesus Clemente",
+          "position": "D",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "325545",
+          "name": "Juan Larios",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331710",
+          "name": "Jordi Martín",
+          "position": "D",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "346837",
+          "name": "Floris Smand",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "375724",
+          "name": "Álex Serra",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "396893",
+          "name": "Julien Yanda",
+          "position": "D",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "412135",
+          "name": "David Ruiz Montero",
+          "position": "D",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3124537",
+          "name": "Iker Carbonell García",
+          "position": "D",
+          "jersey": "26",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3129707",
+          "name": "Antonio David Marín Fernández",
+          "position": "D",
+          "jersey": "31",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "113146",
+          "name": "Justin Smith",
+          "position": "M",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "278205",
+          "name": "Javier Martínez",
+          "position": "M",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "308145",
+          "name": "Roberto López",
+          "position": "M",
+          "jersey": "12",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "354251",
+          "name": "Marcos Bustillo",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "354252",
+          "name": "Borja Calvo",
+          "position": "M",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "389266",
+          "name": "Carlos Guirao",
+          "position": "M",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "393755",
+          "name": "Guillermo Macho",
+          "position": "M",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "413397",
+          "name": "David Rodríguez",
+          "position": "M",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3128091",
+          "name": "Cristian Amarillo Bleda",
+          "position": "M",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "147491",
+          "name": "Fidel",
+          "position": "F",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "269583",
+          "name": "Waldo Rubio",
+          "position": "F",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "299935",
+          "name": "Manuel Nieto",
+          "position": "F",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "374618",
+          "name": "Jorge Rastrojo",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "377833",
+          "name": "Aingeru Olabarrieta",
+          "position": "F",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "384544",
+          "name": "Pau Cabanes",
+          "position": "F",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "395201",
+          "name": "Mariano Carmona",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "407406",
+          "name": "Álex Ibarrondo",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "407541",
+          "name": "Dinis Rodrigues",
+          "position": "F",
+          "jersey": "29",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Leganés",
+      "espnTeamId": "17534",
+      "athletes": [
+        {
+          "espnId": "113097",
+          "name": "Raúl Fernández",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "225561",
+          "name": "Luca Zidane",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "355379",
+          "name": "Alejandro González Gorrin",
+          "position": "G",
+          "jersey": "38",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "415245",
+          "name": "Nico Lozano",
+          "position": "G",
+          "jersey": "31",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "123864",
+          "name": "Gonzalo Aguilar",
+          "position": "D",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "153442",
+          "name": "Ignasi Miquel",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "177803",
+          "name": "Rubén Peña",
+          "position": "D",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "231405",
+          "name": "Álvaro Tejero",
+          "position": "D",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "276650",
+          "name": "Francisco Montero",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "290824",
+          "name": "Enric Franquesa",
+          "position": "D",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "300350",
+          "name": "Ruben Pulido Peñas",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "356366",
+          "name": "Marvel",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "389451",
+          "name": "Álex Fita",
+          "position": "D",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3135236",
+          "name": "Sulaiman Mulumba",
+          "position": "D",
+          "jersey": "36",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "5327777",
+          "name": "Diego Pérez Moreno",
+          "position": "D",
+          "jersey": "40",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "144587",
+          "name": "Dani Rodríguez",
+          "position": "M",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "224418",
+          "name": "Amadou Diawara",
+          "position": "M",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "264124",
+          "name": "Miguel Atienza",
+          "position": "M",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "306400",
+          "name": "Zico Buurmeester",
+          "position": "M",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "319290",
+          "name": "Yassine Kechta",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "418974",
+          "name": "Jorge Herrero",
+          "position": "M",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "154446",
+          "name": "Álvaro Morata",
+          "position": "F",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "260078",
+          "name": "Serge Patrick Njoh",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "312013",
+          "name": "Álex Millán",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "317473",
+          "name": "Ismaël Gharbi",
+          "position": "F",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "325005",
+          "name": "Naim García",
+          "position": "F",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "354342",
+          "name": "Álex Sancris",
+          "position": "F",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "395585",
+          "name": "Suleiman El Haddadi Mohamed",
+          "position": "F",
+          "jersey": "32",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "406399",
+          "name": "Andrés Campos",
+          "position": "F",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "418538",
+          "name": "Unax Del Cura",
+          "position": "F",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "5326033",
+          "name": "Jorge Martínez Jiménez",
+          "position": "F",
+          "jersey": "39",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "RC Celta Fortuna",
+      "espnTeamId": "131858",
+      "athletes": [
+        {
+          "espnId": "329669",
+          "name": "Coke Carrillo",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "357201",
+          "name": "Caio Albado Barone",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "376424",
+          "name": "Marcos González",
+          "position": "G",
+          "jersey": "25",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "308763",
+          "name": "Joel Lopez Salguero",
+          "position": "D",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "333981",
+          "name": "Jan Oliveras",
+          "position": "D",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "388287",
+          "name": "Alexis Olmedo",
+          "position": "D",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "408018",
+          "name": "Seyni Ndiaye",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "414291",
+          "name": "Pablo Meixús",
+          "position": "D",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "421889",
+          "name": "Anxo Rodríguez",
+          "position": "D",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3100791",
+          "name": "Anthony Michel Khayat",
+          "position": "D",
+          "jersey": null,
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3100792",
+          "name": "Frank Germain Jonathan Miller",
+          "position": "D",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3100793",
+          "name": "Pablo Gavián Alonso",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3100794",
+          "name": "Enrique Ribes",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3101284",
+          "name": "Mateo Sobral Sabajanes",
+          "position": "D",
+          "jersey": "29",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "5323812",
+          "name": "Raúl Chirveches Sánchez",
+          "position": "D",
+          "jersey": "31",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "194253",
+          "name": "Hugo López",
+          "position": "M",
+          "jersey": "32",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "330605",
+          "name": "Stefan Bajcetic",
+          "position": "M",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "365843",
+          "name": "Hugo Cuenca",
+          "position": "M",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "374626",
+          "name": "Adrià Capdevila",
+          "position": "M",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "386167",
+          "name": "Aldrine Kibet",
+          "position": "M",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "405521",
+          "name": "Óscar Marcos",
+          "position": "M",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "414292",
+          "name": "Andrés Antañón",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "414293",
+          "name": "Hugo Burcio",
+          "position": "M",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3100798",
+          "name": "Noah Rodríguez Guallar",
+          "position": "M",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3143478",
+          "name": "David Sueiro Muiños",
+          "position": "M",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "5327287",
+          "name": "Pablo Rodríguez Dominguez",
+          "position": "M",
+          "jersey": "34",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "367442",
+          "name": "Alvaro Marin",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "411412",
+          "name": "Vladimir Silva",
+          "position": "F",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "415036",
+          "name": "Ángel Arcos",
+          "position": "F",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3100789",
+          "name": "Bernard Sarppong Somuah",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3100796",
+          "name": "Jorge Pérez-Lafuente Rey",
+          "position": "F",
+          "jersey": "26",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3107949",
+          "name": "Angel Davila Outerelo",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Real Sociedad II",
+      "espnTeamId": "20983",
+      "athletes": [
+        {
+          "espnId": "368327",
+          "name": "Aitor Fraga",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "406381",
+          "name": "Lander Olasagasti",
+          "position": "G",
+          "jersey": "32",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "409481",
+          "name": "Theo Folgado",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3133680",
+          "name": "Daniel Galilea Tellaeche",
+          "position": "G",
+          "jersey": "35",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "360178",
+          "name": "Kazunari Kita",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "379457",
+          "name": "Iñaki Rupérez",
+          "position": "D",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "396607",
+          "name": "Luken Beitia",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "396608",
+          "name": "Jon Balda",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "406377",
+          "name": "Unax Agote",
+          "position": "D",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "406380",
+          "name": "Iker Ropero",
+          "position": "D",
+          "jersey": "29",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "406386",
+          "name": "Jon Garro",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "411583",
+          "name": "Iker Calderon",
+          "position": "D",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "415441",
+          "name": "Unax Larrañaga",
+          "position": "D",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3127974",
+          "name": "Beñat Isasa Torrea",
+          "position": "D",
+          "jersey": "26",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3133188",
+          "name": "Peru Larrañaga Vázquez",
+          "position": "D",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "366886",
+          "name": "Alex Lebarbier",
+          "position": "M",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "406385",
+          "name": "Jon Eceizabarrena",
+          "position": "M",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "406389",
+          "name": "Gorka Gorosabel",
+          "position": "M",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "406396",
+          "name": "Tomás Carbonell",
+          "position": "M",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "410486",
+          "name": "Ibai Aguirre",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "411582",
+          "name": "Joan Oleaga",
+          "position": "M",
+          "jersey": "12",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3127973",
+          "name": "Oihan Telletxea Sein",
+          "position": "M",
+          "jersey": "31",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "378292",
+          "name": "Sydney Osazuwa",
+          "position": "F",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "387496",
+          "name": "Daniel Díaz",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "396609",
+          "name": "Ekain Orobengoa",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "396610",
+          "name": "Arkaitz Mariezkurrena",
+          "position": "F",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "396613",
+          "name": "Alex Marchal",
+          "position": "F",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "406383",
+          "name": "Gorka Carrera",
+          "position": "F",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "406384",
+          "name": "Javier Soroeta",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "406390",
+          "name": "Lander Astiazarán",
+          "position": "F",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "418089",
+          "name": "Andrews Adjabeng",
+          "position": "F",
+          "jersey": "34",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3097208",
+          "name": "Eloy Nebreda Martinez",
+          "position": "F",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3133669",
+          "name": "Hodei Garitaonaindia Uriarte",
+          "position": "F",
+          "jersey": "36",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3133676",
+          "name": "Xuban Fernández Isasa",
+          "position": "F",
+          "jersey": "38",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Cádiz",
+      "espnTeamId": "3842",
+      "athletes": [
+        {
+          "espnId": "195604",
+          "name": "David Gil",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "209578",
+          "name": "Jokin Ezkieta",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "400253",
+          "name": "Rubén Domínguez",
+          "position": "G",
+          "jersey": "26",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "128374",
+          "name": "Javier Castro",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "306347",
+          "name": "Giorgi Gocholeishvili",
+          "position": "D",
+          "jersey": "12",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "319121",
+          "name": "Kenan Toubibou",
+          "position": "D",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331977",
+          "name": "Cristian Gutiérrez",
+          "position": "D",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "342140",
+          "name": "Bojan Kovacevic",
+          "position": "D",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "374633",
+          "name": "Beñat De Jesús",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "397417",
+          "name": "Juan Díaz",
+          "position": "D",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "399240",
+          "name": "Sergio Arribas",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "409477",
+          "name": "Manuel Fernández",
+          "position": "D",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "415372",
+          "name": "Noah Ukwuije",
+          "position": "D",
+          "jersey": "31",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3095320",
+          "name": "César Díaz Camacho",
+          "position": "D",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3105656",
+          "name": "Manuel Rivera Domínguez",
+          "position": "D",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3105657",
+          "name": "Roberto Rosado Márquez",
+          "position": "D",
+          "jersey": "32",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "230894",
+          "name": "Javi Ontiveros",
+          "position": "M",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "290048",
+          "name": "Jandro Orellana",
+          "position": "M",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "291262",
+          "name": "Marc-Oliver Doué",
+          "position": "M",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "291401",
+          "name": "Aimen Moueffek",
+          "position": "M",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "341269",
+          "name": "Damián Rodríguez",
+          "position": "M",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "387838",
+          "name": "Dilan Zárate",
+          "position": "M",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "411758",
+          "name": "Ibon Sánchez",
+          "position": "M",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "289438",
+          "name": "Iuri Tabatadze",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "354205",
+          "name": "Urko Izeta",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "361366",
+          "name": "Gonzalo Petit",
+          "position": "F",
+          "jersey": "25",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "375875",
+          "name": "Antonio Cordero",
+          "position": "F",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "384598",
+          "name": "Borja Vázquez",
+          "position": "F",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "394420",
+          "name": "Vladyslav Kopotun",
+          "position": "F",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "397997",
+          "name": "García Pascual",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "409298",
+          "name": "Efe Ugiagbe",
+          "position": "F",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "FC Andorra",
+      "espnTeamId": "20179",
+      "athletes": [
+        {
+          "espnId": "203061",
+          "name": "Pau López",
+          "position": "M",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "207729",
+          "name": "Nico Ratti",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "287165",
+          "name": "Jesús Owono",
+          "position": "G",
+          "jersey": "25",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "219073",
+          "name": "Diego Alende",
+          "position": "D",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "236593",
+          "name": "Andoni López",
+          "position": "D",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "267058",
+          "name": "Thomas Carrique",
+          "position": "D",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "278214",
+          "name": "Marti Vila Garcia",
+          "position": "D",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "319228",
+          "name": "Gael Alonso",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "347509",
+          "name": "Marc Bombardó",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "354532",
+          "name": "Lautaro Spatz",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "370603",
+          "name": "Juan Sebastian Serrano",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "171552",
+          "name": "Sergio Molina",
+          "position": "M",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "320854",
+          "name": "Randy Schneider",
+          "position": "M",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "323742",
+          "name": "Théo Le Normand",
+          "position": "M",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331370",
+          "name": "Jordi Cano",
+          "position": "M",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "332016",
+          "name": "Nacho Quintana",
+          "position": "M",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "345239",
+          "name": "Efe Akman",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "353815",
+          "name": "Hugo Solozabal",
+          "position": "M",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "389455",
+          "name": "Marc Domenech",
+          "position": "F",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "396027",
+          "name": "Diego Diaz",
+          "position": "M",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3128000",
+          "name": "Tiago Olmedo Vila",
+          "position": "M",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "259097",
+          "name": "Stefan Golubović",
+          "position": "F",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "310973",
+          "name": "Lautaro De León",
+          "position": "F",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "324809",
+          "name": "Enes Sali",
+          "position": "F",
+          "jersey": "12",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331382",
+          "name": "Moró Sidibe",
+          "position": "F",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "344667",
+          "name": "Julian Rijkhoff",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "359907",
+          "name": "Álex Calvo",
+          "position": "D",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Albacete",
+      "espnTeamId": "2737",
+      "athletes": [
+        {
+          "espnId": "140342",
+          "name": "Diego Mariño",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "240648",
+          "name": "Carlos Marín",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "311576",
+          "name": "Mario Ramos",
+          "position": "G",
+          "jersey": "30",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "101307",
+          "name": "Javier Moreno",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "209592",
+          "name": "Jesús Vallejo",
+          "position": "D",
+          "jersey": "24",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "236153",
+          "name": "Lluis López",
+          "position": "D",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "276637",
+          "name": "Fran Gamez",
+          "position": "D",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "283862",
+          "name": "Carlos Neva",
+          "position": "D",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "300877",
+          "name": "Pepe Sanchez",
+          "position": "D",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "388337",
+          "name": "Lorenzo Aguado",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "399605",
+          "name": "Joaquín Domingo",
+          "position": "D",
+          "jersey": "40",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "403331",
+          "name": "Daniel Bernabeu",
+          "position": "D",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "409512",
+          "name": "Antonio Velilla",
+          "position": "D",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "414348",
+          "name": "Vicente Vidal",
+          "position": "D",
+          "jersey": "34",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "207352",
+          "name": "Agus Medina",
+          "position": "M",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "274015",
+          "name": "Victor San Bartolomé",
+          "position": "M",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "297361",
+          "name": "Antonio Pacheco Ruiz",
+          "position": "M",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331513",
+          "name": "Ortu",
+          "position": "M",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "371567",
+          "name": "Capi",
+          "position": "M",
+          "jersey": "26",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "374612",
+          "name": "Javi Villar",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "411953",
+          "name": "Antonio Moreno",
+          "position": "M",
+          "jersey": "44",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3129106",
+          "name": "Diego Rodríguez Rivas",
+          "position": "M",
+          "jersey": "38",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "178547",
+          "name": "Higinio Marín",
+          "position": "F",
+          "jersey": "12",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "184803",
+          "name": "Antonio Puertas",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "193782",
+          "name": "Munir El Haddadi",
+          "position": "F",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "264181",
+          "name": "José Corpas",
+          "position": "F",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "279526",
+          "name": "Samuel Obeng",
+          "position": "F",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "279697",
+          "name": "Mario Soberón",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "282682",
+          "name": "Roberto González",
+          "position": "F",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "356770",
+          "name": "Víctor Valverde Da Silva",
+          "position": "F",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "375419",
+          "name": "Álex Rubio",
+          "position": "F",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "381354",
+          "name": "Agustín Albarracín",
+          "position": "F",
+          "jersey": "32",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "394362",
+          "name": "Tomás Inglés",
+          "position": "F",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "423018",
+          "name": "Fabio Garcia-Moreno",
+          "position": "F",
+          "jersey": "39",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "5332935",
+          "name": "Miguel Scott Belem Escribano",
+          "position": "F",
+          "jersey": "35",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    },
+    {
+      "teamName": "Ceuta",
+      "espnTeamId": "5404",
+      "athletes": [
+        {
+          "espnId": "183413",
+          "name": "Pedro López",
+          "position": "G",
+          "jersey": "1",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "218218",
+          "name": "Guillermo",
+          "position": "G",
+          "jersey": "13",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "372092",
+          "name": "Ayoube Akabou",
+          "position": "G",
+          "jersey": null,
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "175089",
+          "name": "Carlos Hernández",
+          "position": "D",
+          "jersey": "6",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "223097",
+          "name": "Matos",
+          "position": "D",
+          "jersey": "3",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "261110",
+          "name": "Redru",
+          "position": "D",
+          "jersey": "16",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "290832",
+          "name": "Adrián Lapeña Ruíz",
+          "position": "D",
+          "jersey": "5",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "300216",
+          "name": "José Antonio Abad",
+          "position": "D",
+          "jersey": "2",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "320874",
+          "name": "Alex Petxarromán",
+          "position": "D",
+          "jersey": "18",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "354257",
+          "name": "Capa",
+          "position": "D",
+          "jersey": "4",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3128491",
+          "name": "José Miguel Gómez Bapori",
+          "position": "D",
+          "jersey": "36",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3128492",
+          "name": "Daniel Mas Soria",
+          "position": "D",
+          "jersey": "34",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3128503",
+          "name": "Magno Alexander Murillo Arboleda",
+          "position": "D",
+          "jersey": "33",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "207568",
+          "name": "Yann Bodiger",
+          "position": "M",
+          "jersey": "14",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "213068",
+          "name": "Anuar",
+          "position": "M",
+          "jersey": "23",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "250658",
+          "name": "Kuki Zalazar",
+          "position": "M",
+          "jersey": "8",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "276645",
+          "name": "Cedric Teguia",
+          "position": "M",
+          "jersey": "11",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "279875",
+          "name": "Alejandro Camacho",
+          "position": "F",
+          "jersey": "7",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "300952",
+          "name": "Alejandro Meléndez",
+          "position": "M",
+          "jersey": "20",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "311104",
+          "name": "Edgar Sevikyan",
+          "position": "M",
+          "jersey": "19",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "354788",
+          "name": "Joaquín Felipe González Rodríguez",
+          "position": "M",
+          "jersey": "15",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "357345",
+          "name": "Marino Illescas",
+          "position": "M",
+          "jersey": "10",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "369841",
+          "name": "Mawuli Mensah",
+          "position": "M",
+          "jersey": "17",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "387345",
+          "name": "Kenneth Mamah",
+          "position": "M",
+          "jersey": "21",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "409801",
+          "name": "Adrián Romero",
+          "position": "M",
+          "jersey": "31",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "419964",
+          "name": "Gabriel Okoro",
+          "position": "M",
+          "jersey": "32",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "420359",
+          "name": "Arick Betancourt",
+          "position": "M",
+          "jersey": "26",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "3141586",
+          "name": "Abraham Bueno Espinosa",
+          "position": "M",
+          "jersey": "28",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "276349",
+          "name": "Jordi Escobar",
+          "position": "F",
+          "jersey": "9",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "331653",
+          "name": "Kialy Kone",
+          "position": "F",
+          "jersey": "22",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "376041",
+          "name": "Omar Sadik",
+          "position": "F",
+          "jersey": "29",
+          "status": "active",
+          "injuryDetail": null
+        },
+        {
+          "espnId": "402185",
+          "name": "Umaru",
+          "position": "F",
+          "jersey": "27",
+          "status": "active",
+          "injuryDetail": null
+        }
+      ]
+    }
+  ]
+}
