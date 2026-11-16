@@ -4,13 +4,13 @@
     "sourceUrl": "https://github.com/dcaribou/transfermarkt-datasets",
     "license": "CC0-1.0",
     "datasetUpdatedAt": "2026-08-05",
-    "generatedAt": "2026-11-16T15:19:26.581Z",
+    "generatedAt": "2026-11-16T15:31:29.105Z",
     "performanceSeason": "2025/26",
     "methodVersion": "strict-market-link-v2",
-    "matchedPlayers": 265,
+    "matchedPlayers": 267,
     "playersWithPerformance": 0,
-    "playersWithMarketValue": 225,
-    "catalogPlayers": 679,
+    "playersWithMarketValue": 226,
+    "catalogPlayers": 688,
     "note": "El valor es una estimación publicada por la fuente, no un precio de Fantasy. Se conserva la fecha real de la última valoración y se aceptan solo nombres exactos o coincidencias asistidas por club, posición y edad."
   },
   "players": [
@@ -877,6 +877,19 @@
       "previousSeason": null
     },
     {
+      "playerId": "fd-player-3135756",
+      "sourcePlayerId": "1055860",
+      "sourcePlayerName": "Iñaki Rupérez",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 300000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/inaki-ruperez/profil/spieler/1055860"
+      },
+      "previousSeason": null
+    },
+    {
       "playerId": "fd-player-3140082",
       "sourcePlayerId": "1030425",
       "sourcePlayerName": "Thiago Ojeda",
@@ -1104,14 +1117,6 @@
       "previousSeason": null
     },
     {
-      "playerId": "fd-player-3192783",
-      "sourcePlayerId": "1105810",
-      "sourcePlayerName": "Job Ochieng",
-      "matchMethod": "EXACT",
-      "marketValue": null,
-      "previousSeason": null
-    },
-    {
       "playerId": "fd-player-3192936",
       "sourcePlayerId": "1063598",
       "sourcePlayerName": "Gorka Carrera",
@@ -1199,6 +1204,14 @@
       "playerId": "fd-player-3234354",
       "sourcePlayerId": "962111",
       "sourcePlayerName": "Andrés Cuenca",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3237745",
+      "sourcePlayerId": "915258",
+      "sourcePlayerName": "Kazunari Kita",
       "matchMethod": "EXACT",
       "marketValue": null,
       "previousSeason": null
@@ -1403,6 +1416,14 @@
       "playerId": "fd-player-3314353",
       "sourcePlayerId": "1200328",
       "sourcePlayerName": "Lucas Núñez",
+      "matchMethod": "EXACT",
+      "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3315241",
+      "sourcePlayerId": "1178818",
+      "sourcePlayerName": "Theo Folgado",
       "matchMethod": "EXACT",
       "marketValue": null,
       "previousSeason": null

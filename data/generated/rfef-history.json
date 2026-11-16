@@ -1,10 +1,10 @@
 {
   "metadata": {
     "provider": "RFEF / widget público de competición",
-    "importedAt": "2026-11-16T15:19:22.061Z",
+    "importedAt": "2026-11-16T15:31:25.799Z",
     "season": "2025/26",
-    "matchedPlayers": 514,
-    "catalogPlayers": 679,
+    "matchedPlayers": 525,
+    "catalogPlayers": 688,
     "note": "Las titularidades se derivan como PJ menos apariciones como suplente (columna S de la ficha pública). Solo se usa el identificador estable de cada jugador del catálogo actual."
   },
   "players": [
@@ -286,15 +286,15 @@
       "teamId": "fd-team-2125",
       "season": "2025/26",
       "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=1018847&team=2125&season=2026&style=rfef&lang=es",
-      "competition": "Tercera Federación",
-      "appearances": 27,
-      "substituteAppearances": 0,
-      "starts": 27,
-      "goals": 3,
+      "competition": "Segunda División",
+      "appearances": 2,
+      "substituteAppearances": 2,
+      "starts": 0,
+      "goals": 0,
       "assists": 0,
-      "yellowCards": 3,
+      "yellowCards": 0,
       "redCards": 0,
-      "minutes": 2214
+      "minutes": 11
     },
     {
       "playerId": "fd-player-1021593",
@@ -327,6 +327,22 @@
       "yellowCards": 0,
       "redCards": 0,
       "minutes": 459
+    },
+    {
+      "playerId": "fd-player-1024269",
+      "sourcePlayerId": "1024269",
+      "teamId": "fd-team-2121",
+      "season": "2025/26",
+      "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=1024269&team=2121&season=2026&style=rfef&lang=es",
+      "competition": "Segunda División",
+      "appearances": 12,
+      "substituteAppearances": 8,
+      "starts": 4,
+      "goals": 1,
+      "assists": 1,
+      "yellowCards": 3,
+      "redCards": 0,
+      "minutes": 523
     },
     {
       "playerId": "fd-player-1024286",
@@ -2409,22 +2425,6 @@
       "minutes": 536
     },
     {
-      "playerId": "fd-player-3192783",
-      "sourcePlayerId": "3192783",
-      "teamId": "fd-team-2121",
-      "season": "2025/26",
-      "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3192783&team=2121&season=2026&style=rfef&lang=es",
-      "competition": "Primera División",
-      "appearances": 2,
-      "substituteAppearances": 1,
-      "starts": 1,
-      "goals": 0,
-      "assists": 0,
-      "yellowCards": 0,
-      "redCards": 0,
-      "minutes": 93
-    },
-    {
       "playerId": "fd-player-3192932",
       "sourcePlayerId": "3192932",
       "teamId": "fd-team-2121",
@@ -2487,6 +2487,22 @@
       "yellowCards": 0,
       "redCards": 0,
       "minutes": 111
+    },
+    {
+      "playerId": "fd-player-3206742",
+      "sourcePlayerId": "3206742",
+      "teamId": "fd-team-1535",
+      "season": "2025/26",
+      "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3206742&team=1535&season=2026&style=rfef&lang=es",
+      "competition": "Tercera Federación",
+      "appearances": 6,
+      "substituteAppearances": 1,
+      "starts": 5,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutes": 505
     },
     {
       "playerId": "fd-player-3208814",
@@ -2791,6 +2807,22 @@
       "yellowCards": 2,
       "redCards": 0,
       "minutes": 633
+    },
+    {
+      "playerId": "fd-player-3237745",
+      "sourcePlayerId": "3237745",
+      "teamId": "fd-team-2121",
+      "season": "2025/26",
+      "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3237745&team=2121&season=2026&style=rfef&lang=es",
+      "competition": "Segunda División",
+      "appearances": 31,
+      "substituteAppearances": 4,
+      "starts": 27,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 6,
+      "redCards": 1,
+      "minutes": 2410
     },
     {
       "playerId": "fd-player-3238307",
@@ -3161,6 +3193,22 @@
       "minutes": 2561
     },
     {
+      "playerId": "fd-player-3312468",
+      "sourcePlayerId": "3312468",
+      "teamId": "fd-team-673",
+      "season": "2025/26",
+      "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3312468&team=673&season=2026&style=rfef&lang=es",
+      "competition": "Segunda Federación",
+      "appearances": 29,
+      "substituteAppearances": 11,
+      "starts": 18,
+      "goals": 6,
+      "assists": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "minutes": 1506
+    },
+    {
       "playerId": "fd-player-3312478",
       "sourcePlayerId": "3312478",
       "teamId": "fd-team-977",
@@ -3271,6 +3319,22 @@
       "yellowCards": 7,
       "redCards": 0,
       "minutes": 2266
+    },
+    {
+      "playerId": "fd-player-3314447",
+      "sourcePlayerId": "3314447",
+      "teamId": "fd-team-1236",
+      "season": "2025/26",
+      "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3314447&team=1236&season=2026&style=rfef&lang=es",
+      "competition": "Segunda Federación",
+      "appearances": 22,
+      "substituteAppearances": 10,
+      "starts": 12,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 4,
+      "redCards": 1,
+      "minutes": 1123
     },
     {
       "playerId": "fd-player-3315390",
@@ -3497,20 +3561,36 @@
       "minutes": 1214
     },
     {
+      "playerId": "fd-player-3350894",
+      "sourcePlayerId": "3350894",
+      "teamId": "fd-team-2121",
+      "season": "2025/26",
+      "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3350894&team=2121&season=2026&style=rfef&lang=es",
+      "competition": "Tercera Federación",
+      "appearances": 22,
+      "substituteAppearances": 10,
+      "starts": 12,
+      "goals": 2,
+      "assists": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "minutes": 954
+    },
+    {
       "playerId": "fd-player-3351044",
       "sourcePlayerId": "3351044",
       "teamId": "fd-team-2125",
       "season": "2025/26",
       "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3351044&team=2125&season=2026&style=rfef&lang=es",
-      "competition": "Segunda División",
-      "appearances": 6,
-      "substituteAppearances": 6,
-      "starts": 0,
-      "goals": 0,
+      "competition": "Tercera Federación",
+      "appearances": 9,
+      "substituteAppearances": 2,
+      "starts": 7,
+      "goals": 6,
       "assists": 0,
-      "yellowCards": 0,
+      "yellowCards": 2,
       "redCards": 0,
-      "minutes": 39
+      "minutes": 577
     },
     {
       "playerId": "fd-player-3354909",
@@ -3518,15 +3598,15 @@
       "teamId": "fd-team-2654",
       "season": "2025/26",
       "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3354909&team=2654&season=2026&style=rfef&lang=es",
-      "competition": "Segunda Federación",
-      "appearances": 20,
+      "competition": "Segunda División",
+      "appearances": 1,
       "substituteAppearances": 1,
-      "starts": 19,
+      "starts": 0,
       "goals": 0,
       "assists": 0,
-      "yellowCards": 6,
+      "yellowCards": 0,
       "redCards": 0,
-      "minutes": 1456
+      "minutes": 6
     },
     {
       "playerId": "fd-player-3354910",
@@ -4030,15 +4110,31 @@
       "teamId": "fd-team-4235",
       "season": "2025/26",
       "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3434462&team=4235&season=2026&style=rfef&lang=es",
-      "competition": "Segunda División",
-      "appearances": 1,
+      "competition": "Tercera Federación",
+      "appearances": 14,
       "substituteAppearances": 0,
-      "starts": 1,
+      "starts": 14,
       "goals": 0,
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "minutes": 90
+      "minutes": 1260
+    },
+    {
+      "playerId": "fd-player-3447031",
+      "sourcePlayerId": "3447031",
+      "teamId": "fd-team-565",
+      "season": "2025/26",
+      "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3447031&team=565&season=2026&style=rfef&lang=es",
+      "competition": "Segunda Federación",
+      "appearances": 34,
+      "substituteAppearances": 14,
+      "starts": 20,
+      "goals": 6,
+      "assists": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutes": 1889
     },
     {
       "playerId": "fd-player-3447233",
@@ -4135,6 +4231,22 @@
       "yellowCards": 3,
       "redCards": 0,
       "minutes": 1473
+    },
+    {
+      "playerId": "fd-player-3465330",
+      "sourcePlayerId": "3465330",
+      "teamId": "fd-team-2563",
+      "season": "2025/26",
+      "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3465330&team=2563&season=2026&style=rfef&lang=es",
+      "competition": "Tercera Federación",
+      "appearances": 15,
+      "substituteAppearances": 4,
+      "starts": 11,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "minutes": 1083
     },
     {
       "playerId": "fd-player-3466175",
@@ -4281,6 +4393,22 @@
       "minutes": 178
     },
     {
+      "playerId": "fd-player-3523450",
+      "sourcePlayerId": "3523450",
+      "teamId": "fd-team-2121",
+      "season": "2025/26",
+      "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3523450&team=2121&season=2026&style=rfef&lang=es",
+      "competition": "Tercera Federación",
+      "appearances": 6,
+      "substituteAppearances": 3,
+      "starts": 3,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutes": 405
+    },
+    {
       "playerId": "fd-player-352854",
       "sourcePlayerId": "352854",
       "teamId": "fd-team-9501",
@@ -4334,15 +4462,31 @@
       "teamId": "fd-team-140",
       "season": "2025/26",
       "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3541444&team=140&season=2026&style=rfef&lang=es",
-      "competition": "División de Honor",
-      "appearances": 26,
+      "competition": "Tercera Federación",
+      "appearances": 1,
       "substituteAppearances": 1,
-      "starts": 25,
-      "goals": 1,
+      "starts": 0,
+      "goals": 0,
       "assists": 0,
-      "yellowCards": 3,
+      "yellowCards": 0,
       "redCards": 0,
-      "minutes": 2179
+      "minutes": 33
+    },
+    {
+      "playerId": "fd-player-3552175",
+      "sourcePlayerId": "3552175",
+      "teamId": "fd-team-2121",
+      "season": "2025/26",
+      "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3552175&team=2121&season=2026&style=rfef&lang=es",
+      "competition": "Tercera Federación",
+      "appearances": 1,
+      "substituteAppearances": 1,
+      "starts": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutes": 9
     },
     {
       "playerId": "fd-player-3555345",
@@ -4414,15 +4558,15 @@
       "teamId": "fd-team-713",
       "season": "2025/26",
       "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3570353&team=713&season=2026&style=rfef&lang=es",
-      "competition": "Primera Federación",
-      "appearances": 10,
-      "substituteAppearances": 9,
-      "starts": 1,
-      "goals": 0,
-      "assists": 1,
-      "yellowCards": 1,
+      "competition": "División de Honor",
+      "appearances": 26,
+      "substituteAppearances": 8,
+      "starts": 18,
+      "goals": 27,
+      "assists": 0,
+      "yellowCards": 3,
       "redCards": 0,
-      "minutes": 145
+      "minutes": 1561
     },
     {
       "playerId": "fd-player-3570409",
@@ -4439,6 +4583,22 @@
       "yellowCards": 0,
       "redCards": 0,
       "minutes": 14
+    },
+    {
+      "playerId": "fd-player-3570728",
+      "sourcePlayerId": "3570728",
+      "teamId": "fd-team-9501",
+      "season": "2025/26",
+      "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=3570728&team=9501&season=2026&style=rfef&lang=es",
+      "competition": "División de Honor",
+      "appearances": 4,
+      "substituteAppearances": 2,
+      "starts": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutes": 219
     },
     {
       "playerId": "fd-player-3571070",
@@ -6919,6 +7079,22 @@
       "yellowCards": 5,
       "redCards": 0,
       "minutes": 1263
+    },
+    {
+      "playerId": "fd-player-900990",
+      "sourcePlayerId": "900990",
+      "teamId": "fd-team-183",
+      "season": "2025/26",
+      "sourceUrl": "https://widgets.besoccerapps.com/scripts/widgets?type=player_info_ajax&id=900990&team=183&season=2026&style=rfef&lang=es",
+      "competition": "Segunda Federación",
+      "appearances": 29,
+      "substituteAppearances": 0,
+      "starts": 29,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutes": 2610
     },
     {
       "playerId": "fd-player-901706",
