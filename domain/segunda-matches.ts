@@ -111,9 +111,12 @@ export function assertNoDuplicateEvents(matches: SegundaMatch[]) {
 
 const GENERIC_TOKENS = new Set(["cd", "ud", "rc", "rcd", "sd", "ad", "ce", "cf", "fc", "club", "de", "futbol", "balompie", "real"]);
 
+// Normalized keys that name the same club differently across sources.
+const TEAM_ALIASES: Record<string, string> = { "sociedad ii": "sociedad b" };
+
 // Club prefixes and suffixes differ between sources ("CD Leganés" vs "Leganés").
 export function normalizeTeamName(name: string): string {
-  return name
+  const key = name
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
     .toLowerCase()
@@ -121,6 +124,7 @@ export function normalizeTeamName(name: string): string {
     .split(/\s+/)
     .filter((token) => token && !GENERIC_TOKENS.has(token))
     .join(" ");
+  return TEAM_ALIASES[key] ?? key;
 }
 
 const STATUS_MAP: Record<SegundaMatchStatus, FixtureStatus> = {

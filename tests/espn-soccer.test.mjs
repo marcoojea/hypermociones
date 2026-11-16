@@ -63,6 +63,9 @@ test("samePlayer accepts initial and accent variants and rejects empty names", (
   assert.ok(samePlayer("Juan Pérez", "Juan Perez"));
   assert.equal(samePlayer("Juan Pérez", "Luis Pérez"), false);
   assert.equal(samePlayer("", ""), false);
+  assert.ok(samePlayer("Antonio Pacheco", "Antonio Pacheco Ruiz"));
+  assert.ok(samePlayer("Juanjo Pérez", "Juanjo"));
+  assert.equal(samePlayer("Luis Gómez", "Juanjo"), false);
 });
 
 test("resolveLineupStatuses marks starters, bench and everyone else as not listed", () => {

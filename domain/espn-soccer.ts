@@ -141,7 +141,12 @@ export function samePlayer(ourName: string, espnName: string): boolean {
   if (ours === theirs) return true;
   const oursTokens = ours.split(" ");
   const theirsTokens = theirs.split(" ");
-  return oursTokens.at(-1) === theirsTokens.at(-1) && oursTokens[0]?.[0] === theirsTokens[0]?.[0];
+  // Same surname and initial ("K. de Rooij" vs "Kaj de Rooij").
+  if (oursTokens.at(-1) === theirsTokens.at(-1) && oursTokens[0]?.[0] === theirsTokens[0]?.[0]) return true;
+  // Our shorter name is contained in ESPN's longer one ("Antonio Pacheco" vs "Antonio Pacheco Ruiz").
+  if (oursTokens.length >= 2 && oursTokens.every((token) => theirsTokens.includes(token))) return true;
+  // ESPN uses a single nickname ("Juanjo") that is one of our name's tokens.
+  return theirsTokens.length === 1 && oursTokens.includes(theirsTokens[0]);
 }
 
 export interface ResolvedLineup {

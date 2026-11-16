@@ -143,3 +143,7 @@ test("activeRoundNumber skips a round with one pending match and picks the first
   assert.equal(activeRoundNumber(fixtures), 15);
   assert.equal(activeRoundNumber([fixture(1, "FINISHED")]), null);
 });
+
+test("ESPN's 'Real Sociedad II' is the same club as our 'Real Sociedad de Fútbol B'", () => {
+  assert.equal(normalizeTeamName("Real Sociedad II"), normalizeTeamName("Real Sociedad de Fútbol B"));
+});
