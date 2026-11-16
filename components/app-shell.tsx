@@ -17,7 +17,7 @@ const nav = [
 const secondaryNav = [
   ["/compare", "Comparar"], ["/planner", "Planificador"], ["/watchlist", "Seguimiento"],
   ["/market", "Mercado"], ["/availability", "Disponibilidad"], ["/fixtures", "Partidos"], ["/predictions", "Predicciones"], ["/squads", "Plantillas"],
-  ["/teams", "Equipos"], ["/data-status", "Datos"],
+  ["/teams", "Equipos"], ["/data-status", "Datos"], ["/stats", "Estadísticas"], ["/news", "Noticias"],
 ] as const;
 
 const legalNav = [

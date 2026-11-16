@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { probabilityFromLineup, resolveLineupStatuses, sameTeam, type EspnScoreboardMatch, type EspnSummary, type LineupStatus } from "@/domain/espn-soccer";
+import type { ProbablePlayer, ProbableReason } from "@/domain/probable-lineup";
 
 export interface SquadPlayer {
   id: string;
@@ -32,6 +33,19 @@ export interface SquadFixture {
   awayScore: number | null;
 }
 
+export interface ProbableSide {
+  teamName: string;
+  source: "XI_ANTERIOR" | "ESTIMACION_HISTORICA";
+  // Date (YYYY-MM-DD) of the match whose XI was used; null when the team has no earlier XI.
+  lastXiDate: string | null;
+  xi: ProbablePlayer[];
+  bench: ProbablePlayer[];
+  unresolved: string[];
+  unavailable: { name: string; reason: string }[];
+}
+
+export interface ProbableMatch { home: ProbableSide; away: ProbableSide }
+
 interface LiveMatch extends EspnScoreboardMatch { summary: EspnSummary | null; summaryAt: string | null; error: string | null }
 interface LiveResponse { status: "OK" | "UNAVAILABLE"; fetchedAt: string; source: string; message?: string; errors?: string[]; matches: LiveMatch[] }
 
@@ -41,6 +55,36 @@ const LINEUP_LABEL: Record<LineupStatus, string> = { STARTER: "Titular confirmad
 const clock = (iso: string) => new Date(iso).toLocaleString("es-ES", { timeZone: "Europe/Madrid", weekday: "short", day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" });
 
 interface Row { player: SquadPlayer; probability: number | null; source: string }
+
+const REASON_LABEL: Record<ProbableReason, string> = { XI_ANTERIOR: "XI anterior", SUSTITUTO_BANCO: "Sustituto del banco", ESTIMACION_HISTORICA: "Estimación histórica" };
+const dayLabel = (iso: string) => new Date(`${iso}T12:00:00Z`).toLocaleDateString("es-ES", { timeZone: "Europe/Madrid", day: "2-digit", month: "long", year: "numeric" });
+
+function ProbableSideView({ side }: { side: ProbableSide }) {
+  const sourceLine = side.lastXiDate === null
+    ? "Estimación histórica: no hay XI previo"
+    : side.source === "XI_ANTERIOR"
+      ? `Basado en el último XI publicado el ${dayLabel(side.lastXiDate)}`
+      : `Estimación histórica: el último XI (${dayLabel(side.lastXiDate)}) tiene nombres sin casar.`;
+  return (
+    <div className="probable-side">
+      <h4>{side.teamName}</h4>
+      <p className="probable-source">{sourceLine}</p>
+      {side.xi.length === 0 ? <p className="probable-empty">Sin plantilla disponible.</p> : (
+        <ol className="probable-xi">
+          {side.xi.map((player) => <li key={player.playerId}>{player.name} <small>{REASON_LABEL[player.reason]}</small></li>)}
+        </ol>
+      )}
+      {side.bench.length > 0 ? <p className="probable-bench"><strong>Banquillo:</strong> {side.bench.map((player) => player.name).join(", ")}</p> : null}
+      {side.unresolved.length > 0 ? <p className="legal-note" role="status">Nombres sin casar con la plantilla: {side.unresolved.join(", ")}.</p> : null}
+      <h5>Lesionados / sancionados</h5>
+      {side.unavailable.length === 0 ? <p className="probable-empty">Sin bajas en los datos actuales.</p> : (
+        <ul className="probable-out">
+          {side.unavailable.map((item) => <li key={`${item.name}|${item.reason}`}>{item.name} <small>{item.reason}</small></li>)}
+        </ul>
+      )}
+    </div>
+  );
+}
 
 // Every row says why it shows what it shows: confirmed XI, history, or a visible reason it cannot be confirmed.
 function sideRows(players: SquadPlayer[], side: "home" | "away", match: LiveMatch | undefined, matched: boolean): Row[] {
@@ -56,7 +100,7 @@ function sideRows(players: SquadPlayer[], side: "home" | "away", match: LiveMatc
   return rows.sort((a, b) => (b.probability ?? -1) - (a.probability ?? -1) || a.player.name.localeCompare(b.player.name, "es"));
 }
 
-export function SquadsCenter({ round, rounds, fixtures, squads, notice }: { round: number; rounds: number[]; fixtures: SquadFixture[]; squads: SquadPlayer[]; notice: string | null }) {
+export function SquadsCenter({ round, rounds, fixtures, squads, notice, probables }: { round: number; rounds: number[]; fixtures: SquadFixture[]; squads: SquadPlayer[]; notice: string | null; probables: Record<string, ProbableMatch> }) {
   const [live, setLive] = useState<LiveResponse | null>(null);
   const [liveError, setLiveError] = useState<string | null>(null);
 
@@ -88,7 +132,7 @@ export function SquadsCenter({ round, rounds, fixtures, squads, notice }: { roun
 
   return (
     <>
-      <section className="page-header">
+      <section className="page-header squad-header">
         <div>
           <p className="eyebrow">Plantillas · Jornada {round}</p>
           <h1>Probabilidad de jugar</h1>
@@ -128,6 +172,7 @@ export function SquadsCenter({ round, rounds, fixtures, squads, notice }: { roun
         const state = match?.state === "in" ? `En juego · ${match.clock ?? ""}` : match?.state === "post" ? "Final" : clock(fixture.kickoffAt);
         const reason = !live ? null : !match ? "Sin partido en ESPN: solo probabilidades históricas" : match.error ? `Directo no disponible: ${match.error}` : null;
         const events = (match?.summary?.events ?? []).slice(0, 15);
+        const probable = probables[fixture.id];
         return (
           <section className="panel squad-match" key={fixture.id}>
             <p className="eyebrow">{state}</p>
@@ -138,6 +183,14 @@ export function SquadsCenter({ round, rounds, fixtures, squads, notice }: { roun
                 {events.map((event, index) => <li key={index}><strong>{event.minute ?? ""}</strong> {event.scoring ? "⚽ " : ""}{event.text}</li>)}
               </ul>
             ) : null}
+            <div className="probable-lineups">
+              <h3>Alineación probable</h3>
+              <div className="probable-grid">
+                <ProbableSideView side={probable.home} />
+                <ProbableSideView side={probable.away} />
+              </div>
+              <p className="probable-note">Lesiones: datos de ESPN sin verificar. Sanciones: regla simplificada (roja en la última jornada o cada 5 amarillas).</p>
+            </div>
             {[{ label: fixture.homeTeamName, rows: home }, { label: fixture.awayTeamName, rows: away }].map((side) => (
               <details key={side.label} className="squad-team">
                 <summary>{side.label} · {side.rows.length} jugadores</summary>
