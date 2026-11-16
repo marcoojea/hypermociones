@@ -17,4 +17,13 @@ export interface RealDataSnapshot {
   teams: TeamSummary[];
   players: PlayerListItem[];
   fixtures: FixtureListItem[];
+  fixturesSource?: {
+    provider: string;
+    leagueId: string;
+    season: string;
+    fetchedAt: string;
+    rounds: number;
+    matches: number;
+    attribution: string;
+  } | null;
 }

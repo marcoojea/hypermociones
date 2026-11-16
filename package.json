@@ -19,6 +19,7 @@
     "data:fetch": "tsx --env-file-if-exists=.env scripts/fetch-real-data.ts",
     "data:history": "tsx scripts/fetch-rfef-history.ts",
     "data:intelligence": "tsx scripts/fetch-player-intelligence.ts",
+    "data:fixtures:segunda": "tsx --env-file-if-exists=.env scripts/update-segunda-fixtures.ts",
     "data:refresh": "npm run data:fetch && npm run data:history && npm run data:intelligence",
     "data:check": "tsx scripts/check-data-quality.ts",
     "qa:e2e": "playwright test -c qa/playwright/playwright.config.ts",
