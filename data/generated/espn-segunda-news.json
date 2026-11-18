@@ -1,11 +1,17 @@
 {
   "metadata": {
-    "fetchedAt": "2026-11-18T12:46:55.302Z",
+    "fetchedAt": "2026-11-18T21:02:13.376Z",
     "source": "ESPN (API no oficial)",
     "season": "2026-27",
     "errors": []
   },
   "articles": [
+    {
+      "headline": "Gerard Piqué criticised for questioning ban length after Spanish player's death",
+      "published": "2026-11-18T11:08:32Z",
+      "link": "https://www.espn.com/soccer/story/_/id/50519534/gerard-pique-jesus-owono-jesus-de-miguel-andorra",
+      "injuryCandidate": true
+    },
     {
       "headline": "Tenerife pay tribute to Jesús de Miguel in first match since his death",
       "published": "2026-11-15T19:33:29Z",
@@ -299,12 +305,6 @@
       "published": "2023-05-17T05:56:00Z",
       "link": "https://www.espn.com/soccer/story/_/id/37585340/chaos-spain-segunda-game-suspended-coronavirus-outbreak",
       "injuryCandidate": true
-    },
-    {
-      "headline": "MLS new club Charlotte signs Spanish midfielder Sergio Ruiz",
-      "published": "2023-05-17T05:57:35Z",
-      "link": "https://www.espn.com/soccer/story/_/id/37584932/mls-new-club-charlotte-signs-spanish-midfielder-sergio-ruiz",
-      "injuryCandidate": false
     }
   ]
 }
