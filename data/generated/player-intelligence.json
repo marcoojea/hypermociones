@@ -4,13 +4,13 @@
     "sourceUrl": "https://github.com/dcaribou/transfermarkt-datasets",
     "license": "CC0-1.0",
     "datasetUpdatedAt": "2026-08-05",
-    "generatedAt": "2026-11-16T15:31:29.105Z",
+    "generatedAt": "2026-11-23T16:52:43.596Z",
     "performanceSeason": "2025/26",
     "methodVersion": "strict-market-link-v2",
-    "matchedPlayers": 267,
+    "matchedPlayers": 268,
     "playersWithPerformance": 0,
-    "playersWithMarketValue": 226,
-    "catalogPlayers": 688,
+    "playersWithMarketValue": 227,
+    "catalogPlayers": 689,
     "note": "El valor es una estimación publicada por la fuente, no un precio de Fantasy. Se conserva la fecha real de la última valoración y se aceptan solo nombres exactos o coincidencias asistidas por club, posición y edad."
   },
   "players": [
@@ -1143,6 +1143,19 @@
       "sourcePlayerName": "Rodrigo Rêgo",
       "matchMethod": "EXACT",
       "marketValue": null,
+      "previousSeason": null
+    },
+    {
+      "playerId": "fd-player-3206675",
+      "sourcePlayerId": "1061260",
+      "sourcePlayerName": "Iago Parente",
+      "matchMethod": "EXACT",
+      "marketValue": {
+        "amountEur": 150000,
+        "valuedAt": "2025-12-30",
+        "source": "Transfermarkt open dataset",
+        "sourceUrl": "https://www.transfermarkt.co.uk/iago-parente/profil/spieler/1061260"
+      },
       "previousSeason": null
     },
     {
