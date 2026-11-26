@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "fetchedAt": "2026-11-26T11:30:04.340Z",
+    "fetchedAt": "2026-11-26T20:30:46.729Z",
     "source": "ESPN (API no oficial)",
     "season": "2026-27",
     "errors": []
@@ -138482,51 +138482,6 @@
       ]
     },
     {
-      "espnId": "401883120",
-      "date": "2026-11-06",
-      "state": "post",
-      "completed": false,
-      "home": {
-        "name": "Castellón",
-        "score": 0
-      },
-      "away": {
-        "name": "Eibar",
-        "score": 0
-      },
-      "round": 13,
-      "lineups": {
-        "home": null,
-        "away": null
-      },
-      "events": [],
-      "teamStats": {
-        "home": {
-          "possessionPct": 0,
-          "totalShots": 0,
-          "shotsOnTarget": 0,
-          "foulsCommitted": 0,
-          "yellowCards": 0,
-          "redCards": 0,
-          "wonCorners": 0,
-          "offsides": 0,
-          "saves": 0
-        },
-        "away": {
-          "possessionPct": 0,
-          "totalShots": 0,
-          "shotsOnTarget": 0,
-          "foulsCommitted": 0,
-          "yellowCards": 0,
-          "redCards": 0,
-          "wonCorners": 0,
-          "offsides": 0,
-          "saves": 0
-        }
-      },
-      "players": []
-    },
-    {
       "espnId": "401883121",
       "date": "2026-11-07",
       "state": "post",
@@ -140787,51 +140742,6 @@
           "goalsConceded": 0
         }
       ]
-    },
-    {
-      "espnId": "401883142",
-      "date": "2026-11-07",
-      "state": "post",
-      "completed": false,
-      "home": {
-        "name": "Granada",
-        "score": 0
-      },
-      "away": {
-        "name": "Tenerife",
-        "score": 0
-      },
-      "round": 13,
-      "lineups": {
-        "home": null,
-        "away": null
-      },
-      "events": [],
-      "teamStats": {
-        "home": {
-          "possessionPct": 0,
-          "totalShots": 0,
-          "shotsOnTarget": 0,
-          "foulsCommitted": 0,
-          "yellowCards": 0,
-          "redCards": 0,
-          "wonCorners": 0,
-          "offsides": 0,
-          "saves": 0
-        },
-        "away": {
-          "possessionPct": 0,
-          "totalShots": 0,
-          "shotsOnTarget": 0,
-          "foulsCommitted": 0,
-          "yellowCards": 0,
-          "redCards": 0,
-          "wonCorners": 0,
-          "offsides": 0,
-          "saves": 0
-        }
-      },
-      "players": []
     },
     {
       "espnId": "401883143",
@@ -143932,51 +143842,6 @@
           "goalsConceded": 0
         }
       ]
-    },
-    {
-      "espnId": "401883122",
-      "date": "2026-11-08",
-      "state": "post",
-      "completed": false,
-      "home": {
-        "name": "FC Andorra",
-        "score": 0
-      },
-      "away": {
-        "name": "Mallorca",
-        "score": 0
-      },
-      "round": 13,
-      "lineups": {
-        "home": null,
-        "away": null
-      },
-      "events": [],
-      "teamStats": {
-        "home": {
-          "possessionPct": 0,
-          "totalShots": 0,
-          "shotsOnTarget": 0,
-          "foulsCommitted": 0,
-          "yellowCards": 0,
-          "redCards": 0,
-          "wonCorners": 0,
-          "offsides": 0,
-          "saves": 0
-        },
-        "away": {
-          "possessionPct": 0,
-          "totalShots": 0,
-          "shotsOnTarget": 0,
-          "foulsCommitted": 0,
-          "yellowCards": 0,
-          "redCards": 0,
-          "wonCorners": 0,
-          "offsides": 0,
-          "saves": 0
-        }
-      },
-      "players": []
     },
     {
       "espnId": "401883138",
@@ -170411,6 +170276,276 @@
       ]
     },
     {
+      "espnId": "401883102",
+      "date": "2026-11-27",
+      "state": "pre",
+      "completed": false,
+      "home": {
+        "name": "Leganés",
+        "score": 0
+      },
+      "away": {
+        "name": "CD Sabadell",
+        "score": 0
+      },
+      "round": 16,
+      "lineups": {
+        "home": null,
+        "away": null
+      },
+      "events": [],
+      "teamStats": {
+        "home": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        },
+        "away": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        }
+      },
+      "players": []
+    },
+    {
+      "espnId": "401882296",
+      "date": "2026-11-28",
+      "state": "pre",
+      "completed": false,
+      "home": {
+        "name": "Eldense",
+        "score": 0
+      },
+      "away": {
+        "name": "Girona",
+        "score": 0
+      },
+      "round": 16,
+      "lineups": {
+        "home": null,
+        "away": null
+      },
+      "events": [],
+      "teamStats": {
+        "home": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        },
+        "away": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        }
+      },
+      "players": []
+    },
+    {
+      "espnId": "401882297",
+      "date": "2026-11-28",
+      "state": "pre",
+      "completed": false,
+      "home": {
+        "name": "Albacete",
+        "score": 0
+      },
+      "away": {
+        "name": "Tenerife",
+        "score": 0
+      },
+      "round": 16,
+      "lineups": {
+        "home": null,
+        "away": null
+      },
+      "events": [],
+      "teamStats": {
+        "home": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        },
+        "away": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        }
+      },
+      "players": []
+    },
+    {
+      "espnId": "401883100",
+      "date": "2026-11-28",
+      "state": "pre",
+      "completed": false,
+      "home": {
+        "name": "Real Valladolid",
+        "score": 0
+      },
+      "away": {
+        "name": "Real Sociedad II",
+        "score": 0
+      },
+      "round": 16,
+      "lineups": {
+        "home": null,
+        "away": null
+      },
+      "events": [],
+      "teamStats": {
+        "home": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        },
+        "away": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        }
+      },
+      "players": []
+    },
+    {
+      "espnId": "401883101",
+      "date": "2026-11-28",
+      "state": "pre",
+      "completed": false,
+      "home": {
+        "name": "Las Palmas",
+        "score": 0
+      },
+      "away": {
+        "name": "FC Andorra",
+        "score": 0
+      },
+      "round": 16,
+      "lineups": {
+        "home": null,
+        "away": null
+      },
+      "events": [],
+      "teamStats": {
+        "home": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        },
+        "away": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        }
+      },
+      "players": []
+    },
+    {
+      "espnId": "401883104",
+      "date": "2026-11-28",
+      "state": "pre",
+      "completed": false,
+      "home": {
+        "name": "Eibar",
+        "score": 0
+      },
+      "away": {
+        "name": "Burgos",
+        "score": 0
+      },
+      "round": 16,
+      "lineups": {
+        "home": null,
+        "away": null
+      },
+      "events": [],
+      "teamStats": {
+        "home": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        },
+        "away": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        }
+      },
+      "players": []
+    },
+    {
       "espnId": "401882295",
       "date": "2026-11-29",
       "state": "pre",
@@ -170591,16 +170726,61 @@
       "players": []
     },
     {
-      "espnId": "401882290",
-      "date": "2026-12-06",
+      "espnId": "401883303",
+      "date": "2026-11-30",
       "state": "pre",
       "completed": false,
       "home": {
-        "name": "Sporting Gijón",
+        "name": "Real Oviedo",
         "score": 0
       },
       "away": {
-        "name": "Granada",
+        "name": "RC Celta Fortuna",
+        "score": 0
+      },
+      "round": 16,
+      "lineups": {
+        "home": null,
+        "away": null
+      },
+      "events": [],
+      "teamStats": {
+        "home": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        },
+        "away": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        }
+      },
+      "players": []
+    },
+    {
+      "espnId": "401882291",
+      "date": "2026-12-05",
+      "state": "pre",
+      "completed": false,
+      "home": {
+        "name": "CD Sabadell",
+        "score": 0
+      },
+      "away": {
+        "name": "Eibar",
         "score": 0
       },
       "round": 17,
@@ -170636,16 +170816,151 @@
       "players": []
     },
     {
-      "espnId": "401882291",
+      "espnId": "401882294",
+      "date": "2026-12-05",
+      "state": "pre",
+      "completed": false,
+      "home": {
+        "name": "FC Andorra",
+        "score": 0
+      },
+      "away": {
+        "name": "Real Oviedo",
+        "score": 0
+      },
+      "round": 17,
+      "lineups": {
+        "home": null,
+        "away": null
+      },
+      "events": [],
+      "teamStats": {
+        "home": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        },
+        "away": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        }
+      },
+      "players": []
+    },
+    {
+      "espnId": "401883095",
+      "date": "2026-12-05",
+      "state": "pre",
+      "completed": false,
+      "home": {
+        "name": "Tenerife",
+        "score": 0
+      },
+      "away": {
+        "name": "Eldense",
+        "score": 0
+      },
+      "round": 17,
+      "lineups": {
+        "home": null,
+        "away": null
+      },
+      "events": [],
+      "teamStats": {
+        "home": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        },
+        "away": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        }
+      },
+      "players": []
+    },
+    {
+      "espnId": "401883096",
+      "date": "2026-12-05",
+      "state": "pre",
+      "completed": false,
+      "home": {
+        "name": "Real Sociedad II",
+        "score": 0
+      },
+      "away": {
+        "name": "Leganés",
+        "score": 0
+      },
+      "round": 17,
+      "lineups": {
+        "home": null,
+        "away": null
+      },
+      "events": [],
+      "teamStats": {
+        "home": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        },
+        "away": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        }
+      },
+      "players": []
+    },
+    {
+      "espnId": "401882290",
       "date": "2026-12-06",
       "state": "pre",
       "completed": false,
       "home": {
-        "name": "CD Sabadell",
+        "name": "Sporting Gijón",
         "score": 0
       },
       "away": {
-        "name": "Eibar",
+        "name": "Granada",
         "score": 0
       },
       "round": 17,
@@ -170726,186 +171041,6 @@
       "players": []
     },
     {
-      "espnId": "401882293",
-      "date": "2026-12-06",
-      "state": "pre",
-      "completed": false,
-      "home": {
-        "name": "Burgos",
-        "score": 0
-      },
-      "away": {
-        "name": "Cádiz",
-        "score": 0
-      },
-      "round": 17,
-      "lineups": {
-        "home": null,
-        "away": null
-      },
-      "events": [],
-      "teamStats": {
-        "home": {
-          "possessionPct": null,
-          "totalShots": null,
-          "shotsOnTarget": null,
-          "foulsCommitted": null,
-          "yellowCards": null,
-          "redCards": null,
-          "wonCorners": null,
-          "offsides": null,
-          "saves": null
-        },
-        "away": {
-          "possessionPct": null,
-          "totalShots": null,
-          "shotsOnTarget": null,
-          "foulsCommitted": null,
-          "yellowCards": null,
-          "redCards": null,
-          "wonCorners": null,
-          "offsides": null,
-          "saves": null
-        }
-      },
-      "players": []
-    },
-    {
-      "espnId": "401882294",
-      "date": "2026-12-06",
-      "state": "pre",
-      "completed": false,
-      "home": {
-        "name": "FC Andorra",
-        "score": 0
-      },
-      "away": {
-        "name": "Real Oviedo",
-        "score": 0
-      },
-      "round": 17,
-      "lineups": {
-        "home": null,
-        "away": null
-      },
-      "events": [],
-      "teamStats": {
-        "home": {
-          "possessionPct": null,
-          "totalShots": null,
-          "shotsOnTarget": null,
-          "foulsCommitted": null,
-          "yellowCards": null,
-          "redCards": null,
-          "wonCorners": null,
-          "offsides": null,
-          "saves": null
-        },
-        "away": {
-          "possessionPct": null,
-          "totalShots": null,
-          "shotsOnTarget": null,
-          "foulsCommitted": null,
-          "yellowCards": null,
-          "redCards": null,
-          "wonCorners": null,
-          "offsides": null,
-          "saves": null
-        }
-      },
-      "players": []
-    },
-    {
-      "espnId": "401883095",
-      "date": "2026-12-06",
-      "state": "pre",
-      "completed": false,
-      "home": {
-        "name": "Tenerife",
-        "score": 0
-      },
-      "away": {
-        "name": "Eldense",
-        "score": 0
-      },
-      "round": 17,
-      "lineups": {
-        "home": null,
-        "away": null
-      },
-      "events": [],
-      "teamStats": {
-        "home": {
-          "possessionPct": null,
-          "totalShots": null,
-          "shotsOnTarget": null,
-          "foulsCommitted": null,
-          "yellowCards": null,
-          "redCards": null,
-          "wonCorners": null,
-          "offsides": null,
-          "saves": null
-        },
-        "away": {
-          "possessionPct": null,
-          "totalShots": null,
-          "shotsOnTarget": null,
-          "foulsCommitted": null,
-          "yellowCards": null,
-          "redCards": null,
-          "wonCorners": null,
-          "offsides": null,
-          "saves": null
-        }
-      },
-      "players": []
-    },
-    {
-      "espnId": "401883096",
-      "date": "2026-12-06",
-      "state": "pre",
-      "completed": false,
-      "home": {
-        "name": "Real Sociedad II",
-        "score": 0
-      },
-      "away": {
-        "name": "Leganés",
-        "score": 0
-      },
-      "round": 17,
-      "lineups": {
-        "home": null,
-        "away": null
-      },
-      "events": [],
-      "teamStats": {
-        "home": {
-          "possessionPct": null,
-          "totalShots": null,
-          "shotsOnTarget": null,
-          "foulsCommitted": null,
-          "yellowCards": null,
-          "redCards": null,
-          "wonCorners": null,
-          "offsides": null,
-          "saves": null
-        },
-        "away": {
-          "possessionPct": null,
-          "totalShots": null,
-          "shotsOnTarget": null,
-          "foulsCommitted": null,
-          "yellowCards": null,
-          "redCards": null,
-          "wonCorners": null,
-          "offsides": null,
-          "saves": null
-        }
-      },
-      "players": []
-    },
-    {
       "espnId": "401883097",
       "date": "2026-12-06",
       "state": "pre",
@@ -170916,51 +171051,6 @@
       },
       "away": {
         "name": "Real Valladolid",
-        "score": 0
-      },
-      "round": 17,
-      "lineups": {
-        "home": null,
-        "away": null
-      },
-      "events": [],
-      "teamStats": {
-        "home": {
-          "possessionPct": null,
-          "totalShots": null,
-          "shotsOnTarget": null,
-          "foulsCommitted": null,
-          "yellowCards": null,
-          "redCards": null,
-          "wonCorners": null,
-          "offsides": null,
-          "saves": null
-        },
-        "away": {
-          "possessionPct": null,
-          "totalShots": null,
-          "shotsOnTarget": null,
-          "foulsCommitted": null,
-          "yellowCards": null,
-          "redCards": null,
-          "wonCorners": null,
-          "offsides": null,
-          "saves": null
-        }
-      },
-      "players": []
-    },
-    {
-      "espnId": "401883098",
-      "date": "2026-12-06",
-      "state": "pre",
-      "completed": false,
-      "home": {
-        "name": "Córdoba",
-        "score": 0
-      },
-      "away": {
-        "name": "Las Palmas",
         "score": 0
       },
       "round": 17,
@@ -171054,6 +171144,231 @@
         "score": 0
       },
       "round": 17,
+      "lineups": {
+        "home": null,
+        "away": null
+      },
+      "events": [],
+      "teamStats": {
+        "home": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        },
+        "away": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        }
+      },
+      "players": []
+    },
+    {
+      "espnId": "401882293",
+      "date": "2026-12-07",
+      "state": "pre",
+      "completed": false,
+      "home": {
+        "name": "Burgos",
+        "score": 0
+      },
+      "away": {
+        "name": "Cádiz",
+        "score": 0
+      },
+      "round": 17,
+      "lineups": {
+        "home": null,
+        "away": null
+      },
+      "events": [],
+      "teamStats": {
+        "home": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        },
+        "away": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        }
+      },
+      "players": []
+    },
+    {
+      "espnId": "401883098",
+      "date": "2026-12-07",
+      "state": "pre",
+      "completed": false,
+      "home": {
+        "name": "Córdoba",
+        "score": 0
+      },
+      "away": {
+        "name": "Las Palmas",
+        "score": 0
+      },
+      "round": 17,
+      "lineups": {
+        "home": null,
+        "away": null
+      },
+      "events": [],
+      "teamStats": {
+        "home": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        },
+        "away": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        }
+      },
+      "players": []
+    },
+    {
+      "espnId": "401883120",
+      "date": "2026-12-09",
+      "state": "pre",
+      "completed": false,
+      "home": {
+        "name": "Castellón",
+        "score": 0
+      },
+      "away": {
+        "name": "Eibar",
+        "score": 0
+      },
+      "round": 13,
+      "lineups": {
+        "home": null,
+        "away": null
+      },
+      "events": [],
+      "teamStats": {
+        "home": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        },
+        "away": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        }
+      },
+      "players": []
+    },
+    {
+      "espnId": "401883122",
+      "date": "2026-12-09",
+      "state": "pre",
+      "completed": false,
+      "home": {
+        "name": "FC Andorra",
+        "score": 0
+      },
+      "away": {
+        "name": "Mallorca",
+        "score": 0
+      },
+      "round": 13,
+      "lineups": {
+        "home": null,
+        "away": null
+      },
+      "events": [],
+      "teamStats": {
+        "home": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        },
+        "away": {
+          "possessionPct": null,
+          "totalShots": null,
+          "shotsOnTarget": null,
+          "foulsCommitted": null,
+          "yellowCards": null,
+          "redCards": null,
+          "wonCorners": null,
+          "offsides": null,
+          "saves": null
+        }
+      },
+      "players": []
+    },
+    {
+      "espnId": "401883142",
+      "date": "2026-12-09",
+      "state": "pre",
+      "completed": false,
+      "home": {
+        "name": "Granada",
+        "score": 0
+      },
+      "away": {
+        "name": "Tenerife",
+        "score": 0
+      },
+      "round": 13,
       "lineups": {
         "home": null,
         "away": null
