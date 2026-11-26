@@ -7,7 +7,7 @@
     "season": "2026/27",
     "startsOn": "2026-08-16",
     "endsOn": "2027-05-30",
-    "importedAt": "2026-11-23T16:45:20.685Z",
+    "importedAt": "2026-11-26T15:58:07.361Z",
     "includesPlayerAggregates": true,
     "unavailableMetrics": [
       "xG",
@@ -2247,7 +2247,7 @@
       "shots": null,
       "keyPasses": null,
       "cleanSheets": null,
-      "yellowCards": 2,
+      "yellowCards": 3,
       "redCards": null,
       "fantasyPoints": null,
       "pointsPerGame": null,
@@ -2333,7 +2333,7 @@
       "appearances": null,
       "starts": null,
       "minutes": null,
-      "goals": null,
+      "goals": 1,
       "assists": null,
       "xg": null,
       "xa": null,
@@ -2576,7 +2576,7 @@
       "shots": null,
       "keyPasses": null,
       "cleanSheets": null,
-      "yellowCards": 2,
+      "yellowCards": 3,
       "redCards": null,
       "fantasyPoints": null,
       "pointsPerGame": null,
@@ -2803,7 +2803,7 @@
       "appearances": null,
       "starts": null,
       "minutes": null,
-      "goals": 1,
+      "goals": 3,
       "assists": null,
       "xg": null,
       "xa": null,
@@ -2858,7 +2858,7 @@
       "shots": null,
       "keyPasses": null,
       "cleanSheets": null,
-      "yellowCards": 4,
+      "yellowCards": 5,
       "redCards": null,
       "fantasyPoints": null,
       "pointsPerGame": null,
@@ -3892,7 +3892,7 @@
       "shots": null,
       "keyPasses": null,
       "cleanSheets": null,
-      "yellowCards": 3,
+      "yellowCards": 4,
       "redCards": 1,
       "fantasyPoints": null,
       "pointsPerGame": null,
@@ -9456,53 +9456,6 @@
       ]
     },
     {
-      "id": "fd-player-3312190",
-      "slug": "pablo-gavian-3312190",
-      "name": "Pablo Gavián",
-      "shirtNumber": null,
-      "nationality": "ES",
-      "age": 20,
-      "heightCm": 178,
-      "weightKg": 70,
-      "position": "DEF",
-      "status": "UNKNOWN",
-      "team": {
-        "id": "fd-team-713",
-        "name": "RC Celta Fortuna",
-        "shortName": "CEL",
-        "slug": "rc-celta-fortuna-713",
-        "primaryColor": "#d9e6d5",
-        "crestUrl": null
-      },
-      "appearances": null,
-      "starts": null,
-      "minutes": null,
-      "goals": null,
-      "assists": null,
-      "xg": null,
-      "xa": null,
-      "xgi": null,
-      "shots": null,
-      "keyPasses": null,
-      "cleanSheets": null,
-      "yellowCards": null,
-      "redCards": null,
-      "fantasyPoints": null,
-      "pointsPerGame": null,
-      "form": null,
-      "fis": null,
-      "nextOpponent": "@ CAD",
-      "fixtureDifficulty": null,
-      "recentMinutes": [],
-      "recentPoints": [],
-      "strengths": [
-        "Plantilla 2026/27 obtenida de RFEF (plantillas oficiales)"
-      ],
-      "risks": [
-        "Disponibilidad competitiva pendiente de la información oficial"
-      ]
-    },
-    {
       "id": "fd-player-3134438",
       "slug": "pablo-meixus-3134438",
       "name": "Pablo Meixús",
@@ -9534,6 +9487,53 @@
       "cleanSheets": null,
       "yellowCards": 2,
       "redCards": 2,
+      "fantasyPoints": null,
+      "pointsPerGame": null,
+      "form": null,
+      "fis": null,
+      "nextOpponent": "@ CAD",
+      "fixtureDifficulty": null,
+      "recentMinutes": [],
+      "recentPoints": [],
+      "strengths": [
+        "Plantilla 2026/27 obtenida de RFEF (plantillas oficiales)"
+      ],
+      "risks": [
+        "Disponibilidad competitiva pendiente de la información oficial"
+      ]
+    },
+    {
+      "id": "fd-player-3312190",
+      "slug": "pablo-gavian-3312190",
+      "name": "Pablo Gavián",
+      "shirtNumber": null,
+      "nationality": "ES",
+      "age": 20,
+      "heightCm": 178,
+      "weightKg": 70,
+      "position": "DEF",
+      "status": "UNKNOWN",
+      "team": {
+        "id": "fd-team-713",
+        "name": "RC Celta Fortuna",
+        "shortName": "CEL",
+        "slug": "rc-celta-fortuna-713",
+        "primaryColor": "#d9e6d5",
+        "crestUrl": null
+      },
+      "appearances": null,
+      "starts": null,
+      "minutes": null,
+      "goals": null,
+      "assists": null,
+      "xg": null,
+      "xa": null,
+      "xgi": null,
+      "shots": null,
+      "keyPasses": null,
+      "cleanSheets": null,
+      "yellowCards": null,
+      "redCards": null,
       "fantasyPoints": null,
       "pointsPerGame": null,
       "form": null,
@@ -10707,54 +10707,7 @@
       "shots": null,
       "keyPasses": null,
       "cleanSheets": null,
-      "yellowCards": 1,
-      "redCards": null,
-      "fantasyPoints": null,
-      "pointsPerGame": null,
-      "form": null,
-      "fis": null,
-      "nextOpponent": "@ AND",
-      "fixtureDifficulty": null,
-      "recentMinutes": [],
-      "recentPoints": [],
-      "strengths": [
-        "Plantilla 2026/27 obtenida de RFEF (plantillas oficiales)"
-      ],
-      "risks": [
-        "Disponibilidad competitiva pendiente de la información oficial"
-      ]
-    },
-    {
-      "id": "fd-player-338593",
-      "slug": "redru-338593",
-      "name": "Redru",
-      "shirtNumber": null,
-      "nationality": "ES",
-      "age": 29,
-      "heightCm": 178,
-      "weightKg": 72,
-      "position": "DEF",
-      "status": "UNKNOWN",
-      "team": {
-        "id": "fd-team-665",
-        "name": "AD Ceuta FC",
-        "shortName": "CEU",
-        "slug": "ad-ceuta-fc-665",
-        "primaryColor": "#f3d55b",
-        "crestUrl": null
-      },
-      "appearances": null,
-      "starts": null,
-      "minutes": null,
-      "goals": null,
-      "assists": null,
-      "xg": null,
-      "xa": null,
-      "xgi": null,
-      "shots": null,
-      "keyPasses": null,
-      "cleanSheets": null,
-      "yellowCards": null,
+      "yellowCards": 2,
       "redCards": null,
       "fantasyPoints": null,
       "pointsPerGame": null,
@@ -10802,6 +10755,53 @@
       "keyPasses": null,
       "cleanSheets": null,
       "yellowCards": 4,
+      "redCards": null,
+      "fantasyPoints": null,
+      "pointsPerGame": null,
+      "form": null,
+      "fis": null,
+      "nextOpponent": "@ AND",
+      "fixtureDifficulty": null,
+      "recentMinutes": [],
+      "recentPoints": [],
+      "strengths": [
+        "Plantilla 2026/27 obtenida de RFEF (plantillas oficiales)"
+      ],
+      "risks": [
+        "Disponibilidad competitiva pendiente de la información oficial"
+      ]
+    },
+    {
+      "id": "fd-player-338593",
+      "slug": "redru-338593",
+      "name": "Redru",
+      "shirtNumber": null,
+      "nationality": "ES",
+      "age": 29,
+      "heightCm": 178,
+      "weightKg": 72,
+      "position": "DEF",
+      "status": "UNKNOWN",
+      "team": {
+        "id": "fd-team-665",
+        "name": "AD Ceuta FC",
+        "shortName": "CEU",
+        "slug": "ad-ceuta-fc-665",
+        "primaryColor": "#f3d55b",
+        "crestUrl": null
+      },
+      "appearances": null,
+      "starts": null,
+      "minutes": null,
+      "goals": null,
+      "assists": null,
+      "xg": null,
+      "xa": null,
+      "xgi": null,
+      "shots": null,
+      "keyPasses": null,
+      "cleanSheets": null,
+      "yellowCards": null,
       "redCards": null,
       "fantasyPoints": null,
       "pointsPerGame": null,
@@ -10942,7 +10942,7 @@
       "shots": null,
       "keyPasses": null,
       "cleanSheets": null,
-      "yellowCards": 2,
+      "yellowCards": 3,
       "redCards": null,
       "fantasyPoints": null,
       "pointsPerGame": null,
@@ -11553,7 +11553,7 @@
       "shots": null,
       "keyPasses": null,
       "cleanSheets": null,
-      "yellowCards": 3,
+      "yellowCards": 4,
       "redCards": null,
       "fantasyPoints": null,
       "pointsPerGame": null,
@@ -11600,7 +11600,7 @@
       "shots": null,
       "keyPasses": null,
       "cleanSheets": null,
-      "yellowCards": 1,
+      "yellowCards": 2,
       "redCards": null,
       "fantasyPoints": null,
       "pointsPerGame": null,
@@ -11639,7 +11639,7 @@
       "appearances": null,
       "starts": null,
       "minutes": null,
-      "goals": null,
+      "goals": 1,
       "assists": null,
       "xg": null,
       "xa": null,
@@ -11647,7 +11647,7 @@
       "shots": null,
       "keyPasses": null,
       "cleanSheets": null,
-      "yellowCards": 1,
+      "yellowCards": 2,
       "redCards": null,
       "fantasyPoints": null,
       "pointsPerGame": null,
@@ -14579,14 +14579,14 @@
       ]
     },
     {
-      "id": "fd-player-652893",
-      "slug": "jon-guruzeta-652893",
-      "name": "Jon Guruzeta",
+      "id": "fd-player-194491",
+      "slug": "jon-bautista-194491",
+      "name": "Jon Bautista",
       "shirtNumber": null,
       "nationality": "ES",
-      "age": 26,
-      "heightCm": 185,
-      "weightKg": 78,
+      "age": 31,
+      "heightCm": 182,
+      "weightKg": 72,
       "position": "DEL",
       "status": "UNKNOWN",
       "team": {
@@ -14600,7 +14600,7 @@
       "appearances": null,
       "starts": null,
       "minutes": null,
-      "goals": 4,
+      "goals": 1,
       "assists": null,
       "xg": null,
       "xa": null,
@@ -14626,14 +14626,14 @@
       ]
     },
     {
-      "id": "fd-player-194491",
-      "slug": "jon-bautista-194491",
-      "name": "Jon Bautista",
+      "id": "fd-player-652893",
+      "slug": "jon-guruzeta-652893",
+      "name": "Jon Guruzeta",
       "shirtNumber": null,
       "nationality": "ES",
-      "age": 31,
-      "heightCm": 182,
-      "weightKg": 72,
+      "age": 26,
+      "heightCm": 185,
+      "weightKg": 78,
       "position": "DEL",
       "status": "UNKNOWN",
       "team": {
@@ -14647,7 +14647,7 @@
       "appearances": null,
       "starts": null,
       "minutes": null,
-      "goals": 1,
+      "goals": 4,
       "assists": null,
       "xg": null,
       "xa": null,
@@ -17070,53 +17070,6 @@
       ]
     },
     {
-      "id": "fd-player-3184034",
-      "slug": "javier-sarasa-3184034",
-      "name": "Javier Sarasa",
-      "shirtNumber": null,
-      "nationality": "ES",
-      "age": 21,
-      "heightCm": 180,
-      "weightKg": 70,
-      "position": "MED",
-      "status": "UNKNOWN",
-      "team": {
-        "id": "fd-team-1236",
-        "name": "Girona FC",
-        "shortName": "GIR",
-        "slug": "girona-fc-1236",
-        "primaryColor": "#cfe8e2",
-        "crestUrl": null
-      },
-      "appearances": null,
-      "starts": null,
-      "minutes": null,
-      "goals": null,
-      "assists": null,
-      "xg": null,
-      "xa": null,
-      "xgi": null,
-      "shots": null,
-      "keyPasses": null,
-      "cleanSheets": null,
-      "yellowCards": 1,
-      "redCards": null,
-      "fantasyPoints": null,
-      "pointsPerGame": null,
-      "form": null,
-      "fis": null,
-      "nextOpponent": "vs LEG",
-      "fixtureDifficulty": null,
-      "recentMinutes": [],
-      "recentPoints": [],
-      "strengths": [
-        "Plantilla 2026/27 obtenida de RFEF (plantillas oficiales)"
-      ],
-      "risks": [
-        "Disponibilidad competitiva pendiente de la información oficial"
-      ]
-    },
-    {
       "id": "fd-player-3231788",
       "slug": "lass-3231788",
       "name": "Lass",
@@ -17523,6 +17476,53 @@
       "keyPasses": null,
       "cleanSheets": null,
       "yellowCards": null,
+      "redCards": null,
+      "fantasyPoints": null,
+      "pointsPerGame": null,
+      "form": null,
+      "fis": null,
+      "nextOpponent": "vs LEG",
+      "fixtureDifficulty": null,
+      "recentMinutes": [],
+      "recentPoints": [],
+      "strengths": [
+        "Plantilla 2026/27 obtenida de RFEF (plantillas oficiales)"
+      ],
+      "risks": [
+        "Disponibilidad competitiva pendiente de la información oficial"
+      ]
+    },
+    {
+      "id": "fd-player-3184034",
+      "slug": "javier-sarasa-3184034",
+      "name": "Javier Sarasa",
+      "shirtNumber": null,
+      "nationality": "ES",
+      "age": 21,
+      "heightCm": 180,
+      "weightKg": 70,
+      "position": "DEL",
+      "status": "UNKNOWN",
+      "team": {
+        "id": "fd-team-1236",
+        "name": "Girona FC",
+        "shortName": "GIR",
+        "slug": "girona-fc-1236",
+        "primaryColor": "#cfe8e2",
+        "crestUrl": null
+      },
+      "appearances": null,
+      "starts": null,
+      "minutes": null,
+      "goals": null,
+      "assists": null,
+      "xg": null,
+      "xa": null,
+      "xgi": null,
+      "shots": null,
+      "keyPasses": null,
+      "cleanSheets": null,
+      "yellowCards": 1,
       "redCards": null,
       "fantasyPoints": null,
       "pointsPerGame": null,
@@ -26945,7 +26945,7 @@
       "name": "José Ortega",
       "shirtNumber": null,
       "nationality": "ES",
-      "age": 34,
+      "age": 35,
       "heightCm": 185,
       "weightKg": 79,
       "position": "POR",
@@ -28915,8 +28915,8 @@
     },
     {
       "id": "fd-player-3450950",
-      "slug": "d-alvarez-3450950",
-      "name": "D. Álvarez",
+      "slug": "mata-3450950",
+      "name": "Mata",
       "shirtNumber": null,
       "nationality": "ES",
       "age": 19,
@@ -32256,7 +32256,7 @@
       "name": "K. De Rooij",
       "shirtNumber": null,
       "nationality": "NL",
-      "age": 25,
+      "age": 26,
       "heightCm": 184,
       "weightKg": 75,
       "position": "DEL",
@@ -35882,31 +35882,6 @@
       "awayScore": 1
     },
     {
-      "id": "ts-fixture-2505846",
-      "externalId": "thesportsdb-2505846",
-      "round": 13,
-      "kickoffAt": "2026-11-06T19:30:00Z",
-      "status": "POSTPONED",
-      "homeTeam": {
-        "id": "fd-team-673",
-        "name": "CD Castellón",
-        "shortName": "CAS",
-        "slug": "cd-castellon-673",
-        "primaryColor": "#cfe8e2",
-        "crestUrl": null
-      },
-      "awayTeam": {
-        "id": "fd-team-957",
-        "name": "SD Eibar",
-        "shortName": "EIB",
-        "slug": "sd-eibar-957",
-        "primaryColor": "#efc6c2",
-        "crestUrl": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "id": "ts-fixture-2505840",
       "externalId": "thesportsdb-2505840",
       "round": 13,
@@ -35955,31 +35930,6 @@
       },
       "homeScore": 3,
       "awayScore": 0
-    },
-    {
-      "id": "ts-fixture-2505843",
-      "externalId": "thesportsdb-2505843",
-      "round": 13,
-      "kickoffAt": "2026-11-07T20:00:00Z",
-      "status": "POSTPONED",
-      "homeTeam": {
-        "id": "fd-team-4235",
-        "name": "Granada CF",
-        "shortName": "GRA",
-        "slug": "granada-cf-4235",
-        "primaryColor": "#d9e6d5",
-        "crestUrl": null
-      },
-      "awayTeam": {
-        "id": "fd-team-2477",
-        "name": "CD Tenerife",
-        "shortName": "TEN",
-        "slug": "cd-tenerife-2477",
-        "primaryColor": "#d7e7f5",
-        "crestUrl": null
-      },
-      "homeScore": null,
-      "awayScore": null
     },
     {
       "id": "ts-fixture-2505844",
@@ -36082,31 +36032,6 @@
       "awayScore": 2
     },
     {
-      "id": "ts-fixture-2505847",
-      "externalId": "thesportsdb-2505847",
-      "round": 13,
-      "kickoffAt": "2026-11-08T13:00:00Z",
-      "status": "POSTPONED",
-      "homeTeam": {
-        "id": "fd-team-9501",
-        "name": "FC Andorra",
-        "shortName": "AND",
-        "slug": "fc-andorra-9501",
-        "primaryColor": "#d7e7f5",
-        "crestUrl": null
-      },
-      "awayTeam": {
-        "id": "fd-team-1623",
-        "name": "RCD Mallorca",
-        "shortName": "MLL",
-        "slug": "rcd-mallorca-1623",
-        "primaryColor": "#efc6c2",
-        "crestUrl": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "id": "ts-fixture-2505839",
       "externalId": "thesportsdb-2505839",
       "round": 13,
@@ -36155,6 +36080,81 @@
       },
       "homeScore": 0,
       "awayScore": 0
+    },
+    {
+      "id": "ts-fixture-2505843",
+      "externalId": "thesportsdb-2505843",
+      "round": 13,
+      "kickoffAt": "2026-12-09T20:00:00Z",
+      "status": "SCHEDULED",
+      "homeTeam": {
+        "id": "fd-team-4235",
+        "name": "Granada CF",
+        "shortName": "GRA",
+        "slug": "granada-cf-4235",
+        "primaryColor": "#d9e6d5",
+        "crestUrl": null
+      },
+      "awayTeam": {
+        "id": "fd-team-2477",
+        "name": "CD Tenerife",
+        "shortName": "TEN",
+        "slug": "cd-tenerife-2477",
+        "primaryColor": "#d7e7f5",
+        "crestUrl": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "ts-fixture-2505846",
+      "externalId": "thesportsdb-2505846",
+      "round": 13,
+      "kickoffAt": "2026-12-09T20:00:00Z",
+      "status": "SCHEDULED",
+      "homeTeam": {
+        "id": "fd-team-673",
+        "name": "CD Castellón",
+        "shortName": "CAS",
+        "slug": "cd-castellon-673",
+        "primaryColor": "#cfe8e2",
+        "crestUrl": null
+      },
+      "awayTeam": {
+        "id": "fd-team-957",
+        "name": "SD Eibar",
+        "shortName": "EIB",
+        "slug": "sd-eibar-957",
+        "primaryColor": "#efc6c2",
+        "crestUrl": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "ts-fixture-2505847",
+      "externalId": "thesportsdb-2505847",
+      "round": 13,
+      "kickoffAt": "2026-12-09T20:00:00Z",
+      "status": "SCHEDULED",
+      "homeTeam": {
+        "id": "fd-team-9501",
+        "name": "FC Andorra",
+        "shortName": "AND",
+        "slug": "fc-andorra-9501",
+        "primaryColor": "#d7e7f5",
+        "crestUrl": null
+      },
+      "awayTeam": {
+        "id": "fd-team-1623",
+        "name": "RCD Mallorca",
+        "shortName": "MLL",
+        "slug": "rcd-mallorca-1623",
+        "primaryColor": "#efc6c2",
+        "crestUrl": null
+      },
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "id": "ts-fixture-2505850",
@@ -36686,7 +36686,7 @@
       "externalId": "thesportsdb-2505871",
       "round": 15,
       "kickoffAt": "2026-11-23T19:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "homeTeam": {
         "id": "fd-team-665",
         "name": "AD Ceuta FC",
@@ -36703,39 +36703,14 @@
         "primaryColor": "#f3d55b",
         "crestUrl": null
       },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "id": "ts-fixture-2505872",
-      "externalId": "thesportsdb-2505872",
-      "round": 16,
-      "kickoffAt": "2026-11-29T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeTeam": {
-        "id": "fd-team-2563",
-        "name": "UD Las Palmas",
-        "shortName": "LPA",
-        "slug": "ud-las-palmas-2563",
-        "primaryColor": "#f3d55b",
-        "crestUrl": null
-      },
-      "awayTeam": {
-        "id": "fd-team-9501",
-        "name": "FC Andorra",
-        "shortName": "AND",
-        "slug": "fc-andorra-9501",
-        "primaryColor": "#d7e7f5",
-        "crestUrl": null
-      },
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 2,
+      "awayScore": 3
     },
     {
       "id": "ts-fixture-2505873",
       "externalId": "thesportsdb-2505873",
       "round": 16,
-      "kickoffAt": "2026-11-29T16:00:00Z",
+      "kickoffAt": "2026-11-27T19:30:00Z",
       "status": "SCHEDULED",
       "homeTeam": {
         "id": "fd-team-1535",
@@ -36757,10 +36732,35 @@
       "awayScore": null
     },
     {
+      "id": "ts-fixture-2505872",
+      "externalId": "thesportsdb-2505872",
+      "round": 16,
+      "kickoffAt": "2026-11-28T13:00:00Z",
+      "status": "SCHEDULED",
+      "homeTeam": {
+        "id": "fd-team-2563",
+        "name": "UD Las Palmas",
+        "shortName": "LPA",
+        "slug": "ud-las-palmas-2563",
+        "primaryColor": "#f3d55b",
+        "crestUrl": null
+      },
+      "awayTeam": {
+        "id": "fd-team-9501",
+        "name": "FC Andorra",
+        "shortName": "AND",
+        "slug": "fc-andorra-9501",
+        "primaryColor": "#d7e7f5",
+        "crestUrl": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
       "id": "ts-fixture-2505874",
       "externalId": "thesportsdb-2505874",
       "round": 16,
-      "kickoffAt": "2026-11-29T16:00:00Z",
+      "kickoffAt": "2026-11-28T17:30:00Z",
       "status": "SCHEDULED",
       "homeTeam": {
         "id": "fd-team-957",
@@ -36782,60 +36782,10 @@
       "awayScore": null
     },
     {
-      "id": "ts-fixture-2505875",
-      "externalId": "thesportsdb-2505875",
-      "round": 16,
-      "kickoffAt": "2026-11-29T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeTeam": {
-        "id": "fd-team-4235",
-        "name": "Granada CF",
-        "shortName": "GRA",
-        "slug": "granada-cf-4235",
-        "primaryColor": "#d9e6d5",
-        "crestUrl": null
-      },
-      "awayTeam": {
-        "id": "fd-team-665",
-        "name": "AD Ceuta FC",
-        "shortName": "CEU",
-        "slug": "ad-ceuta-fc-665",
-        "primaryColor": "#f3d55b",
-        "crestUrl": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "id": "ts-fixture-2505876",
-      "externalId": "thesportsdb-2505876",
-      "round": 16,
-      "kickoffAt": "2026-11-29T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeTeam": {
-        "id": "fd-team-2115",
-        "name": "Real Oviedo",
-        "shortName": "OVI",
-        "slug": "real-oviedo-2115",
-        "primaryColor": "#d8cbe8",
-        "crestUrl": null
-      },
-      "awayTeam": {
-        "id": "fd-team-713",
-        "name": "RC Celta Fortuna",
-        "shortName": "CEL",
-        "slug": "rc-celta-fortuna-713",
-        "primaryColor": "#d9e6d5",
-        "crestUrl": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "id": "ts-fixture-2505877",
       "externalId": "thesportsdb-2505877",
       "round": 16,
-      "kickoffAt": "2026-11-29T16:00:00Z",
+      "kickoffAt": "2026-11-28T20:00:00Z",
       "status": "SCHEDULED",
       "homeTeam": {
         "id": "fd-team-2654",
@@ -36860,7 +36810,7 @@
       "id": "ts-fixture-2505878",
       "externalId": "thesportsdb-2505878",
       "round": 16,
-      "kickoffAt": "2026-11-29T16:00:00Z",
+      "kickoffAt": "2026-11-28T15:15:00Z",
       "status": "SCHEDULED",
       "homeTeam": {
         "id": "fd-team-140",
@@ -36882,10 +36832,60 @@
       "awayScore": null
     },
     {
+      "id": "ts-fixture-2505882",
+      "externalId": "thesportsdb-2505882",
+      "round": 16,
+      "kickoffAt": "2026-11-28T15:15:00Z",
+      "status": "SCHEDULED",
+      "homeTeam": {
+        "id": "fd-team-977",
+        "name": "CD Eldense",
+        "shortName": "ELD",
+        "slug": "cd-eldense-977",
+        "primaryColor": "#d8cbe8",
+        "crestUrl": null
+      },
+      "awayTeam": {
+        "id": "fd-team-1236",
+        "name": "Girona FC",
+        "shortName": "GIR",
+        "slug": "girona-fc-1236",
+        "primaryColor": "#cfe8e2",
+        "crestUrl": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "ts-fixture-2505875",
+      "externalId": "thesportsdb-2505875",
+      "round": 16,
+      "kickoffAt": "2026-11-29T13:00:00Z",
+      "status": "SCHEDULED",
+      "homeTeam": {
+        "id": "fd-team-4235",
+        "name": "Granada CF",
+        "shortName": "GRA",
+        "slug": "granada-cf-4235",
+        "primaryColor": "#d9e6d5",
+        "crestUrl": null
+      },
+      "awayTeam": {
+        "id": "fd-team-665",
+        "name": "AD Ceuta FC",
+        "shortName": "CEU",
+        "slug": "ad-ceuta-fc-665",
+        "primaryColor": "#f3d55b",
+        "crestUrl": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
       "id": "ts-fixture-2505879",
       "externalId": "thesportsdb-2505879",
       "round": 16,
-      "kickoffAt": "2026-11-29T16:00:00Z",
+      "kickoffAt": "2026-11-29T20:00:00Z",
       "status": "SCHEDULED",
       "homeTeam": {
         "id": "fd-team-183",
@@ -36910,7 +36910,7 @@
       "id": "ts-fixture-2505880",
       "externalId": "thesportsdb-2505880",
       "round": 16,
-      "kickoffAt": "2026-11-29T16:00:00Z",
+      "kickoffAt": "2026-11-29T17:30:00Z",
       "status": "SCHEDULED",
       "homeTeam": {
         "id": "fd-team-603",
@@ -36935,7 +36935,7 @@
       "id": "ts-fixture-2505881",
       "externalId": "thesportsdb-2505881",
       "round": 16,
-      "kickoffAt": "2026-11-29T16:00:00Z",
+      "kickoffAt": "2026-11-29T15:15:00Z",
       "status": "SCHEDULED",
       "homeTeam": {
         "id": "fd-team-1623",
@@ -36957,75 +36957,25 @@
       "awayScore": null
     },
     {
-      "id": "ts-fixture-2505882",
-      "externalId": "thesportsdb-2505882",
+      "id": "ts-fixture-2505876",
+      "externalId": "thesportsdb-2505876",
       "round": 16,
-      "kickoffAt": "2026-11-29T16:00:00Z",
+      "kickoffAt": "2026-11-30T19:30:00Z",
       "status": "SCHEDULED",
       "homeTeam": {
-        "id": "fd-team-977",
-        "name": "CD Eldense",
-        "shortName": "ELD",
-        "slug": "cd-eldense-977",
+        "id": "fd-team-2115",
+        "name": "Real Oviedo",
+        "shortName": "OVI",
+        "slug": "real-oviedo-2115",
         "primaryColor": "#d8cbe8",
         "crestUrl": null
       },
       "awayTeam": {
-        "id": "fd-team-1236",
-        "name": "Girona FC",
-        "shortName": "GIR",
-        "slug": "girona-fc-1236",
-        "primaryColor": "#cfe8e2",
-        "crestUrl": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "id": "ts-fixture-2505883",
-      "externalId": "thesportsdb-2505883",
-      "round": 17,
-      "kickoffAt": "2026-12-06T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeTeam": {
-        "id": "fd-team-1236",
-        "name": "Girona FC",
-        "shortName": "GIR",
-        "slug": "girona-fc-1236",
-        "primaryColor": "#cfe8e2",
-        "crestUrl": null
-      },
-      "awayTeam": {
-        "id": "fd-team-2654",
-        "name": "Real Valladolid CF",
-        "shortName": "VLL",
-        "slug": "real-valladolid-cf-2654",
-        "primaryColor": "#efc6c2",
-        "crestUrl": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "id": "ts-fixture-2505884",
-      "externalId": "thesportsdb-2505884",
-      "round": 17,
-      "kickoffAt": "2026-12-06T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeTeam": {
-        "id": "fd-team-831",
-        "name": "Córdoba CF",
-        "shortName": "COR",
-        "slug": "cordoba-cf-831",
-        "primaryColor": "#d7e7f5",
-        "crestUrl": null
-      },
-      "awayTeam": {
-        "id": "fd-team-2563",
-        "name": "UD Las Palmas",
-        "shortName": "LPA",
-        "slug": "ud-las-palmas-2563",
-        "primaryColor": "#f3d55b",
+        "id": "fd-team-713",
+        "name": "RC Celta Fortuna",
+        "shortName": "CEL",
+        "slug": "rc-celta-fortuna-713",
+        "primaryColor": "#d9e6d5",
         "crestUrl": null
       },
       "homeScore": null,
@@ -37035,7 +36985,7 @@
       "id": "ts-fixture-2505885",
       "externalId": "thesportsdb-2505885",
       "round": 17,
-      "kickoffAt": "2026-12-06T16:00:00Z",
+      "kickoffAt": "2026-12-05T20:00:00Z",
       "status": "SCHEDULED",
       "homeTeam": {
         "id": "fd-team-2477",
@@ -37057,60 +37007,10 @@
       "awayScore": null
     },
     {
-      "id": "ts-fixture-2505886",
-      "externalId": "thesportsdb-2505886",
-      "round": 17,
-      "kickoffAt": "2026-12-06T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeTeam": {
-        "id": "fd-team-2125",
-        "name": "Real Sporting de Gijón",
-        "shortName": "SPO",
-        "slug": "real-sporting-de-gijon-2125",
-        "primaryColor": "#f3d55b",
-        "crestUrl": null
-      },
-      "awayTeam": {
-        "id": "fd-team-4235",
-        "name": "Granada CF",
-        "shortName": "GRA",
-        "slug": "granada-cf-4235",
-        "primaryColor": "#d9e6d5",
-        "crestUrl": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "id": "ts-fixture-2505887",
-      "externalId": "thesportsdb-2505887",
-      "round": 17,
-      "kickoffAt": "2026-12-06T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeTeam": {
-        "id": "fd-team-673",
-        "name": "CD Castellón",
-        "shortName": "CAS",
-        "slug": "cd-castellon-673",
-        "primaryColor": "#cfe8e2",
-        "crestUrl": null
-      },
-      "awayTeam": {
-        "id": "fd-team-183",
-        "name": "UD Almería",
-        "shortName": "ALM",
-        "slug": "ud-almeria-183",
-        "primaryColor": "#f3d55b",
-        "crestUrl": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "id": "ts-fixture-2505888",
       "externalId": "thesportsdb-2505888",
       "round": 17,
-      "kickoffAt": "2026-12-06T16:00:00Z",
+      "kickoffAt": "2026-12-05T17:30:00Z",
       "status": "SCHEDULED",
       "homeTeam": {
         "id": "fd-team-9501",
@@ -37132,60 +37032,10 @@
       "awayScore": null
     },
     {
-      "id": "ts-fixture-2505889",
-      "externalId": "thesportsdb-2505889",
-      "round": 17,
-      "kickoffAt": "2026-12-06T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeTeam": {
-        "id": "fd-team-713",
-        "name": "RC Celta Fortuna",
-        "shortName": "CEL",
-        "slug": "rc-celta-fortuna-713",
-        "primaryColor": "#d9e6d5",
-        "crestUrl": null
-      },
-      "awayTeam": {
-        "id": "fd-team-1623",
-        "name": "RCD Mallorca",
-        "shortName": "MLL",
-        "slug": "rcd-mallorca-1623",
-        "primaryColor": "#efc6c2",
-        "crestUrl": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "id": "ts-fixture-2505890",
-      "externalId": "thesportsdb-2505890",
-      "round": 17,
-      "kickoffAt": "2026-12-06T16:00:00Z",
-      "status": "SCHEDULED",
-      "homeTeam": {
-        "id": "fd-team-565",
-        "name": "Burgos CF",
-        "shortName": "BUR",
-        "slug": "burgos-cf-565",
-        "primaryColor": "#efc6c2",
-        "crestUrl": null
-      },
-      "awayTeam": {
-        "id": "fd-team-603",
-        "name": "Cádiz CF",
-        "shortName": "CAD",
-        "slug": "cadiz-cf-603",
-        "primaryColor": "#d8cbe8",
-        "crestUrl": null
-      },
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
       "id": "ts-fixture-2505891",
       "externalId": "thesportsdb-2505891",
       "round": 17,
-      "kickoffAt": "2026-12-06T16:00:00Z",
+      "kickoffAt": "2026-12-05T13:00:00Z",
       "status": "SCHEDULED",
       "homeTeam": {
         "id": "fd-team-2121",
@@ -37210,7 +37060,7 @@
       "id": "ts-fixture-2505892",
       "externalId": "thesportsdb-2505892",
       "round": 17,
-      "kickoffAt": "2026-12-06T16:00:00Z",
+      "kickoffAt": "2026-12-05T15:15:00Z",
       "status": "SCHEDULED",
       "homeTeam": {
         "id": "fd-team-2198",
@@ -37232,10 +37082,110 @@
       "awayScore": null
     },
     {
+      "id": "ts-fixture-2505883",
+      "externalId": "thesportsdb-2505883",
+      "round": 17,
+      "kickoffAt": "2026-12-06T20:00:00Z",
+      "status": "SCHEDULED",
+      "homeTeam": {
+        "id": "fd-team-1236",
+        "name": "Girona FC",
+        "shortName": "GIR",
+        "slug": "girona-fc-1236",
+        "primaryColor": "#cfe8e2",
+        "crestUrl": null
+      },
+      "awayTeam": {
+        "id": "fd-team-2654",
+        "name": "Real Valladolid CF",
+        "shortName": "VLL",
+        "slug": "real-valladolid-cf-2654",
+        "primaryColor": "#efc6c2",
+        "crestUrl": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "ts-fixture-2505886",
+      "externalId": "thesportsdb-2505886",
+      "round": 17,
+      "kickoffAt": "2026-12-06T17:30:00Z",
+      "status": "SCHEDULED",
+      "homeTeam": {
+        "id": "fd-team-2125",
+        "name": "Real Sporting de Gijón",
+        "shortName": "SPO",
+        "slug": "real-sporting-de-gijon-2125",
+        "primaryColor": "#f3d55b",
+        "crestUrl": null
+      },
+      "awayTeam": {
+        "id": "fd-team-4235",
+        "name": "Granada CF",
+        "shortName": "GRA",
+        "slug": "granada-cf-4235",
+        "primaryColor": "#d9e6d5",
+        "crestUrl": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "ts-fixture-2505887",
+      "externalId": "thesportsdb-2505887",
+      "round": 17,
+      "kickoffAt": "2026-12-06T15:15:00Z",
+      "status": "SCHEDULED",
+      "homeTeam": {
+        "id": "fd-team-673",
+        "name": "CD Castellón",
+        "shortName": "CAS",
+        "slug": "cd-castellon-673",
+        "primaryColor": "#cfe8e2",
+        "crestUrl": null
+      },
+      "awayTeam": {
+        "id": "fd-team-183",
+        "name": "UD Almería",
+        "shortName": "ALM",
+        "slug": "ud-almeria-183",
+        "primaryColor": "#f3d55b",
+        "crestUrl": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "ts-fixture-2505889",
+      "externalId": "thesportsdb-2505889",
+      "round": 17,
+      "kickoffAt": "2026-12-06T13:00:00Z",
+      "status": "SCHEDULED",
+      "homeTeam": {
+        "id": "fd-team-713",
+        "name": "RC Celta Fortuna",
+        "shortName": "CEL",
+        "slug": "rc-celta-fortuna-713",
+        "primaryColor": "#d9e6d5",
+        "crestUrl": null
+      },
+      "awayTeam": {
+        "id": "fd-team-1623",
+        "name": "RCD Mallorca",
+        "shortName": "MLL",
+        "slug": "rcd-mallorca-1623",
+        "primaryColor": "#efc6c2",
+        "crestUrl": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
       "id": "ts-fixture-2505893",
       "externalId": "thesportsdb-2505893",
       "round": 17,
-      "kickoffAt": "2026-12-06T16:00:00Z",
+      "kickoffAt": "2026-12-06T17:30:00Z",
       "status": "SCHEDULED",
       "homeTeam": {
         "id": "fd-team-665",
@@ -37251,6 +37201,56 @@
         "shortName": "ALB",
         "slug": "albacete-balompie-140",
         "primaryColor": "#d9e6d5",
+        "crestUrl": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "ts-fixture-2505884",
+      "externalId": "thesportsdb-2505884",
+      "round": 17,
+      "kickoffAt": "2026-12-07T17:30:00Z",
+      "status": "SCHEDULED",
+      "homeTeam": {
+        "id": "fd-team-831",
+        "name": "Córdoba CF",
+        "shortName": "COR",
+        "slug": "cordoba-cf-831",
+        "primaryColor": "#d7e7f5",
+        "crestUrl": null
+      },
+      "awayTeam": {
+        "id": "fd-team-2563",
+        "name": "UD Las Palmas",
+        "shortName": "LPA",
+        "slug": "ud-las-palmas-2563",
+        "primaryColor": "#f3d55b",
+        "crestUrl": null
+      },
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "ts-fixture-2505890",
+      "externalId": "thesportsdb-2505890",
+      "round": 17,
+      "kickoffAt": "2026-12-07T15:15:00Z",
+      "status": "SCHEDULED",
+      "homeTeam": {
+        "id": "fd-team-565",
+        "name": "Burgos CF",
+        "shortName": "BUR",
+        "slug": "burgos-cf-565",
+        "primaryColor": "#efc6c2",
+        "crestUrl": null
+      },
+      "awayTeam": {
+        "id": "fd-team-603",
+        "name": "Cádiz CF",
+        "shortName": "CAD",
+        "slug": "cadiz-cf-603",
+        "primaryColor": "#d8cbe8",
         "crestUrl": null
       },
       "homeScore": null,
@@ -44136,7 +44136,7 @@
     "provider": "TheSportsDB",
     "leagueId": "4400",
     "season": "2026-2027",
-    "fetchedAt": "2026-11-23T16:49:40.641Z",
+    "fetchedAt": "2026-11-26T16:02:27.423Z",
     "rounds": 42,
     "matches": 462,
     "attribution": "Calendario y resultados de TheSportsDB"
